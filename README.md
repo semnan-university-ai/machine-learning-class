@@ -6,4 +6,13 @@ machine learning class - 001
 * ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student List :
-* Test - [Github Profile](https://github.com/test)
+* fatemeh arghavan - [@fatemeh456](https://github.com/fatemeh456)
+* mahdie yazdi - [@mahdiehyazdi](https://github.com/mahdiehyazdi)
+* mohammadjavad abbasi - [@mja-dev](https://github.com/mja-dev)
+* bahare mohammadpour - [@b-mohammadpour](https://github.com/b-mohammadpour)
+* bahar hashemi - [@baharaak](https://github.com/baharaak)
+* mohammadmahdi esmaiilzade - [@Mohammadsemnan](https://github.com/Mohammadsemnan)
+* seied mahdi moghadasi - [@smahdimoghaddasi](https://github.com/smahdimoghaddasi)
+* homayon tosi - [@Homayontoosy](https://github.com/Homayontoosy)
+* seyed ali motevali - [@alimotavally](https://github.com/alimotavally)
+* mahya gholamrezaii - [@mahyaghlmrz](https://github.com/mahyaghlmrz)
