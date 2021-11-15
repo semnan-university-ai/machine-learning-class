@@ -19,3 +19,4 @@ machine learning class - 001
 * hava askari - [@Eveaskari](https://github.com/Eveaskari)
 * shaghayegh safdari - [@shaqayeqsaffari](https://github.com/shaqayeqsaffari)
 * saeed ganjeey - [@Saedganjeey](https://github.com/Saedganjeey)
+* Pari sima Arman - [@parisima323](https://github.com/parisima323)
