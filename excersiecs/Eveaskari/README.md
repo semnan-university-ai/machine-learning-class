@@ -6,6 +6,6 @@ machine learning class - 001
 * ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student Info :
-* Full name : -
-* github id : -
-* Email : -
+* Full name : havva askari
+* github id : [@EvEaskari](https://github.com/Eveaskari)
+* Email : mahsaaskari0702@gmail.com
