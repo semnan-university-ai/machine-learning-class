@@ -6,6 +6,6 @@ machine learning class - 001
 * ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student Info :
-* Full name : -
-* github id : -
-* Email : -
+* Full name : homayon toosy
+* github id : homayontoosy
+* Email : homayon.toosy@gmail.com
