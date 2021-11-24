@@ -6,6 +6,6 @@ machine learning class - 001
 * ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student Info :
-* Full name : -
-* github id : -
-* Email : -
+* Full name : seyed mahdi moghaddasi
+* github id : [@smahdimoghaddasi](https://github.com/smahdimoghaddasi)
+* Email : sm.moghaddasi13@gmail.com
