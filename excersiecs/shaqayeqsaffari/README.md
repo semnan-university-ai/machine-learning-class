@@ -7,5 +7,5 @@ machine learning class - 001
 
 ### Student Info :
 * Full name : Shaqayeq saffari
-* github id : @shaqayeqsaffari
+* github id : [@shaqayeqsaffari](https://github.com/shaqayeqsaffari)
 * Email : shaqayeq.saffari397@gmail.com
