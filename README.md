@@ -12,7 +12,7 @@ machine learning class - 001
 * bahare mohammadpour - [@b-mohammadpour](https://github.com/b-mohammadpour)
 * bahar hashemi - [@baharaak](https://github.com/baharaak)
 * mohammadmahdi esmaiilzade - [@Mohammadsemnan](https://github.com/Mohammadsemnan)
-* seied mahdi moghadasi - [@smahdimoghaddasi](https://github.com/smahdimoghaddasi)
+* seyed mahdi moghadasi - [@smahdimoghaddasi](https://github.com/smahdimoghaddasi)
 * homayon toosy - [@Homayontoosy](https://github.com/Homayontoosy)
 * seyed ali motevali - [@alimotavally](https://github.com/alimotavally)
 * mahya gholamrezaii - [@mahyaghlmrz](https://github.com/mahyaghlmrz)
