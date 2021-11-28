@@ -1,0 +1,22 @@
+age -> 24 * (missing value)
+Sleep_problems -> yes
+Headache -> yes
+Diarrhea -> yes
+Abdominal_pain -> no
+body_pain -> no
+Body_discoloration -> no
+Cough -> yes
+Fever -> yes
+Ague -> no
+Sore_throat -> yes
+Fatigue -> no
+runny_nose -> no
+Chest_pain -> yes
+Decreased_appetite -> yes
+Vomit -> yes
+Nausea -> no
+Sneezing -> yes
+Shortness_of_breath -> no
+Loss_of_smell -> no
+Loss_of_taste -> yes
+urticaria -> yes
