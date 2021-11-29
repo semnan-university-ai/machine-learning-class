@@ -20,3 +20,7 @@ machine learning class - 001
 * shaghayegh safdari - [@shaqayeqsaffari](https://github.com/shaqayeqsaffari)
 * saeed ganjeey - [@Saedganjeey](https://github.com/Saedganjeey)
 * Pari sima Arman - [@parisima323](https://github.com/parisima323)
+* hamide ehsani - [@HamidehEhsani](https://github.com/HamidehEhsani)
+* fatemeh mirzadeh - [@fatemehmirzadeh](https://github.com/fatemehmirzadeh)
+* ali torabzadeh - [@alitorbzadeh](https://github.com/alitorbzadeh)
+* mohammad zargar - [@mohammadzargar](https://github.com/mohammadzargar)
