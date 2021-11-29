@@ -91,7 +91,8 @@ h = { GREEN, HARD, NO, WRINKLED }
   </div>
   <br>
       <div dir="rtl">
-  The data present in example 4 is { ORANGE, HARD, NO, WRINKLED } ما تک تک ویژگی ها را با داده های اولیه مقایسه می کنیم و در صورت مشاهده هرگونه عدم تطابق، آن ویژگی خاص را با یک مورد کلی ( ” ? ” ) جایگزین می کنیم. پس از انجام فرآیند، فرضیه به صورت زیر می شود:
+The data present in example 4 is { ORANGE, HARD, NO, WRINKLED }. We compare every single attribute with the initial data and if any mismatch is found we replace that particular attribute with a general case ( ” ? ” ). After doing the process the hypothesis becomes : 
+h = { ?, HARD, NO, WRINKLED } 
   
    </div>
 
