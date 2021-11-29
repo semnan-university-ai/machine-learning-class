@@ -95,7 +95,8 @@ h = { GREEN, HARD, NO, WRINKLED }
   <br/>
   h = { ?, HARD, NO, WRINKLED } 
    </div>
-
+<br/>
+<br/>
  <div dir="rtl">
   مثال 5 را در نظر بگیرید:
      </div>
