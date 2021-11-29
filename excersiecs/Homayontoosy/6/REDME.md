@@ -122,5 +122,7 @@ h = { GREEN, HARD, NO, WRINKLED }
   <br/>
   فرضیه نهایی: h = { ?, ?, ?, ? } 
    </div>
+   
+   <br/>
   
   refrence:https://www.geeksforgeeks.org/ml-find-s-algorithm/
