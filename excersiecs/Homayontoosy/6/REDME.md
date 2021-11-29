@@ -64,6 +64,9 @@
    </div>
     <div dir="rtl">
   The data in example 1 is { GREEN, HARD, NO, WRINKLED } می بینیم که فرضیه اولیه ما مشخص تر است و باید آن را برای این مثال تعمیم دهیم. از این رو، این فرضیه تبدیل می شود:
-    </div>
+<br/>  
+h = { GREEN, HARD, NO, WRINKLED } 
+
+</div>
   
   
