@@ -125,4 +125,3 @@ h = { GREEN, HARD, NO, WRINKLED }
    
    <br/>
   
-  refrence:https://www.geeksforgeeks.org/ml-find-s-algorithm/
