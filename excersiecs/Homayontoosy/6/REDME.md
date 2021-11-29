@@ -49,4 +49,4 @@
   
   </div>
   
-  ! [عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/6/1.png)
+ ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/6/1.png)
