@@ -50,3 +50,14 @@
   </div>
   
  ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/6/1.png)
+ 
+ <br/>
+ 
+ <div dir="rtl">
+
+  ابتدا فرضیه را یک فرضیه خاص تری در نظر می گیریم. بنابراین، فرضیه ما این خواهد بود:
+  h = {ϕ, ϕ, ϕ, ϕ, ϕ, ϕ} 
+  
+  مثال 1 را در نظر بگیرید:
+  </div>
+  
