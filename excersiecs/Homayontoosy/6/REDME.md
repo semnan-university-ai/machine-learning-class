@@ -32,7 +32,7 @@
   با خاص ترین فرضیه شروع کنید.
   <br/>
   
-  refrence:https://www.geeksforgeeks.org/ml-find-s-algorithm/
+ 
   مثال بعدی را در نظر بگیرید و اگر منفی باشد، هیچ تغییری در فرضیه ایجاد نمی شود.
   <br/>
   اگر مثال مثبت باشد و متوجه شدیم که فرضیه اولیه ما خیلی خاص است، فرضیه فعلی خود را به یک شرایط عمومی به روز می کنیم.
@@ -123,4 +123,4 @@ h = { GREEN, HARD, NO, WRINKLED }
   فرضیه نهایی: h = { ?, ?, ?, ? } 
    </div>
   
- 
+  refrence:https://www.geeksforgeeks.org/ml-find-s-algorithm/
