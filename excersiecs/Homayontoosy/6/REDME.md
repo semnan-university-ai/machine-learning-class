@@ -45,8 +45,8 @@
 مثال  
 <br/>
   
-
 مجموعه داده‌های زیر را در نظر بگیرید که اطلاعات مربوط به اینکه کدام دانه‌های خاص سمی هستند را دارد.
   
   </div>
-  ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/6/1.png)
+  
+  ! [عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/6/1.png)
