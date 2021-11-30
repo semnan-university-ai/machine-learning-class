@@ -9,3 +9,9 @@ machine learning class - 001
 * Full name : havva askari
 * github id : [@EvEaskari](https://github.com/Eveaskari)
 * Email : mahsaaskari0702@gmail.com
+
+<div dir="rtl">
+  سلام استاد من در مورد کاربرد درخت تصمیم فقط همین رو پیدا کردم.
+  <br/>
+  
+  </div>
