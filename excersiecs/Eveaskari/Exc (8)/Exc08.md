@@ -38,7 +38,17 @@
   <br/>
     Gain(S,A) = Entropy(S) - ∑(|Sv |)/(|S|).Entropy(Sv)
   <br/>
-  حل:
+  حل:<br/>
+  
+  ![Gain](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(8)/Gain.jpg)
+  
+  از آنجایی که به دنبال gain بالا هستیم temperatur با Gain = 0.178 به عنوان ریشه انتخاب میشود.
+  <br/>
+  برای ادامه کار مرحله بعد را با انتخاب دو حالت  mild و cool  که جواب نهایی ندارند را بررسی میکنیم تا بفهمیم گره بعدی درخت کدام ست.
+  <br/>
+  و در نهایت درخت بدین شکل در می آید:<br/>
+  
+  ![tree](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(8)/ID3tree.JPG)
   
 
  </div>
