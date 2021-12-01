@@ -24,3 +24,4 @@ machine learning class - 001
 * fatemeh mirzadeh - [@fatemehmirzadeh](https://github.com/fatemehmirzadeh)
 * ali torabzadeh - [@alitorbzadeh](https://github.com/alitorbzadeh)
 * mohammad zargar - [@mohammadzargar](https://github.com/mohammadzargar)
+* atefe mahmoudi - [@atefem94](https://github.com/atefem94)
