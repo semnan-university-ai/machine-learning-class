@@ -1,5 +1,5 @@
 <div dir="rtl">
-  **9)با توجه به داده های زیر این جدول را با کمک الگوریتم find-s حل کنید.**
+  9)با توجه به داده های زیر این جدول را با کمک الگوریتم find-s حل کنید.
   </div>
   
 | Example | Color  | Toughness | Fungus | Appearance | Poisonous |
