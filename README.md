@@ -26,3 +26,14 @@ machine learning class - 001
 * mohammad zargar - [@mohammadzargar](https://github.com/mohammadzargar)
 * atefe mahmoudi - [@atefem94](https://github.com/atefem94)
 * atefe khosravani - [@AtiKhosravani](https://github.com/AtiKhosravani)
+
+### Title
+- [x] find-s
+- [x] candidate-Elimination
+- [x] ID3, Gain ratio
+- [x] Bayesian Learning
+- [x] naive bayse
+- [ ] text classification
+- [ ] KNN
+- [ ] cross validation
+- [ ] overfit
