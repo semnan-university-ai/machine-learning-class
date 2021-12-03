@@ -1,0 +1,22 @@
+age -> 26
+Sleep_problems ->  yes
+Headache ->  no
+Diarrhea ->  no
+Abdominal_pain -> yes
+body_pain -> yes
+Body_discoloration ->  yes
+Cough -> yes
+Fever -> yes
+Ague -> yes
+Sore_throat ->yes
+Fatigue -> yes
+runny_nose -> no
+Chest_pain -> yes
+Decreased_appetite -> yes
+Vomit ->  no
+Nausea ->  no
+Sneezing -> yes
+Shortness_of_breath ->no
+Loss_of_smell -> yes
+Loss_of_taste -> yes
+urticaria ->  no
