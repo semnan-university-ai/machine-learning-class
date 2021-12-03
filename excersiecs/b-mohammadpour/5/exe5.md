@@ -1,6 +1,5 @@
-<div dir="rtl">
+
 ## کاربرد درخت تصمیم
-</div>
   
  <br/>
  <div dir="rtl">
