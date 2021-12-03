@@ -28,12 +28,28 @@
 </div>
 
   <br/>
+          <div dir="rtl">
+
 عملیات از راه دور
-<br/>
+</div>
+
+  <br/>
+          <div dir="rtl">
+
 وسایل هوشمند
-<br/>
+</div>
+
+  <br/>
+                    <div dir="rtl">
+
 بهبود کارایی
-<br/>
+</div>
+
+  <br/>
+                              <div dir="rtl">
+
 افزایش امنیت
+  </div>
+
 <br/>
 
