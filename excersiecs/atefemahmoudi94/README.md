@@ -6,6 +6,6 @@ machine learning class - 001
 * ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student Info :
-* Full name : -
-* github id : -
-* Email : -
+* Full name : Atefe Mahmoudi
+* github id : atefemahmoudi94
+* Email : [Contact](mailto:atefemahmoudi9430@gmail.com)
