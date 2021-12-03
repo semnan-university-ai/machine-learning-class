@@ -1,2 +1,0 @@
-# sixith-task
- sixith-task
