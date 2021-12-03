@@ -6,6 +6,6 @@ machine learning class - 001
 * ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student Info :
-* Full name : -Mohammad Mahdi Esmaeil Zadeh
-* github id : -94211519
-* Email : -doostan123456712@gmail.com
+* Full name :Bahare Mohammadpour
+* github id :b-mohammadpour
+* Email :Mohammadpour.b1601@semnan.ac.ir
