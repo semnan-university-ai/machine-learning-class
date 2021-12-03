@@ -1,4 +1,4 @@
-<div dir="ltr">
+<div dir "ltr">
 
 ## کاربرد درخت تصمیم
 <br/>
