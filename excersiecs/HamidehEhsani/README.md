@@ -7,5 +7,5 @@ machine learning class - 001
 
 ### Student Info :
 * Full name : HamidehEhsani
-* github id : HamidehEhsani
+* github id : [HamidehEhsani(https://github.com/HamidehEhsani)]
 * Email : h.ehsani5731@gmail.com
