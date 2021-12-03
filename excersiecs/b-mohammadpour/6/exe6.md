@@ -31,4 +31,25 @@
     </br>
     x2={many,big,no,expensive,one}, +
     </br>
+    <div dir="rtl">
+در سطر سوم برچسب منفی است بنابراین فرضیه دو را تکرار می کنیم    <div/>
+  </br>
+  h3={many,big,no,expensive,one}
+    </br>
+    x3={some,big,always,expensive,few}, -
+    </br>
     
+<div dir="rtl">
+در سطر چهارم big و one تغییر کرده اند که جای ان ? قرار می دهیم   <div/>
+  </br>
+  h4={many,?,no,expensive,?}
+    </br>
+    x4={many,medium,always,expensive,many}, +
+    </br>
+    <div dir="rtl">
+در سطر پنجم عبارت expensive تغییر کرده است    <div/>
+  </br>
+  h5={many,?,no,?,?}
+    </br>
+    x5={many,small,no,affordable,many}, +
+    </br>
