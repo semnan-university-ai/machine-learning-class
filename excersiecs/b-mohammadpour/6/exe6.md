@@ -49,7 +49,7 @@
     <div dir="rtl">
 در سطر پنجم عبارت expensive تغییر کرده است    <div/>
   </br>
-  h3={many,?,no,?,?}
+  h5={many,?,no,?,?}
     </br>
-    x3={many,small,no,affordable,many}, +
+    x5={many,small,no,affordable,many}, +
     </br>
