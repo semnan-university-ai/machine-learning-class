@@ -5,9 +5,13 @@
 به عنوان مثال میخواهیم بررسی کنیم که در چه روزهایی فرد دوست دارد پیاده روی کند. چهار نمونه اموزشی با ویژگی های زیر داریم :
 
 <time, weather, temperature, company, humidity, wind>
+
 x1<‘Morning’, ‘Sunny’, ‘Warm’, ‘Yes’, ‘Mild’, ‘Strong’>+
+
 x2<‘evening’, ‘rainy’, ‘cold’, ‘no’, ‘Mild’, ‘normal’>-
+
 x3<‘Morning’, ‘Sunny’, ‘Moderate’, ‘Yes’, ‘Normal	’, ‘Normal’>+
+
 x4<‘evening’, ‘Sunny’, ‘cold’, ‘Yes’, ‘high	’, ‘Strong’>+
 
 پس همانطور که گفته شد در گام اول h0 را با خاص ترین فرضیه مقدار دهی میکنیم:
