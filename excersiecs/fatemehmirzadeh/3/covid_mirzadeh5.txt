@@ -1,0 +1,22 @@
+age -> 39
+Sleep_problems ->  no
+Headache ->  no
+Diarrhea ->  no
+Abdominal_pain ->yes
+body_pain -> yes
+Body_discoloration ->  no
+Cough -> yes
+Fever -> yes
+Ague -> yes
+Sore_throat -> yes
+Fatigue -> yes
+runny_nose -> no
+Chest_pain -> no
+Decreased_appetite -> no
+Vomit ->  no
+Nausea ->  yes
+Sneezing -> yes
+Shortness_of_breath -> yes
+Loss_of_smell -> no
+Loss_of_taste -> no
+urticaria ->  no
