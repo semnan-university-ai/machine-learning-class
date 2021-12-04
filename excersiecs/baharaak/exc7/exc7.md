@@ -2,6 +2,7 @@
 
 1- (A or B) xor (A and B)
 
+![1](/baharaak/exc7/1.png)
 
 2- (A xor B) and (A or B) or (A and B)
 
