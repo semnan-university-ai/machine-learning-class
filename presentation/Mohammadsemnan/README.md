@@ -7,5 +7,5 @@ machine learning class - 001
 
 ### Student Info :
 * Full name : -Mohammad Mahdi Esmaeil Zadeh
-* github id : -94211519
+* github id : -@Mohammadsemnan
 * Email : -doostan123456712@gmail.com
