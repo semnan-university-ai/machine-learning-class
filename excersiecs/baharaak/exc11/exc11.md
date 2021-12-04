@@ -16,4 +16,32 @@
  
  IG(S, A) = Entropy(S) - ∑((|Sᵥ| / |S|) * Entropy(Sᵥ))
  
+ S تعداد داده ها 
  
+ A ویژگی خاص
+ 
+ |S| تعداد کل مثال ها
+ 
+ |Sv| مقادیر خاص ویژگی
+ 
+ 
+### مثال
+
+| Age   | Income | Married | Health | Class | 
+| ----  | ------ | ------- | ------ | ----- |
+| Young | High   |   no    |  fair  |   no  |
+| Young | High   |   no    |  good  |   no  |
+| Middle| High   |   no    |  fair  |   yes |
+| old   | Medium |   no    |  fair  |   yes |
+| old   | low    |   yes   |  fair  |   yes |
+| Old   | Low    |   Yes   | Good   |   No  |
+| Middle| Low    |   Yes   | Good   |   Yes |
+| Young | Medium |   No    | Fair   |   No  |
+| Young |  Low   |  Yes    | Fair   |   Yes |
+
+
+
+
+
+
+
