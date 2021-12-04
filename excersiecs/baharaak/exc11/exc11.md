@@ -27,6 +27,9 @@
  
 ### مثال
 
+برای جدول زیر میخواهیم id3 را به دست اوریم: 
+
+
 | Age   | Income | Married | Health | Class | 
 | ----  | ------ | ------- | ------ | ----- |
 | Young | High   |   no    |  fair  |   no  |
@@ -38,10 +41,17 @@
 | Middle| Low    |   Yes   | Good   |   Yes |
 | Young | Medium |   No    | Fair   |   No  |
 | Young |  Low   |  Yes    | Fair   |   Yes |
+| Old   | Medium |  Yes    | Fair   |   Yes |
+|Young  | Medium |  Yes    | Good   |   Yes |
+|Middle | Medium |  No     | Good   |  Yes  |
+|Middle | High   |  Yes    | Fair   |  Yes  |
+| Old   | Medium |  No     | Good   |  No   |
 
 
+در مرحله اول انتروپی S را محاسبه میکنیم:
 
+P(S = ‘Yes’) = 9/14 = 0.643
+P(S = ‘No’) = 5/14 = 0.357
 
-
-
+ Entropy(S)= -((p+ logp+) + (p-logp-))= - (9/14 log 9/14 + 5/14 log 5/14)
 
