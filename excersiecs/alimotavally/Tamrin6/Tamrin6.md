@@ -11,31 +11,28 @@
 **مراحل الگوریتم:**
 <br/>
 
-Step 1:
+**Step 1:**
+<br/>
 <br/>
  h0 = (ø, ø, ø, ø, ø)
+ <br/>
 <br/>
-Step 2:
+**Step 2:**
 <br/>
-  X1 = (some, small, no, expensive, many) – No
-  h1 = (ø, ø, ø, ø, ø)
+<br/>
+**X1** = (some, small, no, expensive, many) – No<br/>
+**h1** = (ø, ø, ø, ø, ø)
+<br/>
+**X2** = (many, big, no, expensive, one) – Yes<br/><br/><br/>
+**h2** = (many, big, no, expensive, one)
+<br/>
+**X3** = (some, big, always, expensive, few) – No<br/><br/>
+**h3** = (many, big, no, expensive, one)
+<br/>
+**X4** = (many, medium, no, expensive, many) – Yes<br/>
+**h4** = (many, ?, no, expensive, ?)
+<br/>
+**X5** = (many, small, no, affordable, many) – Yes<br/>
+**h5** = (many, ?, no, ?, ?)
 
-  X2 = (many, big, no, expensive, one) – Yes
-
-  h2 = (many, big, no, expensive, one)
-
-X3 = (some, big, always, expensive, few) – No
-
-  Negative example hence Ignore
-
-  h3 = (many, big, no, expensive, one)
-
-  X4 = (many, medium, no, expensive, many) – Yes
-
-  h4 = (many, ?, no, expensive, ?)
-
-  X5 = (many, small, no, affordable, many) – Yes
-
-  h5 = (many, ?, no, ?, ?)
-
- </div>
+</div>
