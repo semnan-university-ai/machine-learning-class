@@ -1,7 +1,7 @@
 <div dir="rtl">
 
 ###  درخت تصمیم مربوط به عبارت های زیر را رسم کنید.
-
+</div>
 <br />
 
  (A OR B) XOR (A AND B):
@@ -22,7 +22,7 @@
  (A OR B) AND (B OR C) AND (C AND D):
  <br/>
  ![con6](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/alimotavally/Tamrin7/6.jpg)
- </div>
+ 
 
 
 <div dir="rtl">
