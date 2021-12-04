@@ -2,7 +2,7 @@
 
 در این مثال پنج نمونه اموزشی با چهار ویژگی داریم و میخواهیم سمی بودن یا نبودن را بررسی کنیم:
 
-ویژگی ها: <'Color','Toughness','Fungus','Appearance'>
+feature: <'Color','Toughness','Fungus','Appearance'>
 
 x1= <'green', 'soft', 'no','Wrinkled'>+
 
