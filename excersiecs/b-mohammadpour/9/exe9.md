@@ -12,18 +12,27 @@
 
 
 h0=<0,0,0,0>
+<br/>
 X1=<Grren,Soft,No,Wrinkled>,+
 <br/>
 h1=<Grren,Soft,No,Wrinkled>
+<br/>
+
 X2=<Grren,Soft,Yes,Smooth>,-
 <br/>
 h2=<Grren,Soft,No,Wrinkled>
+<br/>
+
 X3=<Brpwn,Hard,No,Smooth>,+
 <br/>
 h3=<?,?,No,?>
+<br/>
+
 X4=<Grren,Soft,Yes,Smooth>,-
 <br/>
 h4=<?,?,No,?>
+<br/>
+
 X5=<Orange,Soft,Yes,Wrinkled>
 <br/>
 h4=<?,?,?,?>
