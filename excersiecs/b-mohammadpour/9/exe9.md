@@ -25,16 +25,16 @@ h2=<Grren,Soft,No,Wrinkled>
 
 X3=<Brpwn,Hard,No,Smooth>,+
 <br/>
-h3=<?,?,No,?>
+h3={?,?,No,?}
 <br/>
 
 X4=<Grren,Soft,Yes,Smooth>,-
 <br/>
-h4=<?,?,No,?>
+h4={?,?,No,?}
 <br/>
 
 X5=<Orange,Soft,Yes,Wrinkled>
 <br/>
-h4=<?,?,?,?>
+h4={?,?,?,?}
 <br/>
 فرضیه نهایی فرضیه مناسبی نیست و برروی مثال های اموزشی ما جواب نمی دهد
