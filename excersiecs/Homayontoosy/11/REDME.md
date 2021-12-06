@@ -72,7 +72,10 @@ ID3(examples vi.target attribute. attribute-{A}) را اضافه کن
  ![جدول درستی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/1.jpg)
  
  <br/>
-		
+
+<div dir="rtl">	
+سپس مقادیر مثبت و منفی را برای محاسبه آنتروپی در جدول زیر قرار می دهیم:	
+ </div>	
   </div>
   
  ![مقادیر مثبت و منفی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/2.jpg)
