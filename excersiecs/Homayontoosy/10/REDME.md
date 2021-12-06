@@ -29,4 +29,4 @@
 عروق كرونر قلبی استفاده شود. صحت مدل ایجاد شده با استفاده از درخت تصمیم بیش از 80 درصد بوده است.
 </div>
 
-![مدل پیشنهادی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/10/1.jpg)
+![table 1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/10/2.jpg)
