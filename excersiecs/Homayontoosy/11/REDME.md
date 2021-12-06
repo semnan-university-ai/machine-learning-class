@@ -54,7 +54,7 @@ A را ویژگی قرار بده که examples را بهتر دسته بندی 
  <div/>
   
   <div dir="rtl">
- 〖examples〗_(v_i ).〖target〗_attribute.attribute-{A})ID3 را اضافه کن 
+ID3(examples vi.target attribute. attribute-{A}) را اضافه کن  
     <div/>
    
   
