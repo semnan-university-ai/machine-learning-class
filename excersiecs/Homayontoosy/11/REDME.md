@@ -90,7 +90,9 @@ ID3(examples vi.target attribute. attribute-{A}) را اضافه کن
  
  <br/>	  	
  </div>
-  
+ <div dir="rtl"> 
+در هر مرحله، ویژگی که Gain بیشتری دارد در سطح بالاتری نسبت به بقیه قرار می گیرد. درختی که از محاسبات بالا بدست می آید به صورت زیر است (شاخه های سمت چب مسیر 0 و شاخه های سمت راست مسیر 1 هستند)	 
+</div>	 
  ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/4.jpg)
  
  <br/>	 
