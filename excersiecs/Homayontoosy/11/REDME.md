@@ -44,7 +44,22 @@ A را ویژگی قرار بده که examples را بهتر دسته بندی 
 <div/>
 
  
+ <div dir="rtl">
+ o	در زیر شاخه جدید گره برگی اضافه کن و آن را با متداول ترین مقدار target-attribute در examples علامت گذاری کن.  
+ <div/>
 
+ 
+ <div dir="rtl">
+  o	در غیر این صورت، در زیر این شاخه جدید زیر درخت  
+ <div/>
+  
+  <div dir="rtl">
+  (〖examples〗_(v_i ).〖target〗_attribute.attribute-{A}) ID3  را اضافه کن
+    <div/>
+   
+  
+  
+  
 
 
 
