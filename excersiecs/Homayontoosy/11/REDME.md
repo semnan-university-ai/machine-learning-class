@@ -77,16 +77,13 @@ ID3(examples vi.target attribute. attribute-{A}) را اضافه کن
   
  ![مقادیر مثبت و منفی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/2.jpg)
  
- <br/>	
-	
-	  
-  </div>
+ <br/>			  
+ </div>
   
  ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/3.jpg)
  
- <br/>	  
-	
-  </div>
+ <br/>	  	
+ </div>
   
  ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/4.jpg)
  
