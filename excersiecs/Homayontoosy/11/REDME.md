@@ -56,9 +56,10 @@ A را ویژگی قرار بده که examples را بهتر دسته بندی 
   <div dir="rtl">
 ID3(examples vi.target attribute. attribute-{A}) را اضافه کن  
     <div/>
-   
-  
-  
+	  
+<div dir="rtl">   
+درخت ایجاد شده را برگردان.
+ <div/>  
   
 
 
