@@ -67,5 +67,32 @@ ID3(examples vi.target attribute. attribute-{A}) را اضافه کن
 می خواهیم درخت A∪(B∩C) را بکشیم. ابتدا جدول درستی آن را که به صورت زیر است میکشیم:
 <div/> 
 
-
+  </div>
+  
+ ![جدول درستی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/1.jpg)
+ 
+ <br/>
+		
+  </div>
+  
+ ![مقادیر مثبت و منفی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/2.jpg)
+ 
+ <br/>	
+	
+	  
+  </div>
+  
+ ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/3.jpg)
+ 
+ <br/>	  
+	
+  </div>
+  
+ ![عکس](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/4.jpg)
+ 
+ <br/>	 
+	
+	
+	
+	
 
