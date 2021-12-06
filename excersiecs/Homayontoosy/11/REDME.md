@@ -82,7 +82,9 @@ ID3(examples vi.target attribute. attribute-{A}) را اضافه کن
  
  <br/>			  
  </div>
-  
+<div dir="rtl">	 
+در محله بعد، Gain هر کدام از نمونه ها را محاسبه می کنیم:	 
+ </div>  
  ![gain](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/11/3.jpg)
  
  <br/>	  	
