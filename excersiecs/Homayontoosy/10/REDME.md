@@ -15,5 +15,6 @@
 ایجاد مدلهای پیشگویی كننده، جهت شناسایی افراد در معرض خطر برای كاهش عوارض ناشی از بیماری بسیار كمك كننده است. در
 این پژوهش با استفاده از درخت تصمیم 5.C4 به روشهای پیشگیری و تشخیص این بیماری پرداخته میشود. 
 </div>
+<br/>
 
- ![مدل پیشنهادی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/10/1.jpg)
+![مدل پیشنهادی](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/10/1.jpg)
