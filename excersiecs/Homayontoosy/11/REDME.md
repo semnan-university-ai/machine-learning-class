@@ -60,7 +60,7 @@ ID3(examples vi.target attribute. attribute-{A}) را اضافه کن
 <div dir="rtl">   
 درخت ایجاد شده را برگردان.
  <div/>  
-  
+ <br/> 
 <div dir="rtl">
 یک نمونه ساده از این درخت:
 	
