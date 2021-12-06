@@ -40,7 +40,7 @@ A را ویژگی قرار بده که examples را بهتر دسته بندی 
  [example]_(v_i )را زیر مجموعه ای از examples قرار بده که مقدار v_i را برای ویژگی A دارند
  </div>
  <div dir="rtl">
- -	اگر examples  تهی بود،
+	اگر examples  تهی بود،
 <div/>
 
  
