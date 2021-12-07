@@ -18,6 +18,6 @@ Ovefitting
 <div dir="rtl">
  در دنیای الگوریتم‌ها Overfit شدن به معنای این است که الگوریتم فقط داده‌هایی که در مجموعه آموزشی (train set) یاد گرفته است را می‌تواند به درستی پیش‌بینی کند ولی اگر داده‌ای کمی از مجموعه‌ی آموزشی فاصله داشته باشد، الگوریتمی که Overfit شده باشد، نمی‌تواند به درستی پاسخی برای این داده‌های جدید پیدا کند و آن‌ها را با اشتباه زیادی طبقه‌بندی می کند.
 </div>
-<br/>  
+
 ![overfit](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/22/2.jpg)
 </br>
