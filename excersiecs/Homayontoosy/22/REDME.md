@@ -37,10 +37,10 @@ Gradient descent
 فرض کنید به جای مثال بالا، نمودار مقادیر خطا برای وزن، به صورت زیر باشد: 
 </div>
 
-![overfit](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/22/3.jpg)
+![3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/22/3.jpg)
 
 <div dir="rtl">
  کمترین میزان خطا در وزن ۷ اتفاق افتاده است. در روش کاهش گرادیان برای پیدا کردن این وزن از قوانین مشتق استفاده می‌شود. برای اینکه کمترین میزانِ خطا را به دست آوریم فرض می‌کنیم یک نقطه‌ی دلخواه (یک وزن دلخواه) را در این تابع در نظر گرفته‌ایم. مثلاً نقطه‌ی ۱ (یعنی وزن ۱). حال به تصویر زیر نگاه کنید:
 </div>
 
-![overfit]()
+![4](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/22/4.jpg)
