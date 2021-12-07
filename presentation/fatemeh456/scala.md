@@ -34,7 +34,7 @@ Scala یک زبان برنامه نویسی شئ گرا و تابعی است .
 <br/>
 ###محیط برنامه نویسی :
 <br/>
-![](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/presentation/fatemeh456/scala.png?token=AWODYO3MRYYOFL5X6AK7KBTBV7OOI)
+![](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/presentation/fatemeh456/scala.png?token=AWODYOYM4ERHHWEJIUQ2XDLBV7O44)
 <br/>
 در قسمت میانی این برنامه امکان نوشتن برنامه و ذخیره سازی آن وجود دارد. در سمت چپ تمام پروژه ها و کلاس ها و ... و در سمت راست خروجی برنامه و در قسمت پایین تمام اشیاء تعریف شده در برنامه را خواهیم دید.
 <br/>
