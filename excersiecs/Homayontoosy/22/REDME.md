@@ -38,9 +38,10 @@ Gradient descent
 </div>
 
 ![3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/22/3.jpg)
-
+<br/>
 <div dir="rtl">
  کمترین میزان خطا در وزن ۷ اتفاق افتاده است. در روش کاهش گرادیان برای پیدا کردن این وزن از قوانین مشتق استفاده می‌شود. برای اینکه کمترین میزانِ خطا را به دست آوریم فرض می‌کنیم یک نقطه‌ی دلخواه (یک وزن دلخواه) را در این تابع در نظر گرفته‌ایم. مثلاً نقطه‌ی ۱ (یعنی وزن ۱). حال به تصویر زیر نگاه کنید:
 </div>
-
+<br/>
 ![4](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/22/4.jpg)
+<br/>
