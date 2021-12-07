@@ -13,3 +13,7 @@ Credit Card Fraud Detection - Machine learning methods
 <div dir="rtl">
 کلمات کلیدی: کلاهبرداری؛ رگرسیون منطقی: Multilayer Perceptron؛ Naive Bayes؛ جنگل تصادفی؛ 
 </div>  
+
+<div dir="rtl">
+  مقدمه 
+  </div>
