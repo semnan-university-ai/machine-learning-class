@@ -4,5 +4,7 @@
   <br/>
   پیش بینی بیماری نادر 
  <br/>
+ 
 
+   ![10.j]( https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(10)/10.j.jpg)
  
