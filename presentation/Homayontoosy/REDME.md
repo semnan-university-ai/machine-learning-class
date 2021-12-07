@@ -1,7 +1,3 @@
-# Credit Card Fraud Detection - Machine learning methods
-Credit Card Fraud Detection - Machine learning methods
-
-
 <div dir="rtl">
 روش‌های یادگیری ماشین testکارت اعتباری
 </div>
