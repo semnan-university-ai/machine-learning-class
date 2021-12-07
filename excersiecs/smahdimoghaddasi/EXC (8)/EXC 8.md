@@ -18,3 +18,17 @@
 | 11  | sunny    | hot         | high     | true  | yes  |
 | 12  | rainy    | hot         | high     | true  | yes  |
   <div dir="rtl">
+حل:
+  </div> 
+  <br/>
+ <br/>
+  
+  
+  
+  ![8-1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(8)/8-1.jpeg)
+  
+  ![8-2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(8)/8-2.jpeg)
+  
+  ![8-3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(8)/8-3.jpeg)
+  
+ 
