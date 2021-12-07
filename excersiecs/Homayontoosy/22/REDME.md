@@ -37,7 +37,7 @@ Gradient descent
 فرض کنید به جای مثال بالا، نمودار مقادیر خطا برای وزن، به صورت زیر باشد: 
 </div>
 
-![overfit]()
+![overfit](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/22/3.jpg)
 
 <div dir="rtl">
  
