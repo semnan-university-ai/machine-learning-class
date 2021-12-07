@@ -60,8 +60,7 @@
 ![table2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/10/4.jpg)
 ![table2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/10/5.jpg)   
 
-<div dir="rtl">
-  
+<div dir="rtl">  
 براساس ساختار درخت تصمیم براساس جنسیت مرد، همانطور
 كه در شکل 3 مشاهده میشود:    
 
