@@ -40,4 +40,6 @@ Credit Card Fraud Detection - Machine learning methods
 در نهایت، نکات نتیجه‌گیری در بخش ۵ مورد بحث قرار گرفته و در ادامه لیستی از مقالات آورده شده‌است.
   </div>  
 <br/>
-  
+<div dir="rtl">  
+کارهای مرتبط
+</div>  
