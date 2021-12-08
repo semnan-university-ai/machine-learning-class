@@ -253,6 +253,7 @@ ANN مورد استفاده در این آزمایش شامل ۴ لایه مخف
 
 <div dir="rtl">
 REFERENCES
+<br/>
 [1] Global Facts (2019). Topic: Startups worldwide. [online] Available at:
 https://www.statista.com/topics/4733/startups-worldwide/ [Accessed 10
 Jan. 2019].
@@ -294,46 +295,7 @@ detection based on whale algorithm optimized BP neural network”, 2018
 13th International Conference on Computer Science & Education
 (ICCSE) pp. 1-4. IEEE.
 [13] N. Kalaiselvi, S. Rajalakshmi, J. Padmavathi, “Credit card fraud
-detection using learning to rank approach”, 2018 Internat2018
- Predicted
- 0 1
-Actual
-0 56861 3
-1 18 80
- Predicted
- 0 1
-Actual
-0 56843 21
-1 18 80 
-International Conference on Computation of Power, Energy, Information
-and Communication (ICCPEIC) ional conference on computation of
-power, energy, Information and Communication (ICCPEIC) pp. 191-
-196. IEEE
-[14] F. Ghobadi, M. Rohani, “Cost Sensitive Modeling of Credit Card Fraud
-using Neural Network strategy”, 2016 Signal Processing and Intelligent
-Systems (ICSPIS), International Conference of pp. 1-5. IEEE.
-[15] A. Pumsirirat, L. Yan, “Credit Card Fraud Detection using Deep
-Learning based on Auto-Encoder and Restricted Boltzmann Machine”,
-2018 International journal of advanced computer science and
-applications, 9(1), pp. 18-25
-[16] Learning – Towards Data Science. [online] Available at:
-https://towardsdatascience.com/deep-learning-vs-classical-machinelearning-9a42c6d48aa [Accessed 19 Jan. 2019].
-[17] Kaggle.com. (2019). Credit Card Fraud Detection. [online] Available at:
-https://www.kaggle.com/mlg-ulb/creditcardfraud [Accessed 10 Jan.
-2019].
-[18] Github (2019). Feature selector. [online] Available at:
-https://github.com/WillKoehrsen/feature-selector [Accessed 18 Jan.
-2019].
-[19] Garćıa, Salvador and Nitesh V. Chawla. “SMOTE for Learning from
-Imbalanced Data : Progress and Challenges, Marking the 15-year
-Anniversary.” (2018), Journal of Artificial Intelligence Research, 61, pp.
-863-905.
-[20] J. Wang, M. Xu, H. Wang and J. Zhang, "Classification of Imbalanced
-Data by Using the SMOTE Algorithm and Locally Linear Embedding",
-Signal Processing, 2006 8th International Conference on (Vol. 3). IEEE.
-2006 8th international Conference on Signal Processing, Beijing, 2006
-[21] Deeplearningbook.org. (2019). Deep Learning. [online] Available at:
-https://www.deeplearningbook.org/ [Accessed 11 Jan. 2019].
+detection using learning to rank approach”, 2018 Internat2018  
 
 </div>  
   
