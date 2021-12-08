@@ -103,9 +103,7 @@ Credit Card Fraud Detection - Machine learning methods
 به منظور دستیابی به این هدف، آزمایشی انجام شد.
 </div>  
 <br/>  
-<div dir=rtl">
-A. دیتاست
-</div>             
+           
 <div dir="rtl">
 A. دیتاست
 </div>              
