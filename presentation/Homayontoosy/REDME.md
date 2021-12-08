@@ -195,9 +195,9 @@ ANN مورد استفاده در این آزمایش شامل ۴ لایه مخف
 جدول ۱: ترکیب برای LR  
 <div/>
 <br/>
+  
 ![t2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/Homayontoosy/11.jpg )   
   
-
 <div dir="rtl">
 تعداد رو به رشدی از شرکت‌های جدید در سراسر جهان وجود دارد [‏ ۱ ]‏. 
 <br/>
