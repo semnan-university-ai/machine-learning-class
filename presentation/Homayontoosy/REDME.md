@@ -250,3 +250,90 @@ ANN مورد استفاده در این آزمایش شامل ۴ لایه مخف
 <div dir="rtl">  
   تحقیقات بیشتر باید بر روی الگوریتم های مختلف یادگیری ماشین مانند الگوریتم های ژنتیک، و انواع مختلف دسته‌بندی کننده‌های پشته شده، همراه با انتخاب ویژگی‌های گسترده برای به دست آوردن نتایج بهتر تمرکز کند
   </div>
+
+<div dir="rtl">
+REFERENCES
+[1] Global Facts (2019). Topic: Startups worldwide. [online] Available at:
+https://www.statista.com/topics/4733/startups-worldwide/ [Accessed 10
+Jan. 2019].
+[2] Legal Dictionary (2019). Fraud - Definition, Meaning, Types, Examples
+of fraudulent activity. [online] Available at:
+https://legaldictionary.net/fraud/ [Accessed 15 Jan. 2019].
+[3] European Central Bank (2018). Fifth report on card fraud, September
+2018. [online]. Available at:
+https://www.ecb.europa.eu/pub/cardfraud/html/ecb.cardfraudreport2018
+09.en.html#toc1 [Accessed 21 Jan. 2019].
+[4] En.wikipedia.org. (2019). Credit card fraud. [online] Available at:
+https://en.wikipedia.org/wiki/Credit_card_fraud [Accessed 24 Jan.
+2019].
+[5] A. Mishra, C. Ghorpade, “Credit Card Fraud Detection on the Skewed
+Data Using Various Classification and Ensemble Techniques” 2018
+IEEE International Students' Conference on Electrical, Electronics and
+Computer Science (SCEECS) pp. 1-5. IEEE.
+[6] S. V. S. S. Lakshmi, S. D. Kavilla “Machine Learning For Credit Card
+Fraud Detection System”, unpublished
+[7] N. Malini, Dr. M. Pushpa, “Analysis on Credit Card Fraud Identification
+Techniques based on KNN and Outlier Detection“, Advances in
+Electrical, Electronics, Information, Communication and BioInformatics (AEEICB), 2017 Third International Conference on pp. 255-
+258. IEEE.
+[8] Mrs. C. Navamani, M. Phil, S. Krishnan, “Credit Card Nearest Neighbor
+Based Outlier Detection Techniques”
+[9] J. O. Awoyemi, A. O. Adentumbi, S. A. Oluwadare, “Credit card fraud
+detection using Machine Learning Techniques: A Comparative
+Analysis”, Computing Networking and Informatics (ICCNI), 2017
+International Conference on pp. 1-9. IEEE.
+[10] Z. Kazemi, H. Zarrabi, “Using deep networks for fraud detection in the
+credit card transactions”, Knowledge-Based Engineering and Innovation
+(KBEI), 2017 IEEE 4th International Conference on pp. 630-633. IEEE.
+[11] S. Dhankhad, B. Far, E. A. Mohammed, “Supervised Machine Learning
+Algorithms for Credit Card Fraudulent Transaction Detection: A
+Comparative Study”, 2018 IEEE International Conference on
+Information Reuse and Integration (IRI) pp. 122-125. IEEE.
+[12] C. Wang, Y. Wang, Z. Ye, L. Yan, W. Cai, S. Pan, “Credit card fraud
+detection based on whale algorithm optimized BP neural network”, 2018
+13th International Conference on Computer Science & Education
+(ICCSE) pp. 1-4. IEEE.
+[13] N. Kalaiselvi, S. Rajalakshmi, J. Padmavathi, “Credit card fraud
+detection using learning to rank approach”, 2018 Internat2018
+ Predicted
+ 0 1
+Actual
+0 56861 3
+1 18 80
+ Predicted
+ 0 1
+Actual
+0 56843 21
+1 18 80 
+International Conference on Computation of Power, Energy, Information
+and Communication (ICCPEIC) ional conference on computation of
+power, energy, Information and Communication (ICCPEIC) pp. 191-
+196. IEEE
+[14] F. Ghobadi, M. Rohani, “Cost Sensitive Modeling of Credit Card Fraud
+using Neural Network strategy”, 2016 Signal Processing and Intelligent
+Systems (ICSPIS), International Conference of pp. 1-5. IEEE.
+[15] A. Pumsirirat, L. Yan, “Credit Card Fraud Detection using Deep
+Learning based on Auto-Encoder and Restricted Boltzmann Machine”,
+2018 International journal of advanced computer science and
+applications, 9(1), pp. 18-25
+[16] Learning – Towards Data Science. [online] Available at:
+https://towardsdatascience.com/deep-learning-vs-classical-machinelearning-9a42c6d48aa [Accessed 19 Jan. 2019].
+[17] Kaggle.com. (2019). Credit Card Fraud Detection. [online] Available at:
+https://www.kaggle.com/mlg-ulb/creditcardfraud [Accessed 10 Jan.
+2019].
+[18] Github (2019). Feature selector. [online] Available at:
+https://github.com/WillKoehrsen/feature-selector [Accessed 18 Jan.
+2019].
+[19] Garćıa, Salvador and Nitesh V. Chawla. “SMOTE for Learning from
+Imbalanced Data : Progress and Challenges, Marking the 15-year
+Anniversary.” (2018), Journal of Artificial Intelligence Research, 61, pp.
+863-905.
+[20] J. Wang, M. Xu, H. Wang and J. Zhang, "Classification of Imbalanced
+Data by Using the SMOTE Algorithm and Locally Linear Embedding",
+Signal Processing, 2006 8th International Conference on (Vol. 3). IEEE.
+2006 8th international Conference on Signal Processing, Beijing, 2006
+[21] Deeplearningbook.org. (2019). Deep Learning. [online] Available at:
+https://www.deeplearningbook.org/ [Accessed 11 Jan. 2019].
+
+</div>  
+  
