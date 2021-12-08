@@ -11,10 +11,16 @@
 | 4       | big   | red   | triangle | No          |
 | 5       | small | blue  | circle   | No          |
   <div dir="rtl">
-  حل به روش درخت تصمیم و C-E
+  حل به روش درخت تصمیم  
   
- ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(14)/tree-ce.jpg)
+ ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(14)/decisiontree.JPG)
   <br/>
+  
+  C-Eحل به روش 
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(14)/C-E.JPG)
+  <br/> 
+  
   حل به روش ID3
   
   ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(14)/id3.jpg)
