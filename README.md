@@ -27,6 +27,8 @@ machine learning class - 001
 * atefe mahmoudi - [@atefemahmoudi94](https://github.com/atefemahmoudi94)
 * atefe khosravani - [@AtiKhosravani](https://github.com/AtiKhosravani)
 * mahya gholamrezaei - [@mahyaghlmrz](https://github.com/mahyaghlmrz)
+* hanie ahmadian - [@ahmadianh](https://github.com/ahmadianh)
+
 ### Title
 - [x] find-s
 - [x] candidate-Elimination

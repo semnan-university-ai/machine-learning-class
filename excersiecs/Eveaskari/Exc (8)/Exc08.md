@@ -46,6 +46,9 @@
   <br/>
   برای ادامه کار مرحله بعد را با انتخاب دو حالت  mild و cool  که جواب نهایی ندارند را بررسی میکنیم تا بفهمیم گره بعدی درخت کدام ست.
   <br/>
+  
+  ![id3-p2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(8)/id3-p2.JPG)
+  
   و در نهایت درخت بدین شکل در می آید:<br/>
   
   ![tree](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(8)/ID3tree.JPG)
