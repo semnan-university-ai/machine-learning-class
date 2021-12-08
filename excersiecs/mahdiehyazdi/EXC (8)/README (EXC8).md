@@ -22,3 +22,15 @@
 <p align="center">
   <img src="./Decision-Tree-Entropy (1).png">
 </p>
+
+
+در ادامه به حل تمرین خواهیم پرداخت 
+
+
+<p align="center">
+  <img src="./photo1.jpg">
+</p>
+
+<p align="center">
+  <img src="./photo2.jpg">
+</p>
