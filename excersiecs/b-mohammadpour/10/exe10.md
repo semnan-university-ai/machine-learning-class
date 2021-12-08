@@ -11,5 +11,7 @@
 در این زمینه جریان های داده با نرخ بسیار بالا جمع اوری می شوند
 
 <br/>
+شکل زیر نمونه ای از درخت تصمیم در این زمینه می باشد
+<br/>
 
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/b-mohammadpour/10/1.jpg)
