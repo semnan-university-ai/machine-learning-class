@@ -12,4 +12,4 @@
 
 <br/>
 
-  (https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/b-mohammadpour/Exc%20(10)/1.JPG)
+![]https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/b-mohammadpour/10/1.jpg
