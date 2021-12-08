@@ -112,3 +112,61 @@
 </div>
 
 ![image](https://user-images.githubusercontent.com/95109502/145292219-3d0278e8-55f2-4318-9f7c-2860aec3b7ce.png)
+
+<div dir="rtl">
+لذا با تصمیم گیری cool ویژگی humidity بالاترین بهره اطلعاتی را دارد و به عنوان ویيگی برتر انتخاب می‌شود.
+</div>
+
+<div dir="rtl">
+مقدار mild انتخاب شود، حال آنتروپی کل را محاسبه میکنیم:
+</div>
+
+![image](https://user-images.githubusercontent.com/95109502/145293302-b9cf99a9-3b1c-43d5-a09e-7b9a264cb503.png)
+
+<div dir="rtl">
+حال به ویژگی outlook میپردازیم:
+</div>
+
+![image](https://user-images.githubusercontent.com/95109502/145293690-c433178e-2c05-4bbb-9179-23ff601397de.png)
+
+<div dir="rtl">
+بهره اطلاعات این ویژگی به صورت زیر حاصل می شود:
+</div>
+
+![image](https://user-images.githubusercontent.com/95109502/145293922-9f6e0151-ac0f-4fff-9714-44d744583522.png)
+
+<div dir="rtl">
+حال به ویژگی humidity میپردازیم:
+</div>
+
+![image](https://user-images.githubusercontent.com/95109502/145297638-cf192f97-5df9-4f6c-993e-461054a60be0.png)
+
+<div dir="rtl">
+بهره اطلاعات این ویژگی به صورت زیر حاصل می شود:
+</div>
+
+![image](https://user-images.githubusercontent.com/95109502/145302259-928d47df-0882-4d41-ad3a-d90988407685.png)
+
+
+<div dir="rtl">
+حال به ویژگی windy میپردازیم:
+</div>
+
+![image](https://user-images.githubusercontent.com/95109502/145302360-9ec6e950-b497-4247-9fea-e5c9e1fcaba3.png)
+
+<div dir="rtl">
+بهره اطلاعات این ویژگی به صورت زیر حاصل می شود:
+</div>
+
+![image](https://user-images.githubusercontent.com/95109502/145302082-6730deb6-535e-45d8-92c7-f5b615c3c718.png)
+
+<div dir="rtl">
+لذا با تصمیم گیری cool ویژگی outlook بالاترین بهره اطلعاتی را دارد و به عنوان ویيگی برتر انتخاب می‌شود.
+</div>
+
+<div dir="rtl">
+ 
+ در نهایت شکل درخت تصمیم به صورت زیر حاصل می شود:
+ </div>
+ 
+ ![image](https://user-images.githubusercontent.com/95109502/145304814-b69be6f9-8d13-4f19-b29a-198c6dd5bc85.png)
