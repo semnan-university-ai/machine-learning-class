@@ -106,3 +106,6 @@ Credit Card Fraud Detection - Machine learning methods
 <div dir=rtl">
 A. دیتاست
 </div>             
+<div dir="rtl">
+A. دیتاست
+</div>              
