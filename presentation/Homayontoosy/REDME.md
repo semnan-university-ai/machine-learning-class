@@ -209,5 +209,15 @@ ANN مورد استفاده در این آزمایش شامل ۴ لایه مخف
   
 ![t2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/Homayontoosy/12.jpg) 
 
+<br/>
+<div dir="rtl">
+مدل RF نتایج زیر را به دست آورد (‏جدول ۳)‏: دقت: ۹۶.۳۸ %، یادآوری: ۸۱.۶۳ %، 
+<br/>
+دقت: ۹۹.۹۶ درصد
+<br/>
+جدول ۳: ترکیب شیمیایی برای RF 
+<div/>
+  
+  
   
   
