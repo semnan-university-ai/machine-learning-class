@@ -11,5 +11,5 @@
 در این زمینه جریان های داده با نرخ بسیار بالا جمع اوری می شوند
 
 <br/>
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(11)/1.jpg)
 
+  ![fever](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/b-mohammadpour/Exc%20(10)/1.JPG)
