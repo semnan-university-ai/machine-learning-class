@@ -253,8 +253,9 @@ ANN مورد استفاده در این آزمایش شامل ۴ لایه مخف
 
 <div dir="rtl">
 REFERENCES
+</div> 
 <br/>
-</div>  
+<br/>  
 <div dir="rtl">  
 [1] Global Facts (2019). Topic: Startups worldwide. [online] Available at:
 https://www.statista.com/topics/4733/startups-worldwide/ [Accessed 10
