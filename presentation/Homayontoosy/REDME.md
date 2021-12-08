@@ -118,7 +118,7 @@ A. دیتاست
 </div>  
 <br/>
 <div dir="rtl">
-: B پیش‌پردازش 
+ : B پیش‌پردازش  
 </div>
   
 <div dir="rtl">
