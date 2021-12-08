@@ -217,7 +217,87 @@ ANN مورد استفاده در این آزمایش شامل ۴ لایه مخف
 <br/>
 جدول ۳: ترکیب شیمیایی برای RF 
 <div/>
+<br/>
+مدل MLP نتایج زیر را به دست آورد (‏جدول ۴)‏: دقت: ۷۹.۲۱ %، یادآوری: ۸۱.۶۳ %، دقت: ۹۹.۹۳ %   
+</div>  
+<br/>
   
-  
-  
+![t2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/Homayontoosy/13.jpg)   
+<br/>
+<div dir="rtl">
+با تجزیه و تحلیل نتایج به‌دست‌آمده، واضح است که دقت بسیار بالا است، اگرچه این بدان معنی نیست که نتایج کامل هستند. دقت باید "با یک دانه نمک" در نظر گرفته شود - به طور مطلوب باید در ترکیب با برخی معیارهای دیگر تفسیر شود. با توجه به نتایج داده‌شده، نشان‌داده شده‌است که الگوریتم کلاسیک مانند RF می‌تواند نتایج مشابهی را به عنوان یک شبکه عصبی ساده ارائه دهد.   
+</div>  
+<br/>
+<div dir="rtl">
+مقایسه نتایج به‌دست‌آمده با نتایج به‌دست‌آمده در تحقیقات بر روی همان مجموعه داده، با الگوریتم های کلاسیک [‏ ۵ ]‏ و [‏ ۸ ]‏، نشان می‌دهد که نمونه‌گیری بیش از حد از داده‌ها می‌تواند نرخ تشخیص تقلب را بهبود بخشد. همانند مقالات [‏ ۱۰ ]‏ و [‏ ۱۱ ]‏، ثابت شده‌است که الگوریتم های کلاسیک می‌توانند به اندازه الگوریتم های یادگیری عمیق موفق باشند. اگرچه مقالات [‏ ۱۲ ]‏ و [‏ ۱۵ ]‏ الگوریتم های یادگیری عمیق را به عنوان الگوریتم بهینه برای این نوع از مسائل نشان می‌دهند، اما باید با توجه به شرایطی که از این الگوریتم ها باید استفاده شود، تصمیم‌گیری شود. به عنوان مثال، شبکه‌های عمیق با داده‌های بیشتر بهتر کار می‌کنند و می‌توانند راحت‌تر از الگوریتم های کلاسیک با حوزه‌های مختلف سازگار شوند. از سوی دیگر، اگر داده‌های زیادی وجود نداشته باشد، احتمالا بهتر است که با الگوریتم های کلاسیک کار کنیم. تفسیر این الگوریتم ها هم از نظر مالی و هم از نظر محاسباتی آسان‌تر و ارزان‌تر است [‏ ۲۱ ]‏. 
+</div>  
+<br/>
+
+<div dir="rtl">
+پایان 
+</div>  
+<div dir="rtl">
+کلاه برداری از کارت‌های اعتباری نشان‌دهنده یک مشکل تجاری بسیار جدی است. این کلاهبرداری‌ها می‌تواند منجر به ضرر و زیان زیادی هم برای کسب‌وکار و هم برای شخص شود. به همین دلیل، شرکت‌ها پول بیشتر و بیشتری در توسعه ایده‌ها و روش‌های جدید سرمایه‌گذاری می‌کنند که به شناسایی و جلوگیری از کلاهبرداری کمک خواهد کرد.   
+</div>
+  </br>
+<div dir="rtl">
+هدف اصلی این مقاله مقایسه برخی از الگوریتم های یادگیری ماشین برای تشخیص تقلب بود. 
+  </div>
+<div dir="rtl">
+معاملات. از این رو، مقایسه انجام شد و مشخص شد که الگوریتم تصادفی فارست بهترین نتایج را ارائه می‌دهد، به عنوان مثال، بهترین طبقه‌بندی را ارائه می‌دهد که آیا تراکنش‌ها تقلب هستند یا خیر. این امر با استفاده از معیارهای مختلف، مانند یادآوری، دقت و دقت ایجاد شد. برای این نوع مشکل، مهم است که به یاد آوری با ارزش بالا داشته باشیم. انتخاب ویژگی و تعادل مجموعه داده نشان داده‌است که در دستیابی به نتایج قابل‌توجه بسیار مهم است.   
+</div>  
+</br>
+<div dir="rtl">  
+تحقیقات بیشتر باید بر روی الگوریتم های مختلف یادگیری ماشین مانند الگوریتم های ژنتیک، و انواع مختلف دسته‌بندی کننده‌های پشته شده، همراه با انتخاب ویژگی‌های گسترده برای به دست آوردن نتایج بهتر تمرکز کند
+</div>
+<br/>  
+<div dir="rtl">
+REFERENCES
+</div> 
+<br/>
+<br/>  
+<div dir="rtl">  
+[1] Global Facts (2019). Topic: Startups worldwide. [online] Available at:
+https://www.statista.com/topics/4733/startups-worldwide/ [Accessed 10
+Jan. 2019].
+[2] Legal Dictionary (2019). Fraud - Definition, Meaning, Types, Examples
+of fraudulent activity. [online] Available at:
+https://legaldictionary.net/fraud/ [Accessed 15 Jan. 2019].
+[3] European Central Bank (2018). Fifth report on card fraud, September
+2018. [online]. Available at:
+https://www.ecb.europa.eu/pub/cardfraud/html/ecb.cardfraudreport2018
+09.en.html#toc1 [Accessed 21 Jan. 2019].
+[4] En.wikipedia.org. (2019). Credit card fraud. [online] Available at:
+https://en.wikipedia.org/wiki/Credit_card_fraud [Accessed 24 Jan.
+2019].
+[5] A. Mishra, C. Ghorpade, “Credit Card Fraud Detection on the Skewed
+Data Using Various Classification and Ensemble Techniques” 2018
+IEEE International Students' Conference on Electrical, Electronics and
+Computer Science (SCEECS) pp. 1-5. IEEE.
+[6] S. V. S. S. Lakshmi, S. D. Kavilla “Machine Learning For Credit Card
+Fraud Detection System”, unpublished
+[7] N. Malini, Dr. M. Pushpa, “Analysis on Credit Card Fraud Identification
+Techniques based on KNN and Outlier Detection“, Advances in
+Electrical, Electronics, Information, Communication and BioInformatics (AEEICB), 2017 Third International Conference on pp. 255-
+258. IEEE.
+[8] Mrs. C. Navamani, M. Phil, S. Krishnan, “Credit Card Nearest Neighbor
+Based Outlier Detection Techniques”
+[9] J. O. Awoyemi, A. O. Adentumbi, S. A. Oluwadare, “Credit card fraud
+detection using Machine Learning Techniques: A Comparative
+Analysis”, Computing Networking and Informatics (ICCNI), 2017
+International Conference on pp. 1-9. IEEE.
+[10] Z. Kazemi, H. Zarrabi, “Using deep networks for fraud detection in the
+credit card transactions”, Knowledge-Based Engineering and Innovation
+(KBEI), 2017 IEEE 4th International Conference on pp. 630-633. IEEE.
+[11] S. Dhankhad, B. Far, E. A. Mohammed, “Supervised Machine Learning
+Algorithms for Credit Card Fraudulent Transaction Detection: A
+Comparative Study”, 2018 IEEE International Conference on
+Information Reuse and Integration (IRI) pp. 122-125. IEEE.
+[12] C. Wang, Y. Wang, Z. Ye, L. Yan, W. Cai, S. Pan, “Credit card fraud
+detection based on whale algorithm optimized BP neural network”, 2018
+13th International Conference on Computer Science & Education
+(ICCSE) pp. 1-4. IEEE.
+[13] N. Kalaiselvi, S. Rajalakshmi, J. Padmavathi, “Credit card fraud
+detection using learning to rank approach”, 2018 Internat2018  
+</div>  
   
