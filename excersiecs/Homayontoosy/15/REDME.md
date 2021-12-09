@@ -3,7 +3,9 @@
 <div/>
 <br/>
 
-And
+<div dir="rtl">
+برای AND
+</div>  
 
 def AND (a, b): 
   
