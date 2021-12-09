@@ -61,7 +61,7 @@ def NOT(a):
         return 1
     elif(a == 1): 
         return 0
-# Driver code 
+ 
 if __name__=='__main__': 
     print(NOT(0)) 
 <br/>
