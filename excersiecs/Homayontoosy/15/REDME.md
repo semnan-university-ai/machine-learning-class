@@ -14,7 +14,7 @@ def AND (a, b):
     else: 
         return False  
 
-<div dir="rtl">
+
 if __name__=='__main__': 
     print(AND(1, 1)) 
   
@@ -24,6 +24,4 @@ if __name__=='__main__':
     print(" A = False, B = True | A AND B =",AND(False,True)," | ") 
     print(" A = True, B = False | A AND B =",AND(True,False)," | ") 
     print(" A = True, B = True | A AND B =",AND(True,True)," | ")   
-  </div>
-  <br/>
-  
+ 
