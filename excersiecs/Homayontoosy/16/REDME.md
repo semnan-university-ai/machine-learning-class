@@ -9,7 +9,7 @@
 <br/>
 (A XOR B) AND (B OR C) AND (C AND D)
 
-
+<br/>
 <div dir="rtl">
 # Python3 program to illustrate 
 # working of javab3 gate   
@@ -20,11 +20,6 @@ if(a == 0) and (b == 1) and (c == 1) and (d == 1):
         return 1
     else: 
         return 0
-    
-
-
-
-
   
 # Driver code  
 if __name__=='__main__': 
