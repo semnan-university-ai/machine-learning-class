@@ -7,6 +7,9 @@ Find-s algorithm step is:
 
 3.Output the hypothesis h
 
+![Table](https://user-images.githubusercontent.com/94211519/145341319-8adbf10a-b4dc-49c1-8a73-3b0f24bdc99a.PNG)
+
+
 
 first we imagine all of our value is 0
 
