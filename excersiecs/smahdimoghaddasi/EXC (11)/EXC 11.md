@@ -53,3 +53,12 @@
 |  بله     |            خیر       |          خیر  |   بله  | خیر    |    5        | 
    </div>
   حل:
+  
+  <br/>
+<br/>
+  
+  ![11-1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(11)/11-1.jpeg)
+ 
+  ![11-2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(11)/11-2.jpeg)
+ 
+
