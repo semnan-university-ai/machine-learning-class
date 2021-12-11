@@ -196,6 +196,6 @@ Gain ratio= 0.971/0.971= 1  انتخاب می شود
 <div dir="rtl">
 درخت حاصل به صورت زیر است:  
 <div/>
-<br/>
+
 ![pic4](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/21/4.jpg)  
  
