@@ -25,3 +25,8 @@ Entropy:-9/14 x log9/14 – 5/14 x log 5/14 = 0.94
 <div/>
 
 ![oic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/21/3.jpg)  
+
+<br/>
+<div dir="rtl">
+برای ویژگی اول داریم:
+<div/>  
