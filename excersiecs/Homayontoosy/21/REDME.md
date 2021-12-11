@@ -146,4 +146,18 @@ Gain ratio= 0.0192/0.971= 0.02
 حال مسیر rain را اداه می دهیم:
 <div/>
 <br/>
-  
+<div dir="rtl">
+Entropy rain: -3/5 x log 3/5 – 2/5 x log2/5 = 0.97
+
+Humidity:
+
+High: -1/2 x log 1/2 – 1/2 x log1/2= 1
+
+Normal: -2/3 x log2/3 – 1/3 x log1/3 = 0.918
+
+Info gain=0.97-2/5*1-3/5*0.918= 0.019
+
+Split info= -2/5 x log 2/5 – 3/5 x log 3/5= 0.971
+
+Gain ratio= 0.019/0.971= 0.02
+<div/>  
