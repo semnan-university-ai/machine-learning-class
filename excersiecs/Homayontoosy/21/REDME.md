@@ -75,4 +75,19 @@ Split info= -4/14 x log 4/14 – 6/14 x log 6/14 – 4/14 x log 4/14 = 1.556
 Gain ratio= 0.292/1.556= 0.1876 
 <div/>
 <br/>
+
+<div dir="rtl">
+
+Wind:
+
+Strong:(-3/6 x log 3/6 – 3/6 x log 3/6)=1
+
+Weak: (-6/8 x log 6/8 – 2/8 x log 2/8)= 0.8112
+
+Info gain=0.94 – 6/14 * 1 – 8/14 *0.8112 = 0.048
+
+Split info = -6/14 x log 6/14 – 8/14 x log 8/14 = 0.9852
+
+Gain ratio= 0.48/0.9852 = 0.049
+<div/>
   
