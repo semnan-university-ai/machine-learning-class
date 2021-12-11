@@ -178,4 +178,23 @@ Split info= -3/5 x log 3/5 – 2/5 x log2/5= 0.971
 
 Gain ratio= 0.0192/0.971= 0.02
 <div/>
+<br/>
+<div dir="rtl">
+Wind:
+
+Strong: 0
+
+Weak: 0
+
+Info gain= 0.97-2/5*0-3/5*0= 0.971
+
+Split info= -2/5 x log 2/5 – 3/5 x log 3/5 = 0.971
+
+Gain ratio= 0.971/0.971= 1  انتخاب می شود
+<div/>  
+<br/>
+<div dir="rtl">
+درخت حاصل به صورت زیر است:  
+<div/>
+<br/>
   
