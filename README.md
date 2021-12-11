@@ -35,7 +35,7 @@ machine learning class - 001
 - [x] ID3, Gain ratio
 - [x] Bayesian Learning
 - [x] naive bayse
+- [x] KNN
+- [x] cross validation
+- [x] overfit
 - [ ] text classification
-- [ ] KNN
-- [ ] cross validation
-- [ ] overfit
