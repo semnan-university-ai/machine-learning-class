@@ -5,6 +5,5 @@
 
 ![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/14/1.jpg)
 
-<br/>
 
 ![pic2]https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/14/2.jpg)
