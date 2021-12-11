@@ -77,7 +77,6 @@ Gain ratio= 0.292/1.556= 0.1876
 <br/>
 
 <div dir="rtl">
-
 Wind:
 
 Strong:(-3/6 x log 3/6 – 3/6 x log 3/6)=1
