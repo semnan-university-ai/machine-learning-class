@@ -89,4 +89,24 @@ Split info = -6/14 x log 6/14 – 8/14 x log 8/14 = 0.9852
 
 Gain ratio= 0.48/0.9852 = 0.049
 <div/>
-  
+<div dir="rtl">
+در مرحله بعد، مسیر هایی که از outlook می گذرند را برای ویژگی های دیگر بررسی می کنیم. ابتدا به سراغ sunny  می رویم:  
+<div/>
+<br/>  
+<div dir="rtl">
+Entrpopy= -2/5 x log 2/5 – 3/5 x log 3/5 = 0.97
+<div/>  
+<br/>
+<div dir="rtl">
+Humidity:
+
+High: -0/3 x log 0/3 – 3/3 x log 3/3 = 0
+
+Normal: -2/2 x log 2/2 – 0/2 x log0/2= 0
+
+Info gain= 0.97 – 3/5 *0 – 2/5 *0= 0.971
+
+Split info= - 1/5 x log 3/5 – 2/5 x log 2/5 = 0.971
+
+Gain ratio= 0.971/0.971= 1 انتخاب می شود
+<div/>  
