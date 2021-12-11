@@ -23,5 +23,5 @@ Entropy:-9/14 x log9/14 – 5/14 x log 5/14 = 0.94
   
 حال باید تصمیم بگیریم کدام ویژگی در ریشه درخت قرار می گیرد. برای این کار، از فرمول های زیر استفاده میکنیم:
 <div/>
-  
-  
+<br/>  
+![oic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/21/3.jpg)  
