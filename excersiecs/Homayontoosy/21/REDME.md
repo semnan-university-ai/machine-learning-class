@@ -12,9 +12,10 @@
 می خواهیم این الگوریتم را برای دسته بندی جدول زیر به کار ببریم:
 <div/>
 <br/>
+  
 ![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/21/1.jpg)
 
-<br/>
+
 <div dir="rtl">
 در ابتدا آنتروپی کل را محاسبه می کنیم. 9 جواب "بله" و 5 جواب "خیر" داریم:
 Entropy:-9/14 x log9/14 – 5/14 x log 5/14 = 0.94
