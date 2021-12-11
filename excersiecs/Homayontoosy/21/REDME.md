@@ -44,3 +44,21 @@ Splitinfo=-5/14 x log 5/14 – 4/14 x log 4/14 -5/14  x log 5/14 = 1.577
 Gain (x)= 0.94 – 5/14 x 0.9702 – 4/14 *0 – 5/14*0.9702=0.94-0.693=0.247
 Gain ratio=0.247/1.577=0.157      node
 <div/>  
+<br/>
+<div dir="rtl">
+Humidity:
+
+High: (-3/7 x log 3/7 – 4/7 x loh 4/7)=0.985
+
+Normal: (-6/7 x log 6/7 – 1/7 x log 1/7)=0.592
+
+Info gain=0.94- 7/14 *0.985 – 7/14 *log 7/14=0.151
+
+Split info=-7/14 x log 7/14 – 7/14 x log 7/14 = 1
+
+Gan ratio= 0.151/1=0.151
+<div/>  
+<br/>
+<div dir="rtl">
+<div/>
+  
