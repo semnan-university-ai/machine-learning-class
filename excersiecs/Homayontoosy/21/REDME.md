@@ -110,3 +110,20 @@ Split info= - 1/5 x log 3/5 – 2/5 x log 2/5 = 0.971
 
 Gain ratio= 0.971/0.971= 1 انتخاب می شود
 <div/>  
+
+<br/>
+<div dir="rtl">
+Tempreture:
+
+Hot: -0/2 x log0/2 – 2/2 x log2/2= 0
+
+Miid: - 1/2 x log1/2 – 1/2 x log 1/2= 1
+
+Cool: -1/1 x log 1/1 – 0/1 x log0/1= 0
+
+Info gain= 0.97 – 2/5*0 – 2/5*1 – 1/5*0 = 0.57
+
+Split info= -2/5 x log 2/5 – 2/5 x log 2/5 – 1/5 x log 1/5= 1.522
+
+Gain ratio= 0.57/1.522= 0.375
+<div/>  
