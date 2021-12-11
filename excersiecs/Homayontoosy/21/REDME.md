@@ -60,5 +60,19 @@ Gan ratio= 0.151/1=0.151
 <div/>  
 <br/>
 <div dir="rtl">
+Tempreture:
+  
+Hot: (-2/4 x log 2/4 – 2/4 x log 2/4)=1
+
+Mild: (-4/6 x log 4/6 – 2/6 x log 2/6)=0.9182
+
+Cool: (-3/4 x log 3/4 – 1/4 x log 1/4)=0.8112
+
+Info gain= 0.94 – 4/14 *1 – 6/14*0.9182 – 4/14 *0.8112= 0.292
+
+Split info= -4/14 x log 4/14 – 6/14 x log 6/14 – 4/14 x log 4/14 = 1.556
+
+Gain ratio= 0.292/1.556= 0.1876 
 <div/>
+<br/>
   
