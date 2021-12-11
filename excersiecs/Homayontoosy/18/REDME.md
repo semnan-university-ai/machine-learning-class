@@ -3,6 +3,7 @@
 </div>
 <br/>
 <div dir="rtl">
+  
 Import numpy as np
   
 Import math
