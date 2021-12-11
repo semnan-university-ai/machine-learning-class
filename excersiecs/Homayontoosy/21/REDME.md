@@ -127,3 +127,23 @@ Split info= -2/5 x log 2/5 – 2/5 x log 2/5 – 1/5 x log 1/5= 1.522
 
 Gain ratio= 0.57/1.522= 0.375
 <div/>  
+<br/>
+<div dir="rtl">
+Wind:
+
+Strong: -1/2 x log1/2 – 1/2 x log1/2 = 1
+
+Weak: -1/3 x log 1/3 – 2/3 x log 2/3 = 0.918
+
+Info gain= 0.97 – 2/5*1 – 3/5 *0.918 = 0.0192
+
+Split info = -2/5 x log 2/5 – 3/5 x log3/5 = 0.971
+
+Gain ratio= 0.0192/0.971= 0.02
+<div/>  
+<br/>
+<div dir="rtl">
+حال مسیر rain را اداه می دهیم:
+<div/>
+<br/>
+  
