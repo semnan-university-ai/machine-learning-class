@@ -147,6 +147,7 @@ Gain ratio= 0.0192/0.971= 0.02
 <div/>
 <br/>
 <div dir="rtl">
+  
 Entropy rain: -3/5 x log 3/5 – 2/5 x log2/5 = 0.97
 Humidity:
   
