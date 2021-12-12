@@ -5,6 +5,7 @@
 ![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/17/17.jpg)    
 
 <br/>
+<div dir="rtl">  
 h0= <0 , 0 ,0 > خاص ترین فرضیه
 
 x1= < Circle, Red, Big> -> h1= <0, 0, 0 > = h0
@@ -19,4 +20,4 @@ x5= < Circle, Big, Small> -> h5= < Circle, ?, Small>
 
 فرضیه نهایی h5  
   
-  
+<div/>  
