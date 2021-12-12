@@ -7,7 +7,7 @@
 <br/>
 <div dir="rtl">  
 h0= <0 , 0 ,0 > خاص ترین فرضیه
-
+<div/>
 x1= < Circle, Red, Big> -> h1= <0, 0, 0 > = h0
 
 x2= < triangle, Red, Small> -> h2= <0, 0, 0 > = h1
@@ -17,7 +17,7 @@ x3= < Circle, Red, Small> -> h3= < Circle, Red, Small> -> yes
 x4= < Circle, Big, Big> -> h4= < Circle, Red, Small> = h3
 
 x5= < Circle, Big, Small> -> h5= < Circle, ?, Small>
-
+<div dir="rtl"> 
 فرضیه نهایی h5  
   
 <div/>  
