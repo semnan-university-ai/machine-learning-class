@@ -9,8 +9,16 @@
   
   چند ضلعی ای  که نمونه هایش فقط تحت تاثیر یک نمونه آموزشی خاص هستند.
   نمونه های خارج هر چند ضلعی به نمونه دیگری نزدیک ترند.
-  
+  <br/>
   Voronoi Diagram  سرعت محاسبات را در 1 nn زیاد می کند  ولی آماده سازی و پیدا کردن Voronoi Diagram زمان بر است 
   </div>
+
+![euclidean.png]( https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(20)/euclidean.png)
+
+
+![manhattan.png]( https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(20)/manhattan.png)
+
+![voronoi%20diagram.png]( https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(20)/voronoi%20diagram.png)
+
 
  
