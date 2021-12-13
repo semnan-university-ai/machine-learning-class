@@ -27,13 +27,23 @@ machine learning class - 001
 * atefe mahmoudi - [@atefemahmoudi94](https://github.com/atefemahmoudi94)
 * atefe khosravani - [@AtiKhosravani](https://github.com/AtiKhosravani)
 * mahya gholamrezaei - [@mahyaghlmrz](https://github.com/mahyaghlmrz)
+* hanie ahmadian - [@ahmadianh](https://github.com/ahmadianh)
+
 ### Title
 - [x] find-s
 - [x] candidate-Elimination
 - [x] ID3, Gain ratio
 - [x] Bayesian Learning
 - [x] naive bayse
+- [x] KNN
+- [x] cross validation
+- [x] overfit
 - [ ] text classification
-- [ ] KNN
-- [ ] cross validation
-- [ ] overfit
+- [ ] true error & sample error : sample complexity
+- [ ] conjunction of boolean literals
+- [ ] PAC
+- [ ] Agnostic
+- [ ] shattering
+- [ ] VCD
+- [ ] mistake bound
+- [ ] neural network

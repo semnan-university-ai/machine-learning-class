@@ -1,4 +1,4 @@
-## کاربرد درخت تصمیم در درنیای واقعی
+## کاربرد درخت تصمیم در دنیای واقعی
 ### درخت تصمیم برای طبقه بندی جریان داده 
 کاوش جریان داده، اخیرا با افزایش برنامه هایی که نیاز به تجزیه و تحلیل مستمر و سریع جریان داده را دارند محبوبیت یافته است
 <br/>
@@ -11,5 +11,10 @@
 در این زمینه جریان های داده با نرخ بسیار بالا جمع اوری می شوند
 
 <br/>
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(11)/1.jpg)
+<div dir="rtl">
 
+شکل زیر نمونه ای از درخت تصمیم در این زمینه می باشد
+  </div>
+<br/>
+
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/b-mohammadpour/10/1.jpg)
