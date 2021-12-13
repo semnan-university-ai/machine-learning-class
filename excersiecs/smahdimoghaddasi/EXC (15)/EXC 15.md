@@ -147,7 +147,6 @@ img=pltimg.imread('mydecisiontree.png')
 imgplot = plt.imshow(img)
 plt.show() 
 ```
-
  ![Figure_3_NOT.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_3_NOT.png)
  
  ## NAND:
