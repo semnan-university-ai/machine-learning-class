@@ -1,6 +1,5 @@
 ### برای سه عبارت زیر نیز مثل سوال یک کدهای مربوط به آنها را بنویسید.
 
-- Ovefitting
-- Local minimum
-- Gradient descent
-- Eager and lazy learning
+- (A AND B) OR (B OR C) XOR (A NAND B)
+- (A AND B OR C) OR (C NAND B)
+- (A XOR B) AND (B OR C) AND (C AND D)
