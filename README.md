@@ -46,3 +46,4 @@ machine learning class - 001
 - [ ] shattering
 - [ ] VCD
 - [ ] mistake bound
+- [ ] neural network
