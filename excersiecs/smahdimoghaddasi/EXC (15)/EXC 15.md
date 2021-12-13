@@ -8,6 +8,14 @@
  <br/>
  
 ## AND:
+
+ |A  | B |AND|
+ |---|---|---|
+ | 0 | 0 | 0 | 
+ | 0 | 1 | 0 | 
+ | 1 | 0 | 0 | 
+ | 1 | 1 | 1 |
+
 ```
 #import libray  
 import pandas
@@ -49,6 +57,13 @@ plt.show()
  
  
  ## OR:
+ 
+| A | B | OR |
+|---|---|----|
+| 0 | 0 | 0  |
+| 0 | 1 | 1  |
+| 1 | 0 | 1  |
+| 1 | 1 | 1  |
  ```
 #import libray 
 import pandas
@@ -89,6 +104,13 @@ plt.show()
  ![Figure_2_OR.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_2_OR.png)
  
 ## NOT:
+
+
+| A | ~A |
+|---|----|
+| 0 | 1  |
+| 1 | 0  |
+
 ```
 #import libray  
 import pandas
@@ -129,6 +151,14 @@ plt.show()
  ![Figure_3_NOT.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_3_NOT.png)
  
  ## NAND:
+ 
+| A | B | NAND |
+|---|---|------|
+| 0 | 0 | 1    |
+| 0 | 1 | 1    |
+| 1 | 0 | 1    |
+| 1 | 1 | 0    |
+ 
  ```
 #import libray  
 import pandas
@@ -169,6 +199,14 @@ plt.show()
  ![Figure_4_NAND.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_4_NAND.png)
  
  ## NOR:
+| A | B | NOR |
+|---|---|-----|
+| 0 | 0 | 1   |
+| 0 | 1 | 0   |
+| 1 | 0 | 0   |
+| 1 | 1 | 0   |
+  
+ 
 ```
 #import libray  
 import pandas
@@ -208,6 +246,13 @@ plt.show()
  ![Figure_5_NOR.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_5_NOR.png)
  
 ## XOR:
+| A | B | XOR |
+|---|---|-----|
+| 0 | 0 | 0   |
+| 0 | 1 | 1   |
+| 1 | 0 | 1   |
+| 1 | 1 | 0   |
+
 ```
 #import libray  
 import pandas
