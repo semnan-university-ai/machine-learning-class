@@ -16,7 +16,7 @@ a = a/c
 <br/>
 b = b/c
 <br/>
-Ent=-1*c((a*math.log(a,2))+(b*math.log(b,2)))
+Ent=-1*c((a *math.log(a,2))+(b*math.log(b,2)))
 <br/>
 Ent= round(Ent,3)
 <br/>
