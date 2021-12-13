@@ -49,12 +49,36 @@ C4.5 يک معيار استاندارد در يادگيري ماشين است. �
 |9| پایین شهر |بالا 120 متر | دارد |بالا|خیر|
 
 </div>
-<div dir="ltr">
+<div alin="right" dir="rtl">
   
  در نتیجه درخت تصمیم مثال فوق به شکل زیر خواهد بود 
  (به دلیل توضیح مثال در چند مثال قبل از توضیح مجدد آن پرهیز شده است )
  
  <img src="./mermaid-diagram.png"/>
+ 
+ ### بازی تنیس 
+ 
+ |     Play    |     Windy    |     Humidity    |     Temperature    |     Outlook     |     Day    |
+|-------------|--------------|-----------------|--------------------|-----------------|------------|
+|     Yes     |     False    |     High        |     Hot            |     Overcast    |     1      |
+|     Yes     |     False    |     High        |     Mild           |     Rainy       |     2      |
+|     NO      |     False    |     Normal      |     Cool           |     Rainy       |     3      |
+|     No      |     False    |     High        |     Mild           |     Sunny       |     4      |
+|     Yes     |     False    |     High        |     Mild           |     Overcast    |     5      |
+|     No      |     True     |     Normal      |     Cool           |     Sunny       |     6      |
+|     Yes     |     True     |     Normal      |     Hot            |     Sunny       |     7      |
+|     Yes     |     False    |     High        |     Cool           |     Rainy       |     8      |
+|     Yes     |     False    |     High        |     Cool           |     Sunny       |     9      |
+|     Yes     |     True     |     Normal      |     Cool           |     Overcast    |     10     |
+|     Yes     |     True     |     High        |     Hot            |     Sunny       |     11     |
+|     Yes     |     True     |     High        |     Hot            |     Rainy       |     12     |
 
+ 
+ 
+ درخت این جدول  که در مثال های قبل نیز وجود دارد به  صورت زیر خواهد بود
   
+  <img src="./image2.png"/>
+
   </div>
+  
+   </div>
