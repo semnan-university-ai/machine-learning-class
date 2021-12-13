@@ -16,10 +16,10 @@ a = a/c
 <br/>
 b = b/c
 <br/>
-entropy=-1*c((a*math.log(a,2))+(b*math.log(b,2)))
+Ent=-1*c((a*math.log(a,2))+(b*math.log(b,2)))
 <br/>
-entropy= round(entropy,3)
+Ent= round(Ent,3)
 <br/>
-print("entropy is =",entropy)
+print("entropy  =",Ent)
 <br/>
 
