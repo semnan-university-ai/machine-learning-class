@@ -14,3 +14,4 @@
   </div>
   <br/>
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/b-mohammadpour/19/1.png)
+<br/>
