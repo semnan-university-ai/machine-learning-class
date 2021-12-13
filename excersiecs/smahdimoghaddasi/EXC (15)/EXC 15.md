@@ -2,12 +2,13 @@
 <div dir="rtl">
   
   #### 15) همانطور که در تعاریف درخت تصمیم گفته شده الگوریتم درخت تصمیم شامل IF THEN ELSE ها می باشد؛با یک زبان برنامه نویسی (ترجیحا پایتون، جاوا، سی پلاس پلاس) در قالب یک تابع هر درخت تصمیم مربوط به AND و OR و NOT و NAND و NOR و XOR را رسم کنید.     
-  </div>
   
  حل سوال با استفاده از زبان برنامه نویسی پایتون:
+ </div>
  <br/>
+ 
 ## AND:
-
+```
 #import libray  
 import pandas
 from sklearn import tree
@@ -15,6 +16,7 @@ import pydotplus
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
+
 #Read and print the data set
 df = pandas.read_csv(r"C:\15\AND.csv")
 
@@ -41,14 +43,13 @@ graph.write_png('mydecisiontree.png')
 img=pltimg.imread('mydecisiontree.png')
 imgplot = plt.imshow(img)
 plt.show()
- 
- 
- ![Figure_1_AND.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_1_AND.png)
+```
+![Figure_1_AND.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_1_AND.png)
  
  
  
  ## OR:
- 
+ ```
 #import libray 
 import pandas
 from sklearn import tree
@@ -56,6 +57,7 @@ import pydotplus
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
+
 #Read and print the data set
 df = pandas.read_csv(r"C:\15\OR.csv")
 
@@ -82,14 +84,12 @@ graph.write_png('mydecisiontree.png')
 img=pltimg.imread('mydecisiontree.png')
 imgplot = plt.imshow(img)
 plt.show() 
-
- 
- 
+```
  
  ![Figure_2_OR.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_2_OR.png)
  
 ## NOT:
-
+```
 #import libray  
 import pandas
 from sklearn import tree
@@ -97,6 +97,7 @@ import pydotplus
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
+
 #Read and print the data set
 df = pandas.read_csv(r"C:\15\NOT.csv")
 
@@ -123,14 +124,12 @@ graph.write_png('mydecisiontree.png')
 img=pltimg.imread('mydecisiontree.png')
 imgplot = plt.imshow(img)
 plt.show() 
-
- 
- 
+```
 
  ![Figure_3_NOT.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_3_NOT.png)
  
  ## NAND:
- 
+ ```
 #import libray  
 import pandas
 from sklearn import tree
@@ -138,6 +137,7 @@ import pydotplus
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
+
 #Read and print the data set
 df = pandas.read_csv(r"C:\15\NAND.csv")
 
@@ -164,12 +164,12 @@ graph.write_png('mydecisiontree.png')
 img=pltimg.imread('mydecisiontree.png')
 imgplot = plt.imshow(img)
 plt.show() 
-
+```
  
  ![Figure_4_NAND.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_4_NAND.png)
  
  ## NOR:
-
+```
 #import libray  
 import pandas
 from sklearn import tree
@@ -177,6 +177,7 @@ import pydotplus
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
+
 #Read and print the data set
 df = pandas.read_csv(r"C:\15\NOR.csv")
 
@@ -203,12 +204,11 @@ graph.write_png('mydecisiontree.png')
 img=pltimg.imread('mydecisiontree.png')
 imgplot = plt.imshow(img)
 plt.show() 
-
- 
+```
  ![Figure_5_NOR.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_5_NOR.png)
  
 ## XOR:
-
+```
 #import libray  
 import pandas
 from sklearn import tree
@@ -216,6 +216,7 @@ import pydotplus
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
+
 #Read and print the data set
 df = pandas.read_csv(r"C:\15\XOR.csv")
 
@@ -242,7 +243,7 @@ graph.write_png('mydecisiontree.png')
 img=pltimg.imread('mydecisiontree.png')
 imgplot = plt.imshow(img)
 plt.show() 
-
+```
  
  ![Figure_6_XOR.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(15)/Figure_6_XOR.png)
  
