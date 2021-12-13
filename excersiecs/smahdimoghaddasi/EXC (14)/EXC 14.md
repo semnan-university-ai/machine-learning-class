@@ -44,5 +44,11 @@
   G5=<?,?,? ><br/>
  <div dir="rtl">
 در نتیجه به فرضیه ی درستی نمی رسیم.
-  
-  
+  <br/>
+ <br/>
+حل به روش درخت تصمیم و ID3:
+
+![14-1.jpeg](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(14)/14-1.jpeg)
+
+![14-2.jpeg](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(14)/14-2.jpeg)
+
