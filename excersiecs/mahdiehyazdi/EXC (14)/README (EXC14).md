@@ -236,8 +236,6 @@ small
 <img src="./image1.png"/>
 
   <h4>CANDIDATE ELMINIATION</h4>
-  
-  
 
 </div>
 
