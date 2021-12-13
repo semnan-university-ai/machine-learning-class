@@ -39,3 +39,10 @@ machine learning class - 001
 - [x] cross validation
 - [x] overfit
 - [ ] text classification
+- [ ] true error & sample error : sample complexity
+- [ ] conjunction of boolean literals
+- [ ] PAC
+- [ ] Agnostic
+- [ ] shattering
+- [ ] VCD
+- [ ] mistake bound
