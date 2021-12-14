@@ -2,11 +2,11 @@ import numpy as np
 <br/>
 import math
 <br/>
-a = int(input('Enter p+: '))
+a = int(input('p+: '))
 <br/>
-b = int(input('Enter p-: '))
+b = int(input('p-: '))
 <br/>
-c = int(input('enter instant quantity'))
+c = int(input('enter iq'))
 <br/>
 c =(a+b)/c
 <br/>
@@ -18,7 +18,7 @@ b = b/c
 <br/>
 Ent=float(-1*c((a * math.log(a,2))+(b * math.log(b,2))))
 <br/>
-Ent= round(Ent,3)
+Ent= round(Ent,4)
 <br/>
 print('entropy  =',Ent)
 <br/>
