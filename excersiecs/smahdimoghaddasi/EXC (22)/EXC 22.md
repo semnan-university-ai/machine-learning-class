@@ -29,6 +29,20 @@
     <div dir="rtl">
    دو نوع خطای فرضیه داریم خطای آموزش که خطا روی داده های آموزش (error train) است و خطای اصلی که خطا در کل توزیع (error D) است 
     <br/>  
-  error D خطا در کل توزیع (خطای اصلی) برای ما مهم تر از error train است. 
+  error D خطا در کل توزیع (خطای اصلی) برای ما مهم تر از error train است.
+  <br/>
+      
+   ![22-1.jpg](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(22)/22-1.jpg)
+      
+   ![22-2.jpg](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(22)/22-2.jpg) 
+    
+   <br/>
+      در شکل زیر میبینیم از یک جایی به بعد خطای ترین زیاد شده است که همان جا باید trian شبکه متوقف گردد. 
+      
+ ![22-3.jpg](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(22)/22-3.jpg)
+      
+  
+      
+      
   
 
