@@ -4,3 +4,8 @@
 <br/>  
 
 ![pic26](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/26/1.jpg)
+
+<div dir="rtl">
+اگر داده ی x1=0 , x2=0, x3=1 بیاید در کدام کلاس قرار می گیرد.
+ما می دانیم که X1 ، X2 ، X3 متغیرهای تصادفی مستقل هستند. آیا درخت تصمیم برای داده های بالا مناسب تر می باشد.
+<br/>  
