@@ -48,7 +48,11 @@ print("1 1 1 =>", EXC1(1,1,1))
 خروجی برنامه فوق به شکل زیر خواهد بود :
 <br/>
 <br/>
+<div align="center">
 <img src="./output1.PNG"/>
+<br/>
+<br/>
+</div>
 
 - (A AND B OR C) OR (C NAND B)
 
@@ -92,7 +96,11 @@ print("1 1 1 =>", EXC2(1,1,1))
 خروجی برنامه فوق به شکل زیر خواهد بود :
 <br/>
 <br/>
+<div align="center">
 <img src="./output2.PNG"/>
+<br/>
+<br/>
+</div>
 
 
 - (A XOR B) AND (B OR C) AND (C AND D)
@@ -152,7 +160,11 @@ print("1 1 1 1 =>", EXC3(1,1,1,1))
 خروجی برنامه فوق به شکل زیر خواهد بود :
 <br/>
 <br/>
+<div align="center">
 <img src="./output3.PNG"/>
+<br/>
+<br/>
+</div>
 
 
 #### همچنین تمام این برنامه ها در فایل پایتون موجود در این پوشه نیز قرار دارد.
