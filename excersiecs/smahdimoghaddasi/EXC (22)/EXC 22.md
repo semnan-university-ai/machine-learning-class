@@ -137,8 +137,9 @@
 <br/>
 رابطه خطاقابل مشتق گيري باشد.
   
-  <br/>
-  ### Eager and lazy learning:
+ <br/>
+  
+ ### Eager and lazy learning:
        
       
   
