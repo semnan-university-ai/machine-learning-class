@@ -2,5 +2,5 @@
 
 فرمول انتروپی به شرح زیر است:
 <p align="left">
-Entropy = -(P+logP+ + P-logP-)
+Entropy = :heavy_minus_sign:(P+logP+ :heavy_plus_sign: P-logP-)
 </p>
