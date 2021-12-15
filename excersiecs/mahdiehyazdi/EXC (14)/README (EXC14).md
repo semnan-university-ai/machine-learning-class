@@ -235,9 +235,15 @@ small
 
 <img src="./image1.png"/>
 
-  <h4>CANDIDATE ELMINIATION</h4>
-  
-  
+<h4>CANDIDATE ELMINIATION</h4>
+<div align="center">
+<img src="./image2.PNG"/>
+</div>
+
+<h4>ID3</h4>
+<div align="center">
+<img src="./image3.jpg"/>
+</div>
 
 </div>
 
