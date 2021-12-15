@@ -2,29 +2,43 @@
 
 ### AND
 
-import pandas
-from sklearn import tree
-import pydotplus
-from sklearn.tree import DecisionTreeClassifier
-import matplotlib.pyplot as plt
-import matplotlib.image as pltimg
+![and](and.png)
+
+![and2](and2.png)
 
 
-data = pandas.read_csv("and.csv")
+### or
+
+![or](or.png)
+
+![or2](or2.png)
 
 
-features = ['A','B']
+### nand
 
-X = data[features]
-y = data['AND']
+![nand](nand.png)
 
-#show tree
-dtree = DecisionTreeClassifier()
-dtree = dtree.fit(X, y)
-data = tree.export_graphviz(dtree, out_file=None, feature_names=features)
-graph = pydotplus.graph_from_dot_data(data)
-graph.write_png('mydecisiontree.png')
+![nand2](nand2.png)
 
-img=pltimg.imread('mydecisiontree.png')
-imgplot = plt.imshow(img)
-plt.show()
+
+### not
+
+![not](not.png)
+
+![not2](not2.png)
+
+
+### xor
+
+![xor](xor.png)
+
+![xor2](xor2.png)
+
+
+### nor
+
+![nor](nor.png)
+
+![nor2](nor2.png)
+
+
