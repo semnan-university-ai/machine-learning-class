@@ -25,4 +25,4 @@
 
  ![KNN.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(23)/KNN.png)
     
- ![23.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/smahdimoghaddasi/EXC%20(23)/23.png)
+ 
