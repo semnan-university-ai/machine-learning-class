@@ -7,35 +7,35 @@
 ![and2](and2.png)
 
 
-### or
+### OR
 
 ![or](or.png)
 
 ![or2](or2.png)
 
 
-### nand
+### NAND
 
 ![nand](nand.png)
 
 ![nand2](nand2.png)
 
 
-### not
+### NOT
 
 ![not](not.png)
 
 ![not2](not2.png)
 
 
-### xor
+### XOR
 
 ![xor](xor.png)
 
 ![xor2](xor2.png)
 
 
-### nor
+### NOR
 
 ![nor](nor.png)
 
