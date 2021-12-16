@@ -1,9 +1,9 @@
 <div dir="rtl">
 سوال :تفاوت های k=1 ، k=5 را در یک داده ی فرضی با الگوریتم knn بررسی کنید. 
 <div/>
-<br/>  
+ 
 
-![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/23/1.jpg)  
+![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/23/1.png)  
 <br/>
 <div dir="rtl">
 1. نزدیک ترین همسایه در تصویر بالا جواب قرمز را بر میگرداند اما 5. نزدیک ترین همسایه جواب آبی را به ما نشان می دهد.  
