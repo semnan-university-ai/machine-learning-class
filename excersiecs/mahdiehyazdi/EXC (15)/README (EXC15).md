@@ -34,6 +34,25 @@ print(tabulate(mydata_and, headers=head, tablefmt="grid"))
 <div align="center">
 <img src="./output1.PNG"/>
 </div>
+<div align="right">
+برنامه درخت AND به شکل زیر خواهد  بود :
+</div>
+
+```
+root = Node('A')
+level_1_child_1 = Node('F', parent=root)
+level_1_child_2 = Node('T', parent=root)
+level_2_child_1 = Node('False', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_2 )
+level_3_child_2 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_1 )
+level_4_child_2 = Node('False', parent=level_3_child_2 )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+```
+<img src="./and.PNG"/>
 
 - OR
 
@@ -65,6 +84,28 @@ print(tabulate(mydata_OR, headers=head, tablefmt="grid"))
 <div align="center">
 <img src="./output2.PNG"/>
 </div>
+<div align="right">
+برنامه درخت OR به شکل زیر خواهد  بود :
+</div>
+
+```
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('True', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_2 )
+level_3_child_2 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_1 )
+level_4_child_2 = Node('False', parent=level_3_child_2 )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+    
+ ```
+ 
+ <img src="./or.PNG"/>
+
 
 - NOT
 
@@ -91,6 +132,24 @@ print(tabulate(mydata_NOT, headers=head, tablefmt="grid"))
 <div align="center">
 <img src="./output3.PNG"/>
 </div>
+<div align="right">
+برنامه درخت NOT به شکل زیر خواهد  بود :
+</div>
+
+```
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('False', parent=level_1_child_1)
+level_2_child_2 = Node('True', parent=level_1_child_2)
+
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+    
+```
+<img src="./not.PNG"/>
+
 
 - NAND
 
@@ -121,6 +180,29 @@ print(tabulate(mydata_nand, headers=head, tablefmt="grid"))
 <div align="center">
 <img src="./output4.PNG"/>
 </div>
+<div align="right">
+برنامه درخت NAND به شکل زیر خواهد  بود :
+</div>
+
+```
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('B', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_1)
+level_3_child_2 = Node('F', parent=level_2_child_1)
+level_3_child_3 = Node('T', parent=level_2_child_2 )
+level_3_child_4 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_2 )
+level_4_child_2 = Node('True', parent=level_3_child_3  )
+level_4_child_1 = Node('False', parent=level_3_child_1 )
+level_4_child_2 = Node('True', parent=level_3_child_4  )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+ ```
+<img src="./nand.PNG"/>
 
 - NOR
 
@@ -154,6 +236,30 @@ print(tabulate(mydata_NOR, headers=head, tablefmt="grid"))
 <img src="./output5.PNG"/>
 </div>
 
+<div align="right">
+برنامه درخت NOR به شکل زیر خواهد  بود :
+</div>
+
+```
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('B', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_1)
+level_3_child_2 = Node('F', parent=level_2_child_1)
+level_3_child_3 = Node('T', parent=level_2_child_2 )
+level_3_child_4 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('False', parent=level_3_child_2 )
+level_4_child_2 = Node('False', parent=level_3_child_3  )
+level_4_child_1 = Node('False', parent=level_3_child_1 )
+level_4_child_2 = Node('True', parent=level_3_child_4  )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))   
+```
+<img src="./nor.PNG"/>
+
 - XOR
 
 ```
@@ -184,6 +290,31 @@ print(tabulate(mydata_XOR, headers=head, tablefmt="grid"))
 <div align="center">
 <img src="./output6.PNG"/>
 </div>
+<div align="right">
+برنامه درخت NOR به شکل زیر خواهد  بود :
+</div>
+
+```
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('B', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_1)
+level_3_child_2 = Node('F', parent=level_2_child_1)
+level_3_child_3 = Node('T', parent=level_2_child_2 )
+level_3_child_4 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_2 )
+level_4_child_2 = Node('True', parent=level_3_child_3  )
+level_4_child_1 = Node('False', parent=level_3_child_1 )
+level_4_child_2 = Node('False', parent=level_3_child_4  )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+```
+
+<img src="./xor.PNG"/>
+
 <br/>
 
 همچنین به جهت نمایش جداول از کتابخانه ی tabulate پایتون استفاده شده که برای استفاده از آن نیاز به نصب و فراخوانی آن میباشد که کد آن به شکل زیر است : 
@@ -192,5 +323,9 @@ print(tabulate(mydata_XOR, headers=head, tablefmt="grid"))
 ```
 from tabulate import tabulate
 ```
+همچنین برای رسم درخت ها از کتابخانه ی anytree استفاده شده است که پس از نصب به شکب زیر فراخوانی شده است .
 
+```
+from anytree import Node, RenderTree
+```
 
