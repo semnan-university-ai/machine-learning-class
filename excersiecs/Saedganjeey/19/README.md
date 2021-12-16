@@ -21,7 +21,7 @@ P(V+|~C) = 0.096 , P(V−|~C) = 0. 904
 
 اگر بخواهیم موارد فوق را در یک جدول تنظیم کنیم به صورت زیر خواهد بود:
 
-![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/19/1.jpg)
+![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/19/1.png)
 
 
 
