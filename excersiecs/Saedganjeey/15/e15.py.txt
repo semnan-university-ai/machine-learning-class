@@ -1,7 +1,7 @@
 # AND:
 # Python3 program to illustrate 
 # working of AND gate 
-  
+ # 
 def AND (a, b): 
   
     if a == 1 and b == 1: 
