@@ -3,7 +3,7 @@
 </div>
 <br/>
 <div dir="rtl">
-درخت تصمیم :: (مثال 4 نویز ایجاد کرده در اینصورت آن را حذف کردیم.)
+درختت تصمیم :: (مثال 4 نویز ایجاد کرده در اینصورت آن را حذف کردیم.)
 </div>
 <br/>
 ![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/14/1.png)
