@@ -5,13 +5,13 @@
   ### 22) مفاهیم زیر را به صورت خلاصه بررسی کنید.
   <br/>
   
-  ### Ovefitting
+  ### Overfitting
   ### Local minimum
   ### Gradient descent
   ### Eager and lazy learning
   <br/><br/>
   
-  ### Ovefitting:
+  ### Overfitting:
   <br/>
   
   در شکل 1 خط (فرضیه) روی مثال های آموزشی نسبتا خوب جواب می دهد و
