@@ -1,4 +1,5 @@
 from tabulate import tabulate
+from anytree import Node, RenderTree
 
 def And (a, b):
     #  a AND b
@@ -7,7 +8,7 @@ def And (a, b):
     else:
         return 0
     
-          
+# output And           
 print("A B => A and B")
 print("0 0 =>", And(0,0))
 print("0 1 =>", And(0,1))
@@ -22,6 +23,22 @@ mydata_and = [("F", "F", "F"),
 head = ["A", "B", "A And B"]
 # display table
 print(tabulate(mydata_and, headers=head, tablefmt="grid"))
+
+
+# Tree And           
+root = Node('A')
+level_1_child_1 = Node('F', parent=root)
+level_1_child_2 = Node('T', parent=root)
+level_2_child_1 = Node('False', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_2 )
+level_3_child_2 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_1 )
+level_4_child_2 = Node('False', parent=level_3_child_2 )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+
 
 
 def Or (a, b):     
@@ -45,6 +62,21 @@ mydata_OR = [("F", "F", "F"),
 head = ["A", "B", "A OR B"]
 print(tabulate(mydata_OR, headers=head, tablefmt="grid"))
 
+# Tree OR
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('True', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_2 )
+level_3_child_2 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_1 )
+level_4_child_2 = Node('False', parent=level_3_child_2 )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+    
+    
 
 def Not (a):     
     #  A Not B
@@ -61,6 +93,18 @@ mydata_NOT = [("F", "T"),
 
 head = ["A", "NOT A"]
 print(tabulate(mydata_NOT, headers=head, tablefmt="grid"))
+
+# Tree NOT
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('False', parent=level_1_child_1)
+level_2_child_2 = Node('True', parent=level_1_child_2)
+
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
+    
 
 
 def Nand (a, b):     
@@ -82,6 +126,24 @@ mydata_nand = [("F", "F", "T"),
                 ("T", "T", "F")]
 head = ["A", "B", "A Nand B"]
 print(tabulate(mydata_nand, headers=head, tablefmt="grid"))
+
+# Tree NAND
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('B', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_1)
+level_3_child_2 = Node('F', parent=level_2_child_1)
+level_3_child_3 = Node('T', parent=level_2_child_2 )
+level_3_child_4 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_2 )
+level_4_child_2 = Node('True', parent=level_3_child_3  )
+level_4_child_1 = Node('False', parent=level_3_child_1 )
+level_4_child_2 = Node('True', parent=level_3_child_4  )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
 
 
 def Nor (a, b):     
@@ -105,6 +167,24 @@ mydata_NOR = [("F", "F", "T"),
 head = ["A", "B", "A NOR B"]
 print(tabulate(mydata_NOR, headers=head, tablefmt="grid"))
 
+# Tree NOR
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('B', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_1)
+level_3_child_2 = Node('F', parent=level_2_child_1)
+level_3_child_3 = Node('T', parent=level_2_child_2 )
+level_3_child_4 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('False', parent=level_3_child_2 )
+level_4_child_2 = Node('False', parent=level_3_child_3  )
+level_4_child_1 = Node('False', parent=level_3_child_1 )
+level_4_child_2 = Node('True', parent=level_3_child_4  )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))   
+
 
 def Xor (a, b):     
     #  A XoR B
@@ -126,3 +206,21 @@ mydata_XOR = [("F", "F", "F"),
 
 head = ["A", "B", "A XOR B"]
 print(tabulate(mydata_XOR, headers=head, tablefmt="grid"))
+
+# Tree XOR
+root = Node('A')
+level_1_child_1 = Node('T', parent=root)
+level_1_child_2 = Node('F', parent=root)
+level_2_child_1 = Node('B', parent=level_1_child_1)
+level_2_child_2 = Node('B', parent=level_1_child_2)
+level_3_child_1 = Node('T', parent=level_2_child_1)
+level_3_child_2 = Node('F', parent=level_2_child_1)
+level_3_child_3 = Node('T', parent=level_2_child_2 )
+level_3_child_4 = Node('F', parent=level_2_child_2 )
+level_4_child_1 = Node('True', parent=level_3_child_2 )
+level_4_child_2 = Node('True', parent=level_3_child_3  )
+level_4_child_1 = Node('False', parent=level_3_child_1 )
+level_4_child_2 = Node('False', parent=level_3_child_4  )
+
+for pre, fill, node in RenderTree(root):
+    print("%s%s" % (pre, node.name))
