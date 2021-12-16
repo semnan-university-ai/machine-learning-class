@@ -13,7 +13,7 @@
  و درخت تصمیم بصورت روبرو است.
 </div>
 <br/>
-![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/14/2.png)
+![pic2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/14/2.png)
 <br/>
 <div dir="rtl">
 1.Size :
