@@ -1,5 +1,7 @@
 کد زیر روی مثال 14 اعمال شده نتیجه هم زیر کد ها قرار دارد
 
+![example 2](https://user-images.githubusercontent.com/94211519/146635150-567f3ef5-ae43-458e-b67c-f3e02bd40cfa.PNG)
+
 ```
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
