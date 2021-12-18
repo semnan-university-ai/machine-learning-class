@@ -5,7 +5,7 @@
 کد مربوط به *and* شماره 1
 </div>
 
-``` 
+``` python
 def anda(A,B):
     if A==0 and B==0:
         L=A and B
