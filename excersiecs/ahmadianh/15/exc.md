@@ -39,7 +39,7 @@ print (anda(A,B))
 ---
 <div dir='rtl'>
 
-کد بعدی *And*
+کد دیگر  *And*
 </div>
 
 ```
@@ -59,21 +59,15 @@ tree.plot_tree(clf,feature_names=x.columns,filled= True)
 ```
 <div dir='rtl'>
 کد شماره 2 OR , Xor,Nand,Nor
-همانند And  است اما با دیتاست های مخصوص به خود که برخی از آنها   در همین پوشه ذخیره شده است.
+همانند And است اما با دیتاست های مخصوص به خود .
 تنها تفاوت در دیتاست هاست 
 
-</div>
 
-```
-c=pd.read_csv('G:/Python/my project/?.txt')
-```
-<div dir='rtl'>
-به جای این مورد مسیر ذخیره دیتاست بیان می شود.
 </div>
 
 <div dir='rtl'>
 
-کد مربوط به *OR*
+* کد مربوط به *OR*
 </div>
 
 ```
