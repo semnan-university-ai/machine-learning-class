@@ -26,7 +26,6 @@ X1=
 
 0=2                      (0, 0=2 , 0,1=1) number
 <br/>
-<div dir="rtl">
 1=3                      (1,0=1 , 1,1=2) number
 
 <div dir="rtl">  
