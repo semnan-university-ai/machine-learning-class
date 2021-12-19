@@ -11,3 +11,6 @@
   
 ما می دانیم که X1 ، X2 ، X3 متغیرهای تصادفی مستقل هستند. آیا درخت تصمیم برای داده های بالا مناسب تر می باشد.
 </div>  
+
+
+![pic2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/26/2.jpg)
