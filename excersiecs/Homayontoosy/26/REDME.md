@@ -89,3 +89,8 @@ X3=
 <br/>
 
 ![pic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/26/3.jpg)
+
+<br/>
+<div dir="rtl">
+در نتیجه می توانیم اینطور استنباط کنیم که درخت تصمیم برای این مثال مناسب تر است زیرا به محض دریافت مقدار اولین ویژگی که همان 0 است، مقدار 0 را برمیگرداند. و از آن جایی که عمق جواب 1 است، با سرعت بسیار بالایی به جواب میرسیم.
+</div>  
