@@ -88,4 +88,4 @@ X3=
 </div>  
 <br/>
 
-[pic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/26/3.jpg)
+![pic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/26/3.jpg)
