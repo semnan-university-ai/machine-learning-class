@@ -86,3 +86,6 @@ X3=
 <div dir="rtl"> 
 درخت حاصل به شکل زیر است: (شاخه های سمت چپ مسیر 0 و شاخه های سمت راست مسیر 1 هستند(
 </div>  
+<br/>
+
+[pic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/26/3.jpg)
