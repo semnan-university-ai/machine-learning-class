@@ -17,4 +17,7 @@
   - اگر داده ی x1=1 , x2=1 , x3=0 آیا در دسته ی y=1 می باشد ؟
   - برای نمونه ی x1=1, x2=1 پیش بینی کنید.
   
+  
+  ![nivebayse](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(27)/nivebayes.jpg)
+  
   <div>
