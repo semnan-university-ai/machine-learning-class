@@ -27,6 +27,7 @@
   
   <br/>
   
+  ![knn](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Eveaskari/Exc%20(23)/knn.jpg)
   
   <br/>
   </div>
