@@ -30,7 +30,6 @@
 ### 2. مطالعات مرتبط  
 
  پیشرفت های مختلفی در حوزه تشخیص تقلب از دهه گذشته وجود داشته است. برخی از مطالعات مشابه عبارتند از: 
-
 Subudhi و همکاران، مدلی را برای سیستم تشخیص تقلب بیمه خودکار (AIFDS)با استفاده از روش بیش نمونه گیری تطبیقی (ADASYN) برای مطالعه تاثیر درجه پیچیدگی (چولگی) بر روی یک مجموعه داده ارائه کردند [ ۵ ]. ثابت شده است که استفاده از تکنیک های یادگیری ماشین می تواند دقت تشخیص تقلب در نمونه های نامتوازن را بهبود بخشد. 
 
 روش‌های گروهی متعددی نیز بر روی مجموعه داده های بیمه اجرا شده اند تا موارد کلاهبردارانه را شناسایی کنند. در [ ۱۱ ]، دسترسی شبکه عصبی همراه با روش زیرفضای تصادفی برای انجام تشخیص تقلب بیمه مورد استفاده قرار گرفت. Viaene و همکارانش [ ۶ ] یک طبقه بندی کننده Boosting - Naive - Bayesian را برای تشخیص تقلب به کار بردند. این مدل مزایای تقویت و قدرت یک ساختار امتیاز بندی وزن را به اشتراک گذاشت. Omar و همکاران یک رویکرد مقرون به صرفه برای طراحی AIFDS ارائه دادند تا اسناد جعلی را از اسناد قانونی جدا کنند [ ۷ ]. 
@@ -46,7 +45,7 @@ Subudhi و همکاران، مدلی را برای سیستم تشخیص تقل�
 مجموعه داده مورد استفاده که برای تحقیق ما استفاده می شود مجموعه داده بیمه اتومبیل "carclaims.txt" است که توسط نرم افزار “Angoss Knowledge Seeker” فراهم شده است [ ۱۲ ]. این داده ها در سال ۱۹۹۶ - ۱۹۹۴ در ایالات متحده ثبت شد. 
 
 این مجموعه داده شامل ۱۵۴۲۰ رکورد ادعای بیمه اتومبیل است که از این تعداد ۱۱،۳۳۸ رکورد از ژانویه ۹۴ تا دسامبر ۱۹۹۵ جمع آوری شده است و ۴۰۸۳ مورد باقی مانده در سال ۱۹۹۶ ثبت شده است. هر رکورد در مجموعه داده دارای ۳۳ ویژگی در کل است که به هنگام ادعاهای بایگانی ارائه شده اند. از میان این ۳۳ ویژگی، ۳۲ ویژگی ادعا هستند که به پیش بینی ۱ متغیر آخر، که برچسب کلاس نامیده می شود، کمک می کنند. 
-
+<div dir="rtl">
 FraudFound: "متغیر هدف" ما است و نشان دهنده حضور و عدم وجود ادعای کلاهبرداری است. 
 
 - کلاهبرداری برابر با ۱ است؛ 
@@ -54,18 +53,18 @@ FraudFound: "متغیر هدف" ما است و نشان دهنده حضور و �
 
 توصیف آماری کامل مجموعه داده ها در جدول ۱ ارائه شده است. 
   
-جدول ۱: پوشش بیمه CAR [۱۲ ] 
+جدول ۱: پوشش بیمه CAR [۱۲ ]
+  
+![1-t.jpeg](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/1-t.jpeg)
 
   
-
-  
-  
-
 مجموعه ویژگی کامل (یا برچسب های کلاس) مجموعه داده شامل ۳۳ ویژگی در شکل ۱ توصیف شده است. 
 
 این مجموعه داده یک توزیع کلاسی نامتوازن است زیرا تقریبا ۹۴ % از ادعاهای غیرکلاهبرداری و تقریبا ۶ % از ادعاهای کلاهبرداری را دارد.
-![](i0.png)
 
+![1.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/1.png)
+  
+  
 شکل 1. توصیف ویژگی مجموعه داده  [ ۱۲ ]
 
 ### 3. روش پیشنهادی  
@@ -253,6 +252,51 @@ FraudFound: "متغیر هدف" ما است و نشان دهنده حضور و �
 
 استفاده از روش نمونه برداری مجدد SMOTE برای متوازن کردن توزیع کلاس و سپس اعمال طبقه بندی مربوطه به ما نتایج استثنایی داده است. مدل ما نسبت به سه دسته بندی کننده مختلف تحت نظارت، یعنی ماشین بردار پشتیبان (SVM)، درخت تصمیم گیری و پرسپترون چند لایه (MLP) عملکرد بهتری داشته و دارای حساسیت ۹۹.۹ % می باشد. ساخت مدل 1.43 ثانیه طول کشید. 
 
-این مدل را می توان با استفاده از دیگر تکنیک های توازن داده ها یا دیگر طبقه بندی هایی که تحت تاثیر عدم توازن کلاس قرار نمی گیرند، در مطالعات آینده بهبود بخشید. 
+این مدل را می توان با استفاده از دیگر تکنیک های توازن داده ها یا دیگر طبقه بندی هایی که تحت تاثیر عدم توازن کلاس قرار نمی گیرند، در مطالعات آینده بهبود بخشید.
+  
+  
+
+  
+![2-t.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/2-t.png)
+  
+![3-t.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/3-t.png)
+  
+![4-t.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/4-t.png)
+  
+  
+  
+  
+![2.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/2.png)
+  
+![3.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/3.png)
+  
+![4.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/4.png)
+  
+![5.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/5.png)
+  
+![6.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/6.png)
+  
+![7.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/7.png)
+  
+![8.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/8.png)
+  
+![9.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/9.png)
+  
+  
+![10.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/10.png)
+  
+![11.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/11.png)
+  
+![12.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/12.png)
+  
+![13.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/13.png)
+  
+![14.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/14.png)
+  
+![15.png](https://github.com/semnan-university-ai/machine-learning-class/blob/main/presentation/smahdimoghaddasi/15.png)
+  
+  
+  
+  
 
 
