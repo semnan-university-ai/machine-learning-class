@@ -8,7 +8,8 @@
 
  تولید اعداد رندوم با استفاده از پکیج نامپای
 
-p as numpy import. 1
+
+1. import numpy as p
 
 
 2. from numpy import randomاستفاده از توابع رندوم  ه
@@ -18,8 +19,7 @@ p as numpy import. 1
  استفاده از تابع زیر برای حساب کردن فاصله اعداد 
 
 
-(m,n(func_dis def. 3
- 
+3. dev dis_func(n,m)
 
 
 4. z=np.sqt(np.power((m[0]-n[0],2)+np.power((m[1]-n[1],2))
