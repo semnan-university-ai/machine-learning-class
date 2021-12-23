@@ -4,20 +4,44 @@
 <br/> 
 <div dir="rtl">
 با استفاده از زبان برنامه نویسی پایتون انجام دادم. )کار با این برنامه را دوستان آموزش دادند.(
+
+
 ) تولید اعداد رندوم با استفاده از پکیج نامپای( np as numpy import. 1
+
+
 2. from numpy import random )رندوم توابع از استفاده )
+
+
 )استفاده از تابع روبرو برای حساب کردن فاصله (m,n(func_dis def. 3
 اعداد( 
+
+
 4. z=np.sqt(np.power((m[0]-n[0],2)+np.power((m[1]-n[1],2))
+
+
 5. return rand(z,3) )کردم مشخص z با را فاصله)
+
+
 6. n=dict()
+
+
 7. z=dict()
+
+
 8. m=random.randint(1,50),size=(100,2))) روبرو سایز با 50تا1 بین اعداد)
+
+
 9. for i in range(100)نقطه دو بین فاصله
+
+
 10.n[i]=dis_func(m[i],m[43])
+
+
 11.y=sorted(n.items(),reverse=false,key=lambda x:x[1]) سازی مرتب
+
+
 12.print(“ k=3 from 43th point is %s and its distance is equal to %s 
 and it was %snd random number “ % 
-(m[y[3][0],y[3][1],y[3][0]))
+(m[y[3][0],y[3][1],y[3][0])
 </div>
 <br/> 
