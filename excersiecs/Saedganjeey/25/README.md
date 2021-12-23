@@ -18,6 +18,6 @@
 11.y=sorted(n.items(),reverse=false,key=lambda x:x[1]) سازی مرتب
 12.print(“ k=3 from 43th point is %s and its distance is equal to %s 
 and it was %snd random number “ % 
-(m[y[3][0],y[3][1],y[3][0])
+(m[y[3][0],y[3][1],y[3][0]))
 </div>
 <br/> 
