@@ -91,9 +91,9 @@ plt.show()
 یعنی به جای  test_size = 0.2 مقدار 0.3 یا 0.4 را قرار دهیم نتایج متفاوتی به دست خواهید آمد 
 </div>
 
-![نمودار])()
+![نمودار])(https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/excersiecs/ahmadianh/23/Figure_1.png?token=AW2SJTQB65XQQKKEJCQ3B63BYQVPY)
 
 
-![نمودار 2])()
+![نمودار 2])(https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/excersiecs/ahmadianh/23/Figure_3.png?token=AW2SJTXVJJ3TSJAGRRRFOWDBYQVRA)
 
 test_size = 0.3 نمودار با 
