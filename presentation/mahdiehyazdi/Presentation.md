@@ -44,7 +44,7 @@
 
 <br/>
 <br/>
-<img src="img2.jpg"/>
+<img src="img2.jpg" width="739px"/>
 <img src="img3.jpg"/>
 
 <br/>
