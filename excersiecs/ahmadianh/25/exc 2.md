@@ -19,27 +19,54 @@ from sklearn import neighbors
 import numpy as np
 import math
 import pandas as pd
+from math import sqrt
 import math
+import operator
 
-f = open("G:/TTT/myfile.txt", "w")
+def distance (x0,y0,x,y):
+ distance=[]
+ L= []
+ 
+ for i in range (len(x)):
+
+      distance[i]=((x[i]-x0)*(x[i]-x0)) + ((y[i]-y0)*(y[i]-y0))
+      L[i]=sqrt(distance[i])
+ print(L[i])
+
+ for i in range (len(x)):
+    if L[i]>L[i+1]:
+        t=L[i]
+        L[i]=L[i+1]
+        L[i+1]=t
+ print (L[i],L[i+1],L[i+2])
+
+      
+
+
+
+
+
+
 x=random.randint(50, size=(100,1))
 for i in range (41,44):
     if i==43:
+        x0=x[i]
         print("x point 43")
         print(x[43])
 
 y=random.randint(50, size=(100,1))
 for i in range (41,44):
     if i==43:
+        y0=y[i]
         print("y point 43")
         print( y[43])
     
+#Print("x,y point 43 = ")
 print("x,y point 43 = ")
 print(x[43],y[43])
-f.write("{} {}\n".format(x,y))
 
 plt.scatter(x, y, color = 'hotpink')
 plt.show()
-f.close(x)
-
+distance(x0,y0,x,y)
+  
 ```
