@@ -32,5 +32,8 @@
 |     1    |     0     |     0     |     1     |
 
   <br/>
-  حل به صورت زیر با استفاده از درخت تصمیم
-  <br/>
+  ![tree](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/alimotavally/Tamrin26/T26.jpg)<br/>
+  
+  داده های 0،0،1 در کلاس y=0 قرار می گیرند.<br/>
+  در جدول قبل به دلیل وجود نویز داده 0،0،1 در دو گروه y=0 و y=1 قرار می گیرد.<br/>
+  درخت تصمیم برای داده های گسسته و مستقل مناسب است.
