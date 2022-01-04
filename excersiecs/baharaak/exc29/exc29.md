@@ -23,7 +23,7 @@ image.save('news.png')
 
 ``` 
 
-![news-hashemi(1).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(1).png)
+![news-hashemi(1).png](https://github.com/semnan-university-ai/machine-learning-class/tree/main/excersiecs/baharaak/exc29/news-hashemi(1).png)
 
 ![news-hashemi(2).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(2).png)
 
