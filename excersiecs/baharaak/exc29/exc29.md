@@ -72,5 +72,5 @@ image.save('news.png')
 
 ![news](news.jpg)
 
-![news(1)](news(1).jpg)
+![newss](newss.jpg)
 
