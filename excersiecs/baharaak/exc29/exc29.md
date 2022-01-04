@@ -23,3 +23,4 @@ image.save('news.png')
 
 ``` 
 
+![1.png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/1.png)
