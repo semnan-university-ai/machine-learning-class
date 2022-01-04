@@ -23,14 +23,54 @@ image.save('news.png')
 
 ``` 
 
-![news-hashemi(1).png](https://github.com/semnan-university-ai/machine-learning-class/tree/main/excersiecs/baharaak/exc29/news-hashemi(1).png)
 
-![news-hashemi(2).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(2).png)
+### ابر کلمات برای هر خبر جدا
 
-![news-hashemi(3).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(3).png)
 
-![news-hashemi(4).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(4).png)
 
-![news-hashemi(5).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(5).png)
+![news-hashemi(1)](news-hashemi(1).jpg)
 
-![news-hashemi(6).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(6).png)
+![news-hashemi(2)](news-hashemi(2).jpg)
+
+![news-hashemi(3)](news-hashemi(3).jpg)
+
+![news-hashemi(4)](news-hashemi(4).jpg)
+
+![news-hashemi(5)](news-hashemi(5).jpg)
+
+![news-hashemi(6)](news-hashemi(6).jpg)
+
+![news-hashemi(7)](news-hashemi(7).jpg)
+
+![news-hashemi(8)](news-hashemi(8).jpg)
+
+![news-hashemi(9)](news-hashemi(9).jpg)
+
+![news-hashemi(10)](news-hashemi(10).jpg)
+
+![news-hashemi(11)](news-hashemi(11).jpg)
+
+![news-hashemi(12)](news-hashemi(12).jpg)
+
+![news-hashemi(13)](news-hashemi(13).jpg)
+
+![news-hashemi(14)](news-hashemi(14).jpg)
+
+![news-hashemi(15)](news-hashemi(15).jpg)
+
+![news-hashemi(16)](news-hashemi(16).jpg)
+
+![news-hashemi(17)](news-hashemi(17).jpg)
+
+![news-hashemi(18)](news-hashemi(18).jpg)
+
+![news-hashemi(19)](news-hashemi(19).jpg)
+
+![news-hashemi(20)](news-hashemi(20).jpg)
+
+#### ابر کلمات برای دیتاست کلی 
+
+![news](news.jpg)
+
+![news(1)](news(1).jpg)
+
