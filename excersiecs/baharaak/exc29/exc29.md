@@ -23,4 +23,14 @@ image.save('news.png')
 
 ``` 
 
-![1.png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/1.png)
+![news-hashemi(1).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(1).png)
+
+![news-hashemi(2).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(2).png)
+
+![news-hashemi(3).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(3).png)
+
+![news-hashemi(4).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(4).png)
+
+![news-hashemi(5).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(5).png)
+
+![news-hashemi(6).png](https://github.com/semnan-university-ai/machine-learning-class/edit/main/excersiecs/baharaak/exc29/news-hashemi(6).png)
