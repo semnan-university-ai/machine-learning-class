@@ -158,3 +158,14 @@ print(sum(y_pred == y)/X.shape[0])
 <div dir="rtl">
 و یکی از خروجی های اسپم ما به صورت زیر در موقعیت 67 قرار دارد:
 </div>  
+
+<"div" dir="rtl">
+خروجی
+</div>
+
+[خروجی]("https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/28/1.jpg")
+
+<"div" dir="rtl">
+با استفاده از حل تمرین خانم عسکری
+/div>
+@EvEaskari
