@@ -167,5 +167,5 @@ print(sum(y_pred == y)/X.shape[0])
 
 <"div" dir="rtl">
 با استفاده از حل تمرین خانم عسکری
-/div>
+</div>
 @EvEaskari
