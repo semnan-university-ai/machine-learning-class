@@ -22,8 +22,7 @@ news.head()
   
 بعد از خواندن فایل مورد نظرمان خروجی به صورت زیر می باشد:
   
-  ![khabar1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/saedganjeey/30/1.JPG)
-  
+  ![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/30/1.jpg)
   سپس از کتابخانه sklearn بردار را برای ساخت کلمات فراخوانی می کنیم:
   
   </div>
@@ -56,16 +55,16 @@ news.head()
   
 خروجی این مرحله به صورت زیر می باشد:
   
-  ![khabar2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/saedganjeey/30/2.JPG)
-  
+
+  ![pic2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/30/2.jpg)
   در مرحله بعد برای هر دسته یک فایل متنی ساخته و در فایل های خود ذخیره می کنیم:
   <br/>
   اگر در سمت چپ در قسمت فایل ها چک کنیم ،  میبینیم که فایل های دسته بندی ما ساخته شده اند.
   <br/>
   در این فایل میتوانید دسته بندی متون را در فایل های متنی که در مخزن گذاشته شده را چک کنید.
   
-  ![khabar4](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/saedganjeey/31/4.JPG)
-  
+ 
+  ![pic4(https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/30/4.jpg)
 </div>
   
 ```
@@ -100,5 +99,5 @@ for i in range(k):
   خروجی این قسمت به این صورت می باشد:
   
   ![khabar3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/saedganjeey/30/3.JPG)
-  
+  ![pic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/30/3.jpg)
   </div>
