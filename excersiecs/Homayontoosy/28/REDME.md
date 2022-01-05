@@ -44,6 +44,29 @@ file.close()
 <div dir="rtl">
 سپس فایل پیامک ها را خوانده و کلمه به کلمه آن را جدا می کنیم تا با تابع فرهنگ لغتمان مقایسه کنیم:
 </div>
-  
+<br/>
+
+import numpy as np
+import pandas as pd
+import ast
+
+data = pd.read_csv('/content/gdrive/MyDrive/dataset/sms.txt', encoding='utf-8')
+file = open('myvokab.txt', 'r', encoding='utf-8')
+cntnt = file.read()
+myvokab = ast.literal_eval(cntnt)
+
+x = np.zeros((data.shape[0], len(myvokab)))
+y = np.zeros((data.shape[0]))
+
+for i in range(data.shape[0]):
+sms = data.iloc[i,0].split()
+
+for sms_word in sms:
+if sms_word.lower() in myvokab:
+x[i, myvokab[sms_word]] +=1
+#y[i] = data.iloc[i, 0]
+
+np.save('/content/gdrive/MyDrive/dataset/x.npy', x)
+np.save('/content/gdrive/MyDrive/dataset/y.npy', y)
   
 
