@@ -163,7 +163,7 @@ print(sum(y_pred == y)/X.shape[0])
 خروجی
 </div>
 
-[خروجی]("https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/28/1.jpg")
+![خروجی]("https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/28/1.jpg")
 
 <div dir="rtl">
 با استفاده از حل تمرین خانم عسکری
