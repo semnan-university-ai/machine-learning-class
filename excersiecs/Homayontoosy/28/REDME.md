@@ -80,4 +80,7 @@ np.save('/content/gdrive/MyDrive/dataset/x.npy', x)
 
 np.save('/content/gdrive/MyDrive/dataset/y.npy', y)
   
+<div dir="rtl">
+و در نهایت تابع بیز مان را تعریف می کنیم و دسته بندی متن را انجام میدهیم:
+</div>
 
