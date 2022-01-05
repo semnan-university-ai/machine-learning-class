@@ -23,6 +23,8 @@ news.head()
 بعد از خواندن فایل مورد نظرمان خروجی به صورت زیر می باشد:
   
   ![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/30/1.jpg)
+
+
   سپس از کتابخانه sklearn بردار را برای ساخت کلمات فراخوانی می کنیم:
   
   </div>
@@ -98,6 +100,6 @@ for i in range(k):
   
   خروجی این قسمت به این صورت می باشد:
   
-  ![khabar3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/saedganjeey/30/3.JPG)
+ 
   ![pic3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Saedganjeey/30/3.jpg)
   </div>
