@@ -159,7 +159,7 @@ print(sum(y_pred == y)/X.shape[0])
 و یکی از خروجی های اسپم ما به صورت زیر در موقعیت 67 قرار دارد:
 </div>  
 
-<"div" dir="rtl">
+<div dir="rtl">
 خروجی
 </div>
 
