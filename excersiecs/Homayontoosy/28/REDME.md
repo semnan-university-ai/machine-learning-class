@@ -7,8 +7,8 @@
   در ابتدا برای دسترسی به فایل هایمان به گوگل درایو متصل می شویم:
   </div>
   
-  <div dir="rtl">
-  import pandas as pd
+  
+import pandas as pd
 
 myvokab = {}
 spam = pd.read_csv('/content/gdrive/MyDrive/dataset/spam.txt', encoding='utf-8')
@@ -32,9 +32,11 @@ for i in range(spam.shape[0]):
 file = open("myvokab.txt", "w")
 file.write(str(myvokab))
 file.close()
-  </div>
 <br/>
 
 <div dir="rtl">
 سپس فایل پیامک ها را خوانده و کلمه به کلمه آن را جدا می کنیم تا با تابع فرهنگ لغتمان مقایسه کنیم:
-  </div>
+</div>
+  
+  
+
