@@ -37,6 +37,7 @@ for cluster in clusters.groups:
   my.close()
 
 ```
+به صورت زیر دسته بندی هر خبر را نمایش میدهیم: 
 
 ```
 print("cluster centroids:\n")
