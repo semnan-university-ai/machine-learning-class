@@ -91,7 +91,7 @@ cmd.ax_.tick_params(axis='both', which='major', labelsize=15)
 
   ```
   
-  ! [1.png]
+  ![](1.png)
   
-  ! [2.png]
+  ![](2.png)
  
