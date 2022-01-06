@@ -166,7 +166,7 @@ y-train = np.load('y.npy')
 print(X-train.shape)
 print(y-train.shape)
   ```
- ![5](5.jpg)
+
  
   مدل نیو بیز را روی اموزش میدهیم:
   
