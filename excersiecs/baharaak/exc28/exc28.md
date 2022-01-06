@@ -58,10 +58,28 @@ def kalamat(text):
   indx = len(kalame)
 ```
 
+برای هر کلمه در متن برچسب گذاری را انجام میدهیم:
 
+```
+for word in text:
+  
+    kalame[word] = indx
+    indx += 1
 
+if __name__ == '__main__':
+  for i in range(spam.shape[0]):
+    text = spam.iloc[i,0].split()
+    print('the length of kalamat is ', len(kalame))
 
+  kalamat(text)
+```
+لیست تولید شده را به صورت یک فایل kalame.txt ذخیره میکنیم:
 
+```
+file = open("kalame.txt", "w")
+file.write(str(kalame))
+file.close()
+```
 
 
 
