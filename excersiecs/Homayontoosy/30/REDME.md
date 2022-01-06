@@ -49,10 +49,15 @@ my.close()
 print("c:\n")
 
 order_centeroids = model.cluster_centers_.argsort()[:,::-1]
+
 terms = vector.get_feature_names()
+
 for i in range(k):
+
 print("c:" %i)
+
 for j in order_centeroids[i, :10]:
+
 print('%s' %terms[j])
 
   
