@@ -5,11 +5,7 @@
 
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/30/1.jpg)
   
-  
-  
-  
-  
-  
+
 <div dir="rtl">
 فایل خبر را فراخوانی میکنیم
 <div/>  
@@ -49,3 +45,17 @@ my.close()
 <div dir="rtl">
 به صورت زیر دسته بندی هر خبر را نمایش میدهیم:
 <div/>
+
+print("c:\n")
+
+order_centeroids = model.cluster_centers_.argsort()[:,::-1]
+terms = vector.get_feature_names()
+for i in range(k):
+print("c:" %i)
+for j in order_centeroids[i, :10]:
+print('%s' %terms[j])
+
+  
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/30/2.jpg) 
+  
+ 
