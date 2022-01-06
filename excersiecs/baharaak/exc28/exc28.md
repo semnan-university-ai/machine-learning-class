@@ -80,7 +80,40 @@ file = open("kalame.txt", "w")
 file.write(str(kalame))
 file.close()
 ```
+همین کار را برای فایل sms هم انجام میدهیم:
 
+```
+import numpy as np
+import pandas as pd
+import ast
+```
+فایل sms  و kalame را فراخوانی میکنیم:
 
+```
+data = pd.read_csv('sms.txt', encoding='utf-8')
+file = open('kalame.txt', 'r', encoding='utf-8')
+A = file.read()
+```
 
+برچسب گذاری را برای فایل sms انجام میدهیم:
 
+```
+KLME = ast.literal_eval(A)
+
+x = np.zeros((data.shape[0], len(KLME)))
+y = np.zeros((data.shape[0]))
+
+for i in range(data.shape[0]):
+  sms = data.iloc[i,0].split()
+
+for sms_word in sms:
+  if sms_word.lower() in KLME:
+    x[i, KLME[sms_word]] +=1
+    ```
+    
+    به صورت فایل x و y ذخیره میکنیم:
+    
+    ```
+ np.save('x.npy', x)
+ np.save('y.npy', y)
+```
