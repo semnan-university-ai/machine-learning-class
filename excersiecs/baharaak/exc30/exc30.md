@@ -3,9 +3,15 @@
 ```
 import numpy as np
 import pandas as pd
+```
+فایل خبر را فراخوانی میکنیم و به صورت جدول نمایش میدهیم:
 
+```
 news = pd.read_csv('news.txt', encoding='UTF-8')
 news.head()
+
+```
+![6](6.jpg)
 
 ```
 from sklearn.feature_extraction.text import TfidfVectorizer
