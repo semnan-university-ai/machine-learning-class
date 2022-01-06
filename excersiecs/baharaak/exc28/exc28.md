@@ -168,7 +168,7 @@ print(y-train.shape)
   ```
 
  
-  مدل نیو بیز را روی اموزش میدهیم:
+  مدل نیو بیز را اموزش میدهیم:
   
    ```
    NB = naivebayes(X-train, y-train)
