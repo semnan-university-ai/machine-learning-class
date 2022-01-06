@@ -40,16 +40,16 @@ for cluster in clusters.groups:
 به صورت زیر دسته بندی هر خبر را نمایش میدهیم: 
 
 ```
-print("cluster centroids:\n")
+print("c:\n")
 
 order_centeroids = model.cluster_centers_.argsort()[:,::-1]
 terms = vector.get_feature_names()
 for i in range(k):
-  print("cluster %d:" %i)
+  print("c:" %i)
   for j in order_centeroids[i, :10]:
     print('%s' %terms[j])
-  print('-----------------')
+ 
 
 ```
 
-
+![7](7.jpg)
