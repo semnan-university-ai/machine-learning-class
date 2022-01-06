@@ -13,15 +13,13 @@ news.head()
 ```
 ![6](6.jpg)
 
+کلاس بندی با kmeans را مطابق زیر انجام میدهیم:
+
 ```
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
 doc = news['news'].values.astype("UTF-8")
-```
-
-```
-
 vector = TfidfVectorizer(stop_words='english')
 features = vector.fit_transform(doc)
 
@@ -31,9 +29,6 @@ model.fit(features)
 
 news['type'] = model.labels_
 news.head()
-```
-
-```
 clusters = news.groupby('type')
 for cluster in clusters.groups:
   my = open('type'+ str(cluster) + '.txt', 'w')
