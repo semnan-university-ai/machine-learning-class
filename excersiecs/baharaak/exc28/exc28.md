@@ -16,7 +16,7 @@ sb.set(style='dark')
 !head -n 10 sms.txt
 
 ```  
-
+![1](1.jpg)
 
 
 
@@ -28,15 +28,18 @@ sms= open('sms.txt', 'r').read()
 len(sms)
 
 ```
+![2](2.jpg)
 
 ```
 splited= sms.split('\n')
 splited[:5]
 ```
+![3](3.jpg)
 
 ```
 print(splited[2])
 ```
+![4](4.jpg)
 
 برای برچسب زدن به فایل های spam و sms به این صورت عمل میکنیم:
 
@@ -113,7 +116,7 @@ for sms_word in sms:
    
    
     
-    به صورت فایل x و y ذخیره میکنیم:
+ به صورت فایل x و y ذخیره میکنیم:
     
 ```
  np.save('x.npy', x)
@@ -155,7 +158,7 @@ def density_function(self, X, mean, sigma):
   return const - probs
  ```
  
- shape فایل های تولید شده X-train و y-train را نمایش میدهیم:
+ دshape فایل های تولید شده X-train و y-train را نمایش میدهیم:
   ```
  if __name__ == '__main__':
  X-train = np.load('x.npy')
@@ -163,7 +166,8 @@ y-train = np.load('y.npy')
 print(X-train.shape)
 print(y-train.shape)
   ```
-  
+ ![5](5.jpg)
+ 
   مدل نیو بیز را روی اموزش میدهیم:
   
    ```
