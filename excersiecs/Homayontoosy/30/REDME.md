@@ -2,6 +2,14 @@
 سوال : 
 سعی کنید دسته بندی هر خبر را به صورت خودکار بدست آورید. 
 <div/>
+
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/excersiecs/Homayontoosy/30/1.jpg)
+  
+  
+  
+  
+  
+  
 <div dir="rtl">
 فایل خبر را فراخوانی میکنیم
 <div/>  
