@@ -1,0 +1,100 @@
+
+#Javab 1:
+# Python3 program to illustrate 
+# working of javab1 gate 
+  
+def javab1(a, b, c): 
+    if(a == 0) and (b == 1):
+        return 1
+    elif(b == 0) and (c == 0): 
+        return 1
+    else: 
+        return 0
+
+
+
+
+  
+# Driver code  
+if __name__=='__main__': 
+    print(javab1(0, 0, 0)) 
+  
+    print("+---------------+----------------+") 
+    print(" | javab1 Truth Table | Result |") 
+    print(" A = False, B = False, C = false | javab1(False,False,False)," | ") 
+    print(" A = False, B = False, C = true | javab1(False,False,true)," | ")
+    print(" A = False, B = true, C = false | javab1(False,true,False)," | ")
+   print(" A = False, B = true, C = true | javab1(False,true,true)," | ")
+   print(" A = true, B = False, C = false | javab1(true,False,False)," | ")
+   print(" A = true, B = False, C = true | javab1(true,False,true)," | ")
+   print(" A = true, B = true, C = false | javab1(true,true,False)," | ")
+   print(" A = true, B = true, C = true | javab1(true,true,true)," | ")
+
+
+#Javab 2:
+# Python3 program to illustrate 
+# working of javab2 gate 
+  
+def javab2(a, b, c): 
+    for each (a, b, c): 
+        return 1
+    
+
+
+
+
+  
+# Driver code  
+if __name__=='__main__': 
+    print(javab2(0, 0, 0)) 
+  
+    print("+---------------+----------------+") 
+    print(" | javab3 Truth Table | Result |") 
+    print(" A = False, B = False, C = false | javab2(False,False,False)," | ") 
+    print(" A = False, B = False, C = true | javab2(False,False,true)," | ")
+    print(" A = False, B = true, C = false | javab2(False,true,False)," | ")
+   print(" A = False, B = true, C = true | javab2(False,true,true)," | ")
+   print(" A = true, B = False, C = false | javab2(true,False,False)," | ")
+   print(" A = true, B = False, C = true | javab2(true,False,true)," | ")
+   print(" A = true, B = true, C = false | javab2(true,true,False)," | ")
+   print(" A = true, B = true, C = true | javab2(true,true,true)," | ")
+
+
+#Javab 3:
+# Python3 program to illustrate 
+# working of javab3 gate 
+  
+if(a == 0) and (b == 1) and (c == 1) and (d == 1):
+        return 1
+    elif(a == 1) and (b == 0) and (c == 1) and (d == 1):
+        return 1
+    else: 
+        return 0
+    
+
+
+
+
+  
+# Driver code  
+if __name__=='__main__': 
+    print(javab3(0, 0, 0, 0)) 
+  
+    print("+---------------+----------------+") 
+    print(" | javab3 Truth Table | Result |") 
+    print(" A = False, B = False, C = false, D = false | javab3(False,False,False,false)," | ") 
+    print(" A = False, B = False, C = false, D = true | javab3(False,False,False,true)," | ")
+    print(" A = False, B = False, C = true, D = false | javab3(False,False,true,false)," | ")
+    print(" A = False, B = False, C = true, D = true | javab3(False,False,true,true)," | ")
+    print(" A = False, B = true, C = false, D = false | javab3(False, true,False,false)," | ")
+    print(" A = False, B = true, C = false, D = true | javab3(False,true,False,true)," | ")
+    print(" A = False, B = true, C = true, D = false | javab3(False,true,true,false)," | ")
+    print(" A = False, B = true, C = true, D = true | javab3(False,true,true,true)," | ")
+    print(" A = true, B = False, C = false, D = false | javab3(true,False,False,false)," | ")
+    print(" A = true, B = False, C = false, D = true | javab3(true,False,False,true)," | ")
+    print(" A = true, B = False, C = true, D = false | javab3(true,False, true,false)," | ")
+    print(" A = true, B = False, C = true, D = true | javab3(true,False,true,true)," | ")
+    print(" A = true, B = true, C = false, D = false | javab3(true,true,False,false)," | ")
+    print(" A = true, B = true, C = false, D = true | javab3(true,true,False,true)," | ")
+    print(" A = true, B = true, C = true, D = false | javab3(true,true,true,false)," | ")
+    print(" A = true, B = true, C = true, D = true | javab3(true,true,true,true)," | ") 
