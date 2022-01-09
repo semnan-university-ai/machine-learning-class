@@ -7,7 +7,7 @@ machine learning class - 001
 
 ### Student Info :
 * Full name : Havva askari
-* github id : @EvEaskari
+* github id : [@EvEaskari](https://github.com/Eveaskari)
 * Email : havvaaskari0702@gmail.com
 
 <div dir="rtl">
