@@ -35,6 +35,7 @@
 <br/>
 
 <div dir="rtl">
+  
 کتابخانه های مربوطه را فراخوانی میکنیم
 
 کتابخانه پانداس  
@@ -57,3 +58,4 @@ data=pd.read_json("/content/drive/MyDrive/data/covid.json")
 
 print(data)
   
+</div>
