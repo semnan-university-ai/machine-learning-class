@@ -59,3 +59,7 @@ data=pd.read_json("/content/drive/MyDrive/data/covid.json")
 print(data)
   
 </div>
+
+<br/>
+
+
