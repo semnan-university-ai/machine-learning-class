@@ -85,6 +85,7 @@ na_position: Takes two string input ‘last’ or ‘first’ to set position of
 می‌توانیم از روش  Pandas drop_duplicate() برای حذف  کردن ردیف‌های تکراری استفاده کنیم.<br>
  و درنهایت هم داده های مشابه را حذف می کنیم:<br>
  ![drop_9](https://user-images.githubusercontent.com/94124607/149162922-35fab121-7ea4-4413-b4bb-563798c484e8.jpg)<br>
+ 
  ---------------------------------------
  
 
