@@ -32,7 +32,7 @@ xnormalized = (x - xminimum) / range of x
   ![sort_2](https://user-images.githubusercontent.com/94124607/148961006-ec3b869a-9ade-4efd-8f9a-4289a491f5cf.png)
 بعد از آن چک می کنیم که داده ای null نباشد :<br>
   ![sort_3](https://user-images.githubusercontent.com/94124607/148961353-e45bc867-4e55-4163-acb9-b888844f9d32.png)<br>
-  تابع () sort_values یک قاب داده را به ترتیب صعودی یا نزولی ستون عبوری مرتب می کند. این با تابع مرتب شده پایتون متفاوت است زیرا نمی تواند یک قاب داده را مرتب کند و ستون خاصی را نمی توان انتخاب کرد.
+  تابع () sort_values یک دیتا فریم را به ترتیب صعودی یا نزولی ستون عبوری مرتب می کند. این با تابع مرتب شده پایتون متفاوت است زیرا نمی تواند یک دیتا فریم  را مرتب کند و ستون خاصی را نمی توان انتخاب کرد.
   <br>
   <div dir="ltr">
   Dataframe.sort_values() Single Parameter Sorting:Syntax: <br>
@@ -47,7 +47,7 @@ kind: String which can have three inputs(‘quicksort’, ‘mergesort’ or ‘
 na_position: Takes two string input ‘last’ or ‘first’ to set position of Null values. Default is ‘last’.<br>
   
 <div dir="rtl">
- مرتب سازی را بر اساس سن انجام داده ام و مقادیرnull نیز به طور پیش فرض last می باشد .
+
  <br>
  ![sort_4](https://user-images.githubusercontent.com/94124607/148962665-77d7b352-ecf1-403a-a318-4d01dd18f085.png)
  <br>
