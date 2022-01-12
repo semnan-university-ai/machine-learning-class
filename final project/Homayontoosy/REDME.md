@@ -37,23 +37,23 @@
 <div dir="rtl">
 کتابخانه های مربوطه را فراخوانی میکنیم
 
-#کتابخانه پانداس  
+کتابخانه پانداس  
 
 import pandas as pd
 
-#کتابخانه نام پای
+کتابخانه نام پای
 
 import numpy as np
 
-#پیش پردازش دیتاها
+پیش پردازش دیتاها
 
 from sklearn import preprocessing
 
-#فراخوانی فایل json بارگذاری شده در گوگل درایو
+فراخوانی فایل json بارگذاری شده در گوگل درایو
 
 data=pd.read_json("/content/drive/MyDrive/data/covid.json")
 
-#چاپ داده ها
+چاپ داده ها
 
 print(data)
   
