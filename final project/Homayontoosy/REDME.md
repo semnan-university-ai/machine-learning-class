@@ -28,9 +28,32 @@
 <div dir="rtl">
 شروع
 </div>
-
+<br/>
 <div dir="rtl">
 ابتدا فایل json را از کاگل دانلود و سپس در گوگل درایو بارگذاری میکنیم 
 </div>  
 <br/>
 
+<div dir="rtl">
+کتابخانه های مربوطه را فراخوانی میکنیم
+
+#کتابخانه پانداس  
+
+import pandas as pd
+
+#کتابخانه نام پای
+
+import numpy as np
+
+#پیش پردازش دیتاها
+
+from sklearn import preprocessing
+
+#فراخوانی فایل json بارگذاری شده در گوگل درایو
+
+data=pd.read_json("/content/drive/MyDrive/data/covid.json")
+
+#چاپ داده ها
+
+print(data)
+  
