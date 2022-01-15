@@ -561,3 +561,25 @@ y_pred = cross_val_predict(estimator=clf, X=concepts, y=target, cv=4)
 conf_mat = confusion_matrix(target,y_pred)
 print(conf_mat)
 ```
+تمامی خروجی ها در فایل پایتون قرار دارد
+<br/>
+نتیجه مقایسه با rapid miner به صورت زیر می باشد
+ <br/>
+
+ مقایسه براساس مقدار دقت انجام شده است
+ <br/>
+
+ | accuracy       | python | rapidminer |
+|----------------|--------|------------|
+| bayes          | 1      | 89.2%      |
+| knn            | 0.99   | -          |
+| decision tree  | 0.99   | 90.6%      |
+| random forest  | 0.99   | 90.6%      |
+| id3            | 1      | -          |
+
+<br/>
+<div dir="rtl">
+کدها در kaggle ثبت شده است 
+</div>
+  <br/>
+https://www.kaggle.com/amirshnll/covid-patient-datasets/code
