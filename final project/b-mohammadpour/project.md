@@ -427,7 +427,7 @@ def calc_total_entropy(train_data, label, class_list):
         entropy += entropy_class
     return entropy
  ```
-  ```
+```
   def calc_info_gain(feature_name, train_data, label, class_list):
     feature_value_list = train_data[feature_name].unique() #unqiue values of the feature
     total_row = train_data.shape[0]
@@ -441,8 +441,8 @@ def calc_total_entropy(train_data, label, class_list):
         feature_info += feature_value_probability * feature_value_entropy #calculating information of the feature value
         
     return calc_total_entropy(train_data, label, class_list) - feature_info #calculating information gain by subtracting
- ```
-  ```
+```
+```
   def find_most_informative_feature(train_data, label, class_list):
     feature_list = train_data.columns.drop(label) #finding the feature names in the dataset
                                             #N.B. label is not a feature, so dropping it
@@ -456,8 +456,8 @@ def calc_total_entropy(train_data, label, class_list):
             max_info_feature = feature
             
     return max_info_feature
-   ```
-  ```  
+```
+```  
     def generate_sub_tree(feature_name, train_data, label, class_list):
     feature_value_count_dict = train_data[feature_name].value_counts(sort=False) #dictionary of the count of unqiue feature value
     tree = {} #sub tree or node
@@ -477,8 +477,8 @@ def calc_total_entropy(train_data, label, class_list):
             tree[feature_value] = "?" #should extend the node, so the branch is marked with ?
             
     return tree, train_data
-     ```
-  ```
+```
+```
   def make_tree(root, prev_feature_value, train_data, label, class_list):
     if train_data.shape[0] != 0: #if dataset becomes enpty after updating
         max_info_feature = find_most_informative_feature(train_data, label, class_list) #most informative feature
@@ -497,26 +497,25 @@ def calc_total_entropy(train_data, label, class_list):
             if branch == "?": #if it is expandable
                 feature_value_data = train_data[train_data[max_info_feature] == node] #using the updated dataset
                 make_tree(next_root, node, feature_value_data, label, class_list) #recursive call with updated dataset
-     ```
-  ```
+```
+```
   def id3(train_data_m, label):
     train_data = train_data_m.copy() #getting a copy of the dataset
     tree = {} #tree which will be updated
     class_list = train_data[label].unique() #getting unqiue classes of the label
     make_tree(tree, None, train_data_m, label, class_list) #start calling recursion
     return tree
-      ```
-  ```
+```
+```
   tree = id3(covid, 'concept')
 tree
-      ```
-  ```
+```
+ ```
   from sklearn.model_selection import cross_val_predict,KFold,cross_val_score, train_test_split, learning_curve
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix
-      ```
-  ```
-  
+```
+```
 X_train, X_test, y_train, y_test = train_test_split(concepts, target, test_size=0.2, random_state=1)
 clf = DecisionTreeClassifier(criterion='entropy', random_state=0)
 clf.fit(X_train,y_train)
@@ -525,4 +524,4 @@ print("Accuracy: %0.2f (+/- %0.2f)" % (results.mean(), results.std()))
 y_pred = cross_val_predict(estimator=clf, X=concepts, y=target, cv=4)
 conf_mat = confusion_matrix(target,y_pred)
 print(conf_mat)
- ```
+```
