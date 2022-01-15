@@ -6,6 +6,8 @@ machine learning class - 001
 * ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student Info :
-* Full name : -
-* github id : -
-* Email : -
+* Full name : Ali Torabzadeh
+* github id : @alitorabzadeh
+* Email(1) : ali.torabzadeh72@gmail.com
+* Email(2) : ali.torabzadeh72@semnan.ac.ir
+* Email(3) : Ali.torabzadeh@grad.kashanu.ac.ir
