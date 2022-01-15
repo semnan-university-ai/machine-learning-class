@@ -577,3 +577,7 @@ print(conf_mat)
 | random forest  | 0.99   | 90.6%      |
 | id3            | 1      | -          |
 
+<br/>
+کدها در kaggle ثبت شده است 
+<br/>
+https://www.kaggle.com/amirshnll/covid-patient-datasets/code
