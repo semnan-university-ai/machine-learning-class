@@ -578,6 +578,8 @@ print(conf_mat)
 | id3            | 1      | -          |
 
 <br/>
+<div dir="rtl">
 کدها در kaggle ثبت شده است 
-<br/>
+</div>
+  <br/>
 https://www.kaggle.com/amirshnll/covid-patient-datasets/code
