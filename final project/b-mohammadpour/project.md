@@ -16,6 +16,7 @@
 <div dir="rtl">
   اتصال به google drive
 </div>  
+<br />
   ```
 from google.colab import drive
 drive.mount('/content/drive')
@@ -23,6 +24,7 @@ drive.mount('/content/drive')
   <div dir="rtl">
 بارگذاری دیتاست
 </div> 
+<br />
   ```
   import pandas as pd
 import numpy as np
@@ -34,6 +36,7 @@ covid
 <div dir="rtl">
   تبدیل مقادیر خالی به NAN
 </div> 
+<br />
 ```
 covid.replace('-',np.nan,inplace=True)
 covid.head(25)
