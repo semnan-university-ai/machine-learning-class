@@ -38,31 +38,37 @@ covid
 covid.replace('-',np.nan,inplace=True)
 covid.head(25)
 ```
+نمایش مجموع مقادیر NAN
 ```
 covid.isnull().sum()
 ```
+پرکردن مقادیر NAN
 ```
 covid.replace('-',np.nan,inplace=True)
 covid['Headache'].fillna('yes', inplace=True)
 ```
+تبدیل داده object به float
 ```
 covid['age'] = covid['age'].astype('float64')
 ```
+حذف داده پرت
 ```
 #Delete discarded data
 max_age=covid['age'].max()
 covid['age'][covid['age']==max_age]
 covid.drop(103, axis=0, inplace=True)
 ```
+پرکردن مقادیر null بامیانگین گیری بین دو ستون
 ```
-#پرکردن مقادیر null
+
 covid['age'].fillna(covid.groupby('Sleep_problems')['age'].transform("median"),inplace=True)
-#ستون سن به دلیل مقادیر null زیاد  حذف خواهد شد
 ```
+حذف سطرهای تکراری
 ```
 covid.drop_duplicates(inplace=True) #Remove duplicate row
 covid.duplicated() 
   ```
+  تبدیل داده yes و no 1به 0 و 
   ```
 #تبدیل yes no به 0 1
 covid.Sleep_problems.replace(('yes', 'no'), (1, 0), inplace=True)
@@ -103,9 +109,10 @@ covid.sort_values('age',inplace=True)
 covid
   ```
   ```
-#پیدا کردن 5 ویژگی که کم ترین اهمیت را دارند
 covid = covid.drop(covid.index[covid['Abdominal_pain'] == 'es'])
   ```
+  #پیدا کردن 5 ویژگی که کم ترین اهمیت را دارند
+ براساس تعداد no هر ویژگی 
   ```
 
 covid['Sleep_problems'].value_counts()
@@ -131,10 +138,13 @@ covid['Loss_of_smell'].value_counts()
 covid['Loss_of_taste'].value_counts()
 covid['urticaria'].value_counts()
   ```
+  ویژگی age به دلیل اینکه دارای تعداد زیادی مقدار خالی بود حذف شد
+  بقیه ویژگی ها نیز براساس تعداد no حذف شدند
   ```
 covid.drop(['urticaria','Vomit','Body_discoloration','Abdominal_pain','age'], axis = 1,inplace=True)
 covid
   ```
+  نرمالسازی داده
   ```
 #normalize
 from sklearn import preprocessing
@@ -144,15 +154,18 @@ d = scaler.fit_transform(covid)
 scaled_df = pd.DataFrame(d, columns=names)
 scaled_df
   ```
+  مرتب سازی براساس index
   ```
 scaled_df.sort_values('#',inplace=True)
 scaled_df
   ```
+  ساخت ستون label
   ```
 # create label col
 covid['concept']=0
 covid
   ```
+  ستون برچسب براین اساس ایجاد که اگر یک سطر مقدار یکی از ویژگی انها یک بود مقدار برچسب یا concept برابر با 1شود و در ضورتی که مقدار همه ویژگی ها صفر بود برابر با صفر شود
   ```
 for i in range(len(covid)):
   if ( (covid.iloc[i,2] ==1) or (covid.iloc[i,3] ==1) or (covid.iloc[i,4] ==1)
@@ -164,22 +177,27 @@ for i in range(len(covid)):
     
     covid.iloc[i,18] = 1
   ```
+  حذف ستون index
   ```
 covid.drop(['#'], axis = 1,inplace=True)
 covid
   ```
+  استخراج دیتاست
   ```
 covid.to_csv (r'covid.csv', index = False, header=True)
   ```
+ جدا کردن ستون concept از بقیه  
   ```
 concepts=np.array(covid)[:,:-1]
 concepts
 covid.head(35)
   ```
+  ستون concept به عنوان هدف در نظر گرفته شده است
   ```
 target=np.array(covid)[:,-1]
 target
   ```
+  
   ```
 #find-s algorithm
 def train (con,tar):
@@ -198,6 +216,8 @@ def train (con,tar):
     
 print(train(concepts,target))
   ```
+  خروجی [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
   ```
   #CE algorithm
 def learn(c, t):
@@ -266,6 +286,7 @@ print("\nFinal Specific_h:", s_final, sep="\n")
 
 print("Final General_h:", g_final, sep="\n")
  ```
+
   ```
   #naive bayes
 from sklearn.model_selection import train_test_split
@@ -280,15 +301,20 @@ gnb.fit(X_train,y_train)
 y_pred=gnb.predict(X_test)
 print(y_pred)
  ```
+
   ```
 from sklearn import metrics
 print(metrics.accuracy_score(y_test,y_pred))
  ```
+   خروجی 1.0
+
   ```
   from sklearn.metrics import confusion_matrix
 cm=np.array(confusion_matrix(y_test,y_pred))
 cm
   ```
+خروجی array([[  1,   0],
+       [  0, 145]])
   ```
 
 #knn
@@ -299,6 +325,8 @@ knn.fit(X_train,y_train)
   ```
 knn.score(X_test,y_test)
   ```
+  خروجی 0.9931506849315068
+
   ```
 error_rate = []
 for i in range(1,20):
