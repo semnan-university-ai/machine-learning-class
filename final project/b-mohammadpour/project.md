@@ -13,18 +13,16 @@
 <br />
 
   </div>
-<div dir="rtl">
+
   اتصال به google drive
-</div>  
-<br />
+
   ```
 from google.colab import drive
 drive.mount('/content/drive')
   ```
-  <div dir="rtl">
+ 
 بارگذاری دیتاست
-</div> 
-<br />
+
   ```
   import pandas as pd
 import numpy as np
@@ -33,10 +31,9 @@ covid = pd.read_csv('/content/drive/MyDrive/covid1.csv',header=0)#load data
 #covid.shape 
 covid
 ```
-<div dir="rtl">
+
   تبدیل مقادیر خالی به NAN
-</div> 
-<br />
+
 ```
 covid.replace('-',np.nan,inplace=True)
 covid.head(25)
