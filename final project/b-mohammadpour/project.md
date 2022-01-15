@@ -68,7 +68,7 @@ covid['age'].fillna(covid.groupby('Sleep_problems')['age'].transform("median"),i
 covid.drop_duplicates(inplace=True) #Remove duplicate row
 covid.duplicated() 
   ```
-  تبدیل داده yes و no 1به 0 و 
+  تبدیل داده ها به 0 , 1
   ```
 #تبدیل yes no به 0 1
 covid.Sleep_problems.replace(('yes', 'no'), (1, 0), inplace=True)
@@ -165,7 +165,7 @@ scaled_df
 covid['concept']=0
 covid
   ```
-  ستون برچسب براین اساس ایجاد که اگر یک سطر مقدار یکی از ویژگی انها یک بود مقدار برچسب یا concept برابر با 1شود و در ضورتی که مقدار همه ویژگی ها صفر بود برابر با صفر شود
+  ستون برچسب براین اساس ایجاد که اگر یک سطر مقدار یکی از ویژگی انها یک بود مقدار برچسب یا concept برابر با 1شود و در صورتی که مقدار همه ویژگی ها صفر بود برابر با صفر شود
   ```
 for i in range(len(covid)):
   if ( (covid.iloc[i,2] ==1) or (covid.iloc[i,3] ==1) or (covid.iloc[i,4] ==1)
