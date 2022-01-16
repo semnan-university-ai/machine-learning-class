@@ -176,5 +176,7 @@ ce الگوریتم
 <div dir="rtl">
 الگوریتم ID3
 </div>  
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1id3.jpg)
   
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/2id3.jpg)  
   
