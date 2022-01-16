@@ -148,7 +148,7 @@ data.info()
 </p>
 
 <p align="center">
-<img src="1.PNG"/>
+<img src="1.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در خروجی فوق همانطور که مشخص است لیستی از تمامی ویژگی ها مورد نظر در دیتاست قابل روئیت بوده و نوع فیلد ها در مقابل هر یک قرار داده شده است به عنوان مثال نوع فیلد # که شامل اعداد در دیتاست میباشد int64 میباشد که در ستون کناری آن قرار گرفته شده است .
@@ -168,7 +168,7 @@ data.head(200)
 </p>
 
 <p align="center">
-<img src="2.PNG"/>
+<img src="2.PNG" alt="image"/>
 </p>
 <h4 dir="rtl">2-3 باینری کردن دیتاست</h4>
 
@@ -187,7 +187,7 @@ data.head(50)
 در نهایت در خط آخر برنامه 50 سطر ابتدایی نمایش داده شده است که خروجی آن به شکل زیر است
 </p>
 <p align="center">
-<img src="3.PNG"/>
+<img src="3.PNG" alt="image"/>
 </p>
 
 <h3 dir="rtl">3- نرمال سازی داده ها</h3>
@@ -210,7 +210,7 @@ print(x_data)
 همچنیین با کمک تابع reshape(-1,1) تمامی مولفه های موجود در دیتاست دریافت شده و به صورت سطری در کنار هم قرار گرقته اند. در ادامه در متغیری تحت عنوان x_data ستون های اضافی که به عنوان داده چندان به کار نمی آیند حذف شده اند از جمله آنها میتوان به  # اشاره نمود که دارای index تمام سطر هاست و همچنین result  که شامل نتیجه میباشد و همه ی نتایج به صورت yes هستند .نتیجه اجرای کد فوق به صورت زیر خواهد بود .
 </p>
 <p align="center">
-<img src="4.PNG"/>
+<img src="4.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در ادامه قطعه کد مربوط به نرمال سازی داده ها قرار داده شده است که فرمول ریاضی نرمال سازی بر روی داده ها اعمال شده است  و در آخر نیز سطر های دیتاست نمایش داده شده است. 
@@ -226,7 +226,7 @@ normalize.head(20000)
 با اعمال کد فوق خروجی به شکل زیر را خواهیم داشت که به دلیل باینری بودن اعداد امکان قرار دادن اعداد اعشار بازه ی 0 تا 1 مهیا نبوده  و تنها خروجی به شکل اعداد اعشاری قابل مشاهده میباشند.
 </p>
 <p align="center">
-<img src="5.PNG"/>
+<img src="5.PNG" alt="image"/>
 </p>
 
 <h3 dir="rtl">4- مرتب سازی داده ها</h3>
@@ -241,7 +241,7 @@ sort_data = normalize.apply(lambda x: x.sort_values().values)
 print (sort_data)
 ```
 <p align="center">
-<img src="6.PNG"/>
+<img src="6.PNG" alt="image"/>
 </p>
 
 ```
@@ -251,7 +251,7 @@ sort_data.isnull().sum()
 در کد فوق نیز جمع داده هایی که دارای مقدار خالی یا همان null هستند در مقابل هر ستون نمایش داده شده که همانطور که در تصویر زیر مشخص است همه ستون ها مقدار 0 دارند.
 </p>
 <p align="center">
-<img src="6-2.PNG"/>
+<img src="6-2.PNG" alt="image"/>
 </p>
 <h3 dir="rtl">5- حذف داده های یکسان</h3>
 
@@ -266,7 +266,7 @@ drop_duplicate = sort_data.drop_duplicates()
 print(drop_duplicate)
 ```
 <p align="center">
-<img src="7.PNG"/>
+<img src="7.PNG" alt="image"/>
 </p>
 
 <h3 dir="rtl">6- یافتن پنج ویژگی کم اهمیت </h3>
@@ -285,7 +285,7 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 ```
 
 <p align="center">
-<img src="8.PNG"/>
+<img src="8.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 با توجه به اینکه خروجی تمامی سطر ها yes است دقت الگوریتم درخت تصادفی نیز  مقدار 1 را نمایش خواهد داد
@@ -301,7 +301,7 @@ for i in x_train :
 <p align="justify" dir="rtl">
 در برنامه فوق سطر ها تک به تک حذف شده اند و دقت الگوریتم در هر مرحله اندازه گیری شده است و نتیجه همچون تصویر زیر خواهد بود :
 <p align="center">
-<img src="9.PNG"/>
+<img src="9.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 همانطور که در فوق نیز توضیح داده شد به دلیل 1 بودن نتیجه تمام سطر ها ، 5 ویژگی که کمترین میزان اهمیت را دارند قابل تشخیص نمیباشد.
@@ -319,7 +319,7 @@ rf.fit(x_train, y_train)
 rf.feature_importances_
 ```
 <p align="center">
-<img src="10.PNG"/>
+<img src="10.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در کد قرار داده شده در زیر ویژگی ها بر اساس ترتیب الویت در نمودار قرار داده شده اند و به وسیله ی کتابخانه matplotlib در قالب نمودار نمایش داده شده است 
@@ -370,7 +370,7 @@ dtree.fit(x_train, y_train.ravel())
 print("Decision Tree Algorithm test accuracy: ", dtree.score(x_test, y_test))
 ```
 <p align="center">
-<img src="10-2.PNG"/>
+<img src="10-2.PNG" alt="image"/>
 </p>
 <h4 align="justify" dir="rtl">7-2 ID3</h4>
 <p align="justify" dir="rtl">
@@ -392,7 +392,7 @@ config = {'algorithm': 'ID3'}
 model = chef.fit(data, config = config, target_label = 'result')
 ````
 <p align="center">
-<img src="11.PNG"/>
+<img src="11.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در برنامه زیر روش دیگر الگوریتم id3 نوشته شده است که با کمک کتابخانه sklearn و در نهایت دقت الگوریتم اندازه گرفته شده است که نتیجه آن به شکل زیر است :
@@ -409,7 +409,7 @@ print("ID3 accuracy:", id3)
 ```
 
 <p align="center">
-<img src="11-2.PNG"/>
+<img src="11-2.PNG" alt="image"/>
 </p>
 
 <h4 align="justify" dir="rtl">7-3 KNN</h4>
@@ -425,7 +425,7 @@ print("When K = {} neighnors , KNN test accuracy: {}".format(K, knn.score(x_test
 print("When K = {} neighnors , KNN train accuracy: {}".format(K, knn.score(x_train, y_train)))
 ```
 <p align="center">
-<img src="12.PNG"/>
+<img src="12.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در ادامه بررسی کرده ایم که بهترین دقت خروجی چه میزان است و در چه تعداد همسایه خواهد بود که با  ساخت دو لیست برای داده های test  و train و قرار دادن مقادیر مربوطه در آنها میزان دقت هر یک در لیست های خود ، قرار گرفته و در نهایت در باکس دوم خواهیم دید که مقادیر به وسیله ی کتابخانه ی matplotlib در قالب نمودار نمایش داده است همچنین خروجی این بخش نیز در ادامه قابل مشاهده است.
@@ -455,7 +455,7 @@ print("Best train score is {} and K = {}".format(np.max(train_list), train_list.
 
  ```
  <p align="center">
-<img src="13.PNG"/>
+<img src="13.PNG" alt="image"/>
 </p>
 
 <p align="justify" dir="rtl">
@@ -470,7 +470,7 @@ plt.show()
 ```
 
 <p align="center">
-<img src="13-2.png"/>
+<img src="13-2.png" alt="image"/>
 </p>
 
  
@@ -486,7 +486,7 @@ y_kmeans = kmeans.predict(x_data)
 print(y_kmeans)
 ```
 <p align="center">
-<img src="14.PNG"/>
+<img src="14.PNG" alt="image"/>
 </p>
 
 <p align="justify" dir="rtl">
@@ -498,7 +498,7 @@ print(kmeans.cluster_centers_)
 ```
 
 <p align="center">
-<img src="15.PNG"/>
+<img src="15.PNG" alt="image"/>
 </p>
 
 ```
@@ -506,7 +506,7 @@ plt.scatter(kmeans.cluster_centers_[:,  0], kmeans.cluster_centers_[:,  1], s=10
 print(kmeans.labels_)
 ```
 <p align="center">
-<img src="16.PNG"/>
+<img src="16.PNG" alt="image"/>
 </p>
 
 <h4 align="justify" dir="rtl">7-5 Naive-Bayes</h4>
@@ -520,7 +520,7 @@ nb.fit(x_train, y_train.ravel())
 print("Naive Bayes test accuracy: ", nb.score(x_test, y_test))
 ```
 <p align="center">
-<img src="17.PNG"/>
+<img src="17.PNG" alt="image"/>
 </p>
 <h4 align="justify" dir="rtl">7-6 Find-s</h4>
 <p align="justify" dir="rtl">
@@ -532,7 +532,7 @@ concepts = x_train.to_numpy()
 print(concepts)
 ```
 <p align="center">
-<img src="18.PNG"/>
+<img src="18.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در ادامه تابعی ایجاد کرده ایم که دو پارامتر ورودی con وtar دارد در ادامه با در  قرار دادن for در پارامتر tar پیمایش کرده ایم و برای نتایج مثبت (1) فرضیه ای specific ساخته ایم و همچنین در ادامه در میان لیست con که همان x_train ماست پیمایش کرده ایم و برای دیتاهایی که 1 هستند و نتایج مثبت یا همان 1 نداشته اند مقدار don't care در نظر گرفته ایم در ادامه مقدار ایجاد شده return شده است و در باکس کد بعدی نیز با فراخوانی تابع و قرار دادن آرگومان های ورودی نتایج پرینت شده در تصویر زیرین قابل مشاهده است.
@@ -557,7 +557,7 @@ return specific_h
 print(train(concepts, y_train))
 ```
 <p align="center">
-<img src="19.PNG"/>
+<img src="19.PNG" alt="image"/>
 </p>
 <h4 align="justify" dir="rtl">7-7 candidate elimination</h4>
 <p align="justify" dir="rtl">
@@ -612,7 +612,7 @@ print("\nFinal Specific_h:", s_final, sep="\n")
 print("Final General_h:", g_final, sep="\n")
 ```
 <p align="center">
-<img src="20.PNG"/>
+<img src="20.PNG" alt="image"/>
 </p>
 
 <h3 align="justify" dir="rtl">8- ایجاد داده های false</h3>
@@ -633,7 +633,7 @@ Flase_data.head(50)
 
 ```
 <p align="center">
-<img src="22.PNG"/>
+<img src="22.PNG" alt="image"/>
 </p>
 <h3 align="justify" dir="rtl">9- بررسی الگوریتم ها در برنامه rappid minner</h3>
 <p align="justify" dir="rtl">
@@ -651,7 +651,7 @@ my.close()
 در کد فوق  با ایجاد فایلی با نام new_covid.csv مقدار جدید data که به صورت تغییر مقادیر yes به 1 و همچنین تغییر مقادیر no به 0 میباشد را به عنوان دیتا در فایل مربوطه قرار دادیم و در نهایت فایل مربوطه را close کرده ایم خروجی این بخش به شکل زیر است که فایل مربوطه در پنل سمت چپ colab قرار گرفته است : 
 </p>
 <p align="center">
-<img src="21.PNG"/>
+<img src="21.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در ادامه باانتخاب ستون مورد نظر برای عملیات clustering الگوریتم ها بر روی داده ها پیاده سازی شدند و نتایج به دست آمده به شکل تصاویر زیر میباشند :
@@ -660,23 +660,23 @@ my.close()
 در تصویر زیر داده های import شده در نرم افزار قابل مشاهده میباشد:
 </p>
 <p align="center">
-<img src="r1.PNG"/>
+<img src="r1.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در این تصویر الگوریتم های مختلف بر روی داده ها اعمال شده ند و نتیجه در قالب نمودار مشخص شده است . مطابق نمودار ، با اعمال الگوریتم درخت تصمیم کمترین دقت و بدترین حالت خروجی را خواهیم داشت ولی در الگوریتم هایی همچون جنگل تصادفی ، دقتی 97 درصدی مشاهده میشود.
 </p>
 <p align="center">
-<img src="r2.PNG"/>
+<img src="r2.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در تصویر زیر نیز خوشه بندی داده ها در الگوریتم k-means نمایش داده شده است که شامل 2 خوشه میباشد.
 </p>
 <p align="center">
-<img src="r3.PNG"/>
+<img src="r3.PNG" alt="image"/>
 </p>
 <p align="justify" dir="rtl">
 در این تصویر نیز در چارتی خوشه بندی های ایجاد شده را مشاهده میکنیم و در قسمت تحتانی نمودار ، ویژگی ها قرار گرفته اند 
 </p>
 <p align="center">
-<img src="r4.PNG"/>
+<img src="r4.PNG" alt="image"/>
 </p>
