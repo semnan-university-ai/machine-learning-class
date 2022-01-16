@@ -514,6 +514,8 @@ pyplot.show()
 <br/>
 در انتها تصویری از میزان دقت و سایر اطلاعات به دست آمده توسط Rapidminer آورده ایم .
 </div>
-![](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/final%20project/fatemeh456/RapidMiner.PNG?token=GHSAT0AAAAAABPAIYAIZ7MU4GAXA2HID3XOYPELDLA)
+![RP](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/final%20project/fatemeh456/RapidMiner.PNG?token=GHSAT0AAAAAABPAIYAIZ7MU4GAXA2HID3XOYPELDLA)
 <br/>
-![](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/final%20project/fatemeh456/attribute%20weigth.PNG?token=GHSAT0AAAAAABPAIYAIA5JLOLJWYHLXPVTOYPELYYA)
+![Attr-Weight](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/final%20project/fatemeh456/attribute%20weigth.PNG?token=GHSAT0AAAAAABPAIYAIA5JLOLJWYHLXPVTOYPELYYA)
+<br/>
+![clusterig](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/final%20project/fatemeh456/Clustering%20-%20Rapidminer.PNG?token=GHSAT0AAAAAABPAIYAJN5SG5NHAEHMAALA4YPEL5TQ)
