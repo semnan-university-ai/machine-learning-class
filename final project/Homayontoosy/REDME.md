@@ -102,7 +102,9 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 <br/>    
 ![show data](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1.jpg)
 
-<br/>
+<div dir="rtl">  
+دریافت اطلاعات دیتاست
+</div>  
   
   
   
