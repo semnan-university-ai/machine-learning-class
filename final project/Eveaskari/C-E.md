@@ -6,7 +6,7 @@
   ## Covi-19 Project
   ### Candidat-Elimination
   
-  #### Hello everyone. I'm going to test one dataset over some algorithms.Let's see what's going to happen!
+  #### Hello everyone. I'm going to test one dataset over Candidate Elimination algorithm.Let's see what's going to happen!
   first of all i'm going to import my dataset from my google drive:
   ```
   from google.colab import drive
