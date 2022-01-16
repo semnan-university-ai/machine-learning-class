@@ -6,7 +6,7 @@
   ## Covi-19 Project
   ### ID3
   
-  #### Hello everyone. I'm going to test one dataset over some algorithms.Let's see what's going to happen!
+  #### Hello everyone. I'm going to test one dataset over ID3 algorithm.Let's see what's going to happen!
   first of all i'm going to import my dataset from my google drive:
   ```
   from google.colab import drive
