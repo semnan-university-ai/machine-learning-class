@@ -125,3 +125,5 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 </div>
   
 ![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/6.jpg)  
+
+![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/7.jpg)    
