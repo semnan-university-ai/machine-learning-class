@@ -28,7 +28,8 @@ RF
 ![11](https://user-images.githubusercontent.com/94211519/149674897-ae3fe819-ff48-4814-b500-7505f3b4fffd.PNG)
 
 Total
-![12](https://user-images.githubusercontent.com/94211519/149674907-cbd19487-a457-4e94-a2b7-16d8d3c4957f.PNG)
-![13](https://user-images.githubusercontent.com/94211519/149674909-bdd131a2-e4dc-4ec2-86d1-b14afd7b5251.PNG)
-![14](https://user-images.githubusercontent.com/94211519/149674910-3069204c-2354-4b0d-bea5-8631f6189aca.PNG)
+![12](https://user-images.githubusercontent.com/94211519/149675032-3e008f5b-96b7-4a0f-b0f7-53fb93172495.PNG)
+![14](https://user-images.githubusercontent.com/94211519/149675045-1b761392-2ea5-4d94-83ad-694de2f266a9.PNG)
+![13](https://user-images.githubusercontent.com/94211519/149675142-60127973-f70a-4e23-afca-9f813fe6b45c.PNG)
+
 
