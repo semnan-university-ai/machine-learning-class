@@ -26,15 +26,15 @@
 
 <br/>
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/1.PNG)
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/1.PNG)
   
 <br/>
   ابتدا دیتاست مربوطه را به صورت زیر از قسمت add data در note اضافه می کنیم:
 <br/>
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/2.PNG)  
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/3.PNG)
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/4.PNG)
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/2.PNG)  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/3.PNG)
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/4.PNG)
   
 <br/>
    اولین مرحله در تحلیل داده پیش پردازش یا preprocessing می باشد به این منظور دادگان باید مرتب سازی شوند ابتدا برای کار با داده کتابخانه های pandas و numpy را import می شود. 
@@ -44,13 +44,13 @@
 
 <br/>
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/5.PNG)  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/5.PNG)  
   
 <br/>
   کنترل missing value ها برای پردازش داده ضروری است بنابراین باید شناسایی شوند.
 <br/> 
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/6.PNG)  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/6.PNG)  
   
 <br/>
    همانطور که در اطلاعات دیتاست مشخص است ویژگی سن دارای missing value های زیادی است بنابراین این ویژگی مناسب نیست به همراه شماره sample را که غیر ضروری می باشد و به عنوان یک ویژگی محسوب نمی شود از داده ها با استفاده از تابع drop حذف شده است. 
@@ -58,20 +58,20 @@
    همچنین ویژگی headache هم یک missing value دارد این دیتا با no جایگزین شده است. 
 <br/> 
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/7.PNG)  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/7.PNG)  
   
 <br/>
    مقدار ویژگی Abdominal_pain یکی از داده ها برابر با yes می باشد اما به صورت es ثبت شده و این مورد هم در ادامه اصلاح شده است. در این مرحله مقادیر ویژگی های باینری yes و no را به 1 و 0 تبدیل شده است.
    با ساختن یک کپی از دیتا اصلاح شده و تغییر صفر ها به یک و برعکس داده های منفی در واقع داده مربوط به افراد سالم جامعه تولید می شود. این دو دیتاست را با دستور append ادغام و پس از آن با دستور random به صورت رندم ترتیب می شوند.
 <br/>
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/8.PNG)  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/8.PNG)  
   
 <br/>
    Data شامل 298 دیتا با برچسب 1 به عنوان افراد بیمار و 298 داده با برچسب 0 و سالم می باشد.
 <br/>
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/mahyaghlmrz/prj/img/data.PNG)  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/data.PNG)  
   
 <br/> 
   # الگوریتم find-s
