@@ -100,34 +100,34 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 نمایش داده
 </div>
   
-![show data](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1.jpg)
+![show data](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/1.jpg)
 
 <div dir="rtl">  
 دریافت اطلاعات دیتاست
 </div>  
   
-![get info data](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/2.jpg)  
+![get info data](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/2.jpg)  
   
 <div dir="rtl">  
 مرتب سازی بر اساس نام
 </div>   
 
-![get info](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/4.jpg)  
+![get info](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/4.jpg)  
 
 <div dir="rtl">  
 نرمال سازی
 </div>    
   
-![normalize](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/5.jpg)  
+![normalize](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/5.jpg)  
   
 <div dir="rtl"> 
 حذف داده های تکراری  
 </div>
   
-![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/6.jpg)  
+![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/6.jpg)  
 
   
-![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/7.jpg)    
+![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/7.jpg)    
   
 <div dir="rtl"> 
 اهمیت مرحله انتخاب ویژگی در طراحی مدل‌های یادگیری
@@ -155,11 +155,11 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
   
 <br/>
 
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/8finds.jpg)
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/8finds.jpg)
   
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/9finds.jpg)
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/9finds.jpg)
   
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/10finds.jpg)  
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/10finds.jpg)  
   
 <div dir="rtl">
 knn الگوریتم
@@ -174,19 +174,19 @@ knn الگوریتم
 </div>  
 
   
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1knn.jpg)
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/1knn.jpg)
 
 <div dir="rtl">
 ce الگوریتم
 <dir/> 
     
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/ce.jpg)  
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/ce.jpg)  
 
 <div dir="rtl">
 الگوریتم ID3
 </div>  
   
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1id3.jpg)
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/1id3.jpg)
   
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/2id3.jpg)  
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/pic/2id3.jpg)  
   
