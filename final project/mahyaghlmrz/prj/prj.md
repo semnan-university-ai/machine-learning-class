@@ -69,11 +69,9 @@
    Data شامل 298 دیتا با برچسب 1 به عنوان افراد بیمار و 298 داده با برچسب 0 و سالم می باشد.
 <br/>
   
-  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/data.PNG)  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/data.PNG)   
   
-<br/> 
-  
-  ## الگوریتم find-s
+  ### الگوریتم find-s
   
 <br/>
 : 
