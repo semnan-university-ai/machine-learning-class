@@ -509,7 +509,7 @@ print(kmeans.labels_)
 <img src="16.PNG"/>
 </p>
 
-<h4 align="justify" dir="rtl">7-4 Naive-Bayes</h4>
+<h4 align="justify" dir="rtl">7-5 Naive-Bayes</h4>
 <p align="justify" dir="rtl">
 در این قسمت به منظور انجام الگوریتم nb از تابع GaussianNB از کتابخانه ی sklearn  استفاده شده است که مقادیر train به آن پاس داده شده است و در نهایت مقدار دقت این تابع پرینت شده است. خروجی این بخش نیز در تصویر زیر قرار داده شده است.
 </p>
@@ -522,7 +522,7 @@ print("Naive Bayes test accuracy: ", nb.score(x_test, y_test))
 <p align="center">
 <img src="17.PNG"/>
 </p>
-<h4 align="justify" dir="rtl">7-5 Find-s</h4>
+<h4 align="justify" dir="rtl">7-6 Find-s</h4>
 <p align="justify" dir="rtl">
 در بخش زیر الگوریتم find-s قرار داده شده برای استفاده از این الگوریتم لازم است تا دیتا های موجود در دیتاست به صورت آرایه باشند در نتیجه با کمک تابع to_numpy خروجی همچون تصویر زیر ایجاد کرده ایم.
 </p>
@@ -559,7 +559,7 @@ print(train(concepts, y_train))
 <p align="center">
 <img src="19.PNG"/>
 </p>
-<h4 align="justify" dir="rtl">7-6 candidate elimination</h4>
+<h4 align="justify" dir="rtl">7-7 candidate elimination</h4>
 <p align="justify" dir="rtl">
 برای پیاده سازی الگوریتم  candidate elimination نیز تابعی ایجاد کرده ایم که همچون تابع قبل دو آرگومان ورودی دارد و با دریافت اولین عنصر از لیست ایجاد شده که در مثال قبل با استفاده از تابع to_numpy ایجاد شد ، در ابتدا مقدار اولیه خاص و عمومی پرینت شده استدر ادامه با پیمایش for هر بار برای تمام نتایج مثبت ، بررسی میکند آیا concept مثبت منجر به target مثبت شده است یا خیر و ادامه با بررسی  تمام الگوریتم خروجی همچون شکل زیر خواهیم داشت
 </p>
