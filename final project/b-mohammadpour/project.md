@@ -217,7 +217,8 @@ def train (con,tar):
 print(train(concepts,target))
   ```
   خروجی [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
-
+<br/>
+الگوریتم حذف کاندید
   ```
   #CE algorithm
 def learn(c, t):
@@ -286,7 +287,7 @@ print("\nFinal Specific_h:", s_final, sep="\n")
 
 print("Final General_h:", g_final, sep="\n")
  ```
-
+الگوریتمNaive bayes
   ```
   #naive bayes
 from sklearn.model_selection import train_test_split
@@ -301,7 +302,7 @@ gnb.fit(X_train,y_train)
 y_pred=gnb.predict(X_test)
 print(y_pred)
  ```
-
+ محاسبه میزان دقت 
   ```
 from sklearn import metrics
 print(metrics.accuracy_score(y_test,y_pred))
@@ -315,6 +316,8 @@ cm
   ```
 خروجی array([[  1,   0],
        [  0, 145]])
+ <br/>
+ الگوریتم knn
   ```
 
 #knn
@@ -340,6 +343,7 @@ from sklearn.metrics import classification_report,confusion_matrix
 pred = knn.predict(X_test)
 print(classification_report(y_test,pred))
   ```
+  الگوریتم خوشه بندیkmeans
   ```
 #clustering
 import statsmodels.api as sm
@@ -355,6 +359,7 @@ feature_columns = ['Sleep_problems', 'Headache', 'Diarrhea','body_pain','Cough',
                    'Loss_of_smell','Loss_of_taste']
 X = covid[feature_columns]
   ```
+  تعداد خوشه ها برابر با 3
   ```
   kmeans = KMeans(n_clusters = 3, max_iter = 300, random_state = 0)
 kmeans.fit(X)
@@ -363,6 +368,7 @@ kmeans.fit(X)
 centers = kmeans.cluster_centers_
 print(centers)
  ```
+ الگوریتم جنگل تصادفی 
   ```
 #random forest
 X_train,X_test,y_train,y_test=train_test_split(concepts,target,test_size=0.7,random_state=100)
@@ -423,6 +429,7 @@ rf_best.feature_importances_
   ```
 X_train,X_test,y_train,y_test=train_test_split(concepts,target,test_size=0.3)
  ```
+ الگوریتم درخت تصمیم
   ```
 from sklearn.tree import DecisionTreeClassifier
 classifier = DecisionTreeClassifier()
@@ -436,6 +443,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
  ```
+ الگوریتم id3  و محاسبه entropy کل
   ```
   #id3
 def calc_total_entropy(train_data, label, class_list):
@@ -449,6 +457,7 @@ def calc_total_entropy(train_data, label, class_list):
     
     return total_entr
  ```
+ محاسبه entropy 
   ```    
     def calc_entropy(feature_value_data, label, class_list):
     class_count = feature_value_data.shape[0]
@@ -463,6 +472,7 @@ def calc_total_entropy(train_data, label, class_list):
         entropy += entropy_class
     return entropy
  ```
+ محاسبه gain
 ```
   def calc_info_gain(feature_name, train_data, label, class_list):
     feature_value_list = train_data[feature_name].unique() #unqiue values of the feature
@@ -493,6 +503,7 @@ def calc_total_entropy(train_data, label, class_list):
             
     return max_info_feature
 ```
+ساخت زیر درخت
 ```  
     def generate_sub_tree(feature_name, train_data, label, class_list):
     feature_value_count_dict = train_data[feature_name].value_counts(sort=False) #dictionary of the count of unqiue feature value
@@ -514,6 +525,7 @@ def calc_total_entropy(train_data, label, class_list):
             
     return tree, train_data
 ```
+ساخت درخت کل
 ```
   def make_tree(root, prev_feature_value, train_data, label, class_list):
     if train_data.shape[0] != 0: #if dataset becomes enpty after updating
@@ -534,6 +546,7 @@ def calc_total_entropy(train_data, label, class_list):
                 feature_value_data = train_data[train_data[max_info_feature] == node] #using the updated dataset
                 make_tree(next_root, node, feature_value_data, label, class_list) #recursive call with updated dataset
 ```
+تعریف الگوریتم id3
 ```
   def id3(train_data_m, label):
     train_data = train_data_m.copy() #getting a copy of the dataset
@@ -542,6 +555,7 @@ def calc_total_entropy(train_data, label, class_list):
     make_tree(tree, None, train_data_m, label, class_list) #start calling recursion
     return tree
 ```
+نمایش درخت
 ```
   tree = id3(covid, 'concept')
 tree
