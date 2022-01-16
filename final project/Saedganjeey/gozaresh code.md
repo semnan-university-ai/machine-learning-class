@@ -11,14 +11,16 @@ import pandas as pd
 <br/>
 import numpy as np
 <br/>
-from sklearn.model_selection import
-<br/>
-train_test_split
+from sklearn.model_selection
+
+import train_test_split
 <br/>
 import matplotlib.pyplot as plt
 <br/>
 import seaborn as sns
 <br/>
+<div/>
+<div dir="rtl">
 بعدش دیتا رو فراخونی میکنیم
 
 covid = pd.read_excel('covid.xlsx');
