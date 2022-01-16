@@ -117,4 +117,5 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 <div dir="rtl">  
 نرمال سازی
 </div>    
+  
 ![normalize](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/5.jpg)  
