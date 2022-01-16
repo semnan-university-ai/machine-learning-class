@@ -8,18 +8,24 @@
 اولش میایم کتابخونه ی موزد نیازمونو بارگزاری میکنیم
 
 import pandas as pd
+<br/>
 import numpy as np
+<br/>
 from sklearn.model_selection import
+<br/>
 train_test_split
+<br/>
 import matplotlib.pyplot as plt
+<br/>
 import seaborn as sns
 <br/>
 بعدش دیتا رو فراخونی میکنیم
 
 covid = pd.read_excel('covid.xlsx');
+
 covid
 
-![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final project/Saedganjeey/1.png)
+![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/finalproject/Saedganjeey/1.png)
 
 <div/>
 
