@@ -169,7 +169,6 @@ x.head(500)
 <br/>
 ```
 #4
-
 #Splitting dataset
 from sklearn.model_selection import train_test_split
 x_train , x_test , y_train , y_test = train_test_split(x , y  , test_size=0.2 , random_state=100 )
@@ -203,7 +202,8 @@ knn.fit(x_train, y_train.ravel())
 print("when k = {} neighbors , KNN test accuracy : {}".format(k, knn.score(x_test,y_test)))
 print("when k = {} neighbors , KNN train accuracy : {}".format(k, knn.score(x_train,y_train)))
 ```
-
+<br/>
+```
 ran = np.arange(1,30)
 train_list = []
 test_list = []
@@ -494,6 +494,7 @@ for i,v in enumerate(importance):
 pyplot.bar([x for x in range(len(importance))], importance)
 pyplot.show()
 ```
+<br/>
 
 <div dir="rtl">
 در بخش 1 ، کتابخانه های لازم را فراخوانی کردیم .
@@ -515,4 +516,4 @@ pyplot.show()
 <br/>
 در انتها تصویری از میزان دقت و سایر اطلاعات به دست آمده توسط Rapidminer آورده ایم .
 </div>
-![]()
+![](https://raw.githubusercontent.com/semnan-university-ai/machine-learning-class/main/final%20project/fatemeh456/RapidMiner.PNG?token=GHSAT0AAAAAABPAIYAIZ7MU4GAXA2HID3XOYPELDLA)
