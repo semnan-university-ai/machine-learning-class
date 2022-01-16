@@ -150,10 +150,13 @@ covid
 covid.describe()
 
 ```
- 
+ ![image](https://user-images.githubusercontent.com/95403677/149676112-17a576a0-221f-42f1-96eb-6fd998795188.png)
+
 
 نمودار هیستوگرام هر کدام از ستون ها را رسم میکنیم:
  
+ ![image](https://user-images.githubusercontent.com/95403677/149676119-4a4b5db5-81e0-440a-9579-b38cca26b74a.png)
+
 
 ارتباط ستون ها نسبت به هم را با کورولیشن رسم می کنیم:
 
@@ -165,7 +168,9 @@ sns.heatmap(cor, annot=True, cmap=plt.cm.Reds)
 plt.show()
 
 ```
- 
+
+ ![image](https://user-images.githubusercontent.com/95403677/149676127-3346e13e-880f-475d-897e-843ad88981a2.png)
+
 
 با توجه به هیستوگرام ستون های urticaria,Vomit,Body-discoloration ,Abdominal_pain,Sneezing کمترین مقدار yes  دارند. اکثرا بیماران این علائم را ندارند. بنابراین میتوان گقت تاثیر این عوامل کمتر می باشد.
 چون تاثیر کمتری دارند آن ها را از جدول حذف میکنیم.
@@ -188,6 +193,8 @@ All_var
 
 ```
  
+ ![image](https://user-images.githubusercontent.com/95403677/149676142-6efdb17f-a064-4f8e-9107-5b1c040f35c6.png)
+
 
 تعداد کل حالت هایی که با این 16 ستون می توان ایجاد کرد برابر65536 است.
 
@@ -202,6 +209,8 @@ no_covid
 
 ```
  
+ ![image](https://user-images.githubusercontent.com/95403677/149676153-4c3c635d-0b08-44ba-9772-45f12ddab2fd.png)
+
 
 حال برای بهتر کردن و بهینه کردن داده های که خودمان ایجاد میکنیم شرطی مبنی بر این که افرادی که کرونا ندارند حداکثر 7 ویژگی و حداقل 3 ویژگی داشته باشند:
 
@@ -222,6 +231,8 @@ no_covid
 
 ```
  
+ ![image](https://user-images.githubusercontent.com/95403677/149676163-1733eebf-11a7-4e27-9344-16502fed5eb8.png)
+
 
 حال باید برای جدول ها label بگذاریم:
 
@@ -242,6 +253,8 @@ dataset =pd.concat([no_covid,covid],ignore_index=True)
 
 ```
  
+ ![image](https://user-images.githubusercontent.com/95403677/149676172-2945d130-729c-4319-899a-c3194b195810.png)
+
 
 این جدول شامل 455 داده است:
 250 داده فیک که کرونا ندارد و 205 داده واقعی که کرونا دارند.
