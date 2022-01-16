@@ -318,7 +318,7 @@ print("\nFinal Specific_h:", s_final, sep="\n")
 print("Final General_h:", g_final, sep="\n")
 
 <br/>
-```
+
 #10
 #clustering
 from numpy import unique
