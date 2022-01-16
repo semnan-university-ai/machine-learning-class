@@ -172,3 +172,9 @@ ce الگوریتم
 <dir/> 
     
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/ce.jpg)  
+
+<div dir="rtl">
+الگوریتم ID3
+</div>  
+  
+  
