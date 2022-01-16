@@ -152,3 +152,9 @@ knn الگوریتم
 <dir/> 
   
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1knn.jpg)
+
+<div dir="rtl">
+ce الگوریتم
+<dir/> 
+    
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/ce.jpg)  
