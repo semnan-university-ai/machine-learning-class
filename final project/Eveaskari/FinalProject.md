@@ -204,7 +204,7 @@ from sklearn.feature_selection import chi2
 X_new = SelectKBest(chi2, k=16).fit_transform(X, y)
 X_new.shape
 ```
-(987, 16)
+(786, 16)
 
 we pick 75% of our data for making our hypothesis and the other 25% is for testing our work to find out how much accuracy we have!
 
@@ -222,10 +222,10 @@ print("y_train: ",y_train.shape)
 print("y_test: ",y_test.shape)
 ```
 
-X_train:  (740, 21) <br/>
-X_test:  (247, 21) <br/>
-y_train:  (740, 1) <br/>
-y_test:  (247, 1) <br/>
+X_train:  (589, 21) <br/>
+X_test:  (197, 21) <br/>
+y_train:  (589, 1) <br/>
+y_test:  (197, 1) <br/>
 
 ### Now let's do the magic!
 we're going to use different algorithm on our data set...
