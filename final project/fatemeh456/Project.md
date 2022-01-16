@@ -9,10 +9,8 @@ from sklearn.model_selection import train_test_split
 
 sns.set_style("darkgrid")
 
-```
 <br/>
 
-```
 #2
 data = pd.read_excel('ccovid.xlsx')
 data.drop(396, axis=0 , inplace= True)
@@ -155,9 +153,9 @@ data['urticaria'] = label
 
 data['class'] = 1
 data
-```
+
 <br/>
-```
+
 #3
 y = data['class'].values
 y = y.reshape(-1,1)
@@ -165,9 +163,9 @@ x_data = data.drop(['class'], axis=1)
 #normalization
 x = (x_data - np.min(x_data)) / (np.max(x_data) - np.min(x_data)).values
 x.head(500)
-```
+
 <br/>
-```
+
 #4
 #Splitting dataset
 from sklearn.model_selection import train_test_split
@@ -180,9 +178,9 @@ print("x_train: " , x_train.shape)
 print("x_test: " , x_test.shape)
 print("y_train: " , y_train.shape)
 print("y_test: " , y_test.shape)
-```
+
 <br/>
-```
+
 #5
 #remove Duplicate
 
@@ -190,9 +188,9 @@ x_train.duplicated()
 (x_train.duplicated()).sum() #189=Duplicate
 x = x_train.loc[~x_train.duplicated(), :]
 x
-```
+
 <br/>
-```
+
 #6
 #KNN
 from sklearn.neighbors import KNeighborsClassifier
@@ -201,9 +199,9 @@ knn = KNeighborsClassifier (n_neighbors = k)
 knn.fit(x_train, y_train.ravel())
 print("when k = {} neighbors , KNN test accuracy : {}".format(k, knn.score(x_test,y_test)))
 print("when k = {} neighbors , KNN train accuracy : {}".format(k, knn.score(x_train,y_train)))
-```
+
 <br/>
-```
+
 ran = np.arange(1,30)
 train_list = []
 test_list = []
@@ -222,18 +220,18 @@ plt.xticks(ran)
 plt.legend()
 print("Best test score is {} and K = {}".format(np.max(test_list), test_list.index(np.max(test_list)) + 1 ))
 print("Best train score is {} and K = {}".format(np.max(train_list), train_list.index(np.max(train_list)) + 1 ))
-```
+
 <br/>
-```
+
 #7
 #Bayes
 from sklearn.naive_bayes import GaussianNB
 nb = GaussianNB()
 nb.fit(x_train , y_train.ravel())
 print("Naive Bayes test accuracy: " , nb.score(x_test , y_test))
-```
+
 <br/>
-```
+
 #8
 #Find-s
 concepts = np.array(x.iloc[:,0:-1])
@@ -278,9 +276,9 @@ s_final, g_final = learn(concepts, target)
 
 print("Final Specific_h: ", s_final, sep="\n")
 print("Final General_h: ", g_final, sep="\n")
-```
+
 <br/>
-```
+
 #9
 #Candidate Elimination
 
@@ -318,7 +316,7 @@ def learn(concepts, target):
 s_final,g_final = learn(concepts, target)
 print("\nFinal Specific_h:", s_final, sep="\n")
 print("Final General_h:", g_final, sep="\n")
-```
+
 <br/>
 ```
 #10
@@ -346,9 +344,9 @@ for cluster in clusters:
 	pyplot.scatter(X[row_ix, 0], X[row_ix, 1])
 # show the plot
 pyplot.show()
-```
+
 <br/>
-```
+
 #11
 #ID3
 def calc_total_entropy(train_data, label, class_list):
@@ -471,9 +469,9 @@ def evaluate(tree, test_data_m, label):
             wrong_preditct += 1 #increase incorrect count
     accuracy = correct_preditct / (correct_preditct + wrong_preditct) #calculating accuracy
     return accuracy
-```
+
 <br/>
-```
+
 #12
 # Decision tree for feature importance on a classification problem
 from sklearn.datasets import make_classification
@@ -493,9 +491,9 @@ for i,v in enumerate(importance):
 # plot feature importance
 pyplot.bar([x for x in range(len(importance))], importance)
 pyplot.show()
-```
-<br/>
 
+<br/>
+```
 <div dir="rtl">
 در بخش 1 ، کتابخانه های لازم را فراخوانی کردیم .
 <br/>
