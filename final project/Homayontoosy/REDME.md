@@ -139,8 +139,11 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 </div>
 
 clf=RandomForestClassifier(n_estimators=100)
+  
 clf.fit(x_train,y_train)
+
 y_pred=clf.predict(x_test)
+
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
 
