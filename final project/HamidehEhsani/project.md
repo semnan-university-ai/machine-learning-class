@@ -4,34 +4,48 @@
 
 شماره دانشجویی: 9911624001
 
+ما در این پروژه از کتابخانه های Id3 و candidate elimination  استفاده کرده ایم.
+```
+pip install decision-tree-id3
+pip install classic-CandidateElimination
+```
 ## بخش import کردن کتابخانه های مورد نیاز
 
 ```
+#Let's Import the Packages...
 import pandas as pd
 import numpy as np
+from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.cluster import KMeans
+from sklearn.naive_bayes import GaussianNB
+import six
+import sys
+sys.modules['sklearn.externals.six'] = six
+from id3 import Id3Estimator
+from id3 import export_graphviz
+from graphviz import Source
 from sklearn import metrics
 ```
 
-## خواندن از فایل و نمایش اطلاعات 
+## خواندن از فایل - مرتب سازی بر اساس سن و حذف مقادیر تکراری 
 ```
 #Let's Read csv file
 df=pd.read_csv("covid.csv")
 #Show records of dataframe
+df=df.sort_values( 'age',ascending=False)
+df.drop_duplicates(inplace=True)
 df
 ```
-![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/HamidehEhsani/namayesh%20etelaat%20dataset.PNG)
+![]()
 
 دیتاست حاوی 487 نمونه می باشد.
 
 ![](info)
-
-## مرتب سازی بر اساس سن
-
 
 ## نرمالسازی 
 
@@ -77,29 +91,41 @@ df.dropna(axis=0)
 ![](info2)
 
 ## تولید نمونه های با برچسب منفی و تبدیل مقادیر ستون ها به صفر و یک
+```
+new_df = pd.DataFrame()
+for j in df.columns:
+    a=list(df[j].copy())
+    for i in range(486) :
+        if a[i]== 'yes':
+            a[i]=1
+        else:
+            a[i]=0
+    new_df[j]=a
+l=list(new_df.values)
 
-### برچسب دادن به نمونه ها
-نمونه های موجود در دیتاست کویید به عنوان داده های مثبت در نظر گرفته شده اند و نمونه های منفی به طور تصادفی ایجاد شده اند
-
+while len(l)<972:
+    row=random.randint(2, size=(21))
+    for i in l:
+        if list(i)==list(row):
+            break
+    else:
+        l.append(row)
+            
+        
+dataset=np.array(l)
+dataset.shape
+```
+#### اندازه دیتاست جدید
 in:
 ```
-new_df["target"]=[1 for i in range(487)]+[0 for i in range(487)]
-new_df.iloc[:,-1]
+target= np.concatenate((np.ones(486), np.zeros(486)))
+target.shape
 ```
 out:
-```0      1
-1      1
-2      1
-3      1
-4      1
-      ..
-969    0
-970    0
-971    0
-972    0
-973    0
-Name: target, Length: 974, dtype: int64
 ```
+(972,)
+```
+
 بخش داده ها در متغیر dataset و بخش label در متغیر target قرار داده شد.
 ```
 target=new_df.iloc[:,-1].values
@@ -125,20 +151,24 @@ print('The precision of Logistic Regression is: ', (metrics.precision_score(y_te
 ```
 out:
 ```
-The accuracy of Logistic Regression is:  0.9897959183673469
-The recall of Logistic Regression is:  0.9807692307692307
-The precision of Logistic Regression is:  1.0
+The accuracy of Logistic Regression is:  0.9795918367346939
+The recall of Logistic Regression is:   1.0
+The precision of Logistic Regression is:  0.9629629629629629
 ```
 ## یافتن ویژگی های کم اهمیت
 in:
 ```
 importance = logreg.coef_[0]
-plt.bar([x for x in range(len(importance))], importance)
+plt.figure(figsize=(60,15)) 
+plt.bar(new_df.columns, importance) 
 plt.show()
 ```
 ![](Trivial feature)
 # KNN Algorithm
 ```
+knn = KNeighborsClassifier(n_neighbors=3)
+knn.fit(X_train, y_train)
+y_pred = knn.predict(X_test)
 
 ```
 ### مقادیر accuracy,precision,recall برای الگوریتم KNN
@@ -150,9 +180,9 @@ print('The precision of knn is: ', (metrics.precision_score(y_test, y_pred)))
 ```
 out:
 ```
-0.9920091324200914
-The recall of knn is:  0.9807692307692307
-The precision of knn is:  0.9807692307692307
+0.9496567505720824
+The recall of knn is: 1.0
+The precision of knn is:  0.8666666666666667
 ```
 ### کدهای مربوط به بخش نمودار error rate برحسب k
 in:
@@ -197,19 +227,100 @@ print('The Precision of DT is: ', (metrics.precision_score(y_test, y_pred)))
 ```
 out:
 ```
-The accuracy of DT is:  0.9795918367346939
+The accuracy of DT is:  0.9081632653061225
 The recall of DT is:  0.9807692307692307
-The Precision of DT is:  0.9807692307692307
-```
-# ID3 Algorithm
+The Precision of DT is:  0.864406779661017
 
+# ID3 Algorithm
+```
+estimator = Id3Estimator()
+estimator.fit(X_train, y_train)
+y_pred=estimator.predict(X_test)
+```
+### مقادیر accuracy,precision,recall برای الگوریتم Decosion Tree
+in:
+```
+print('The accuracy of id3 is: ', (metrics.accuracy_score(y_test, y_pred)))
+print('The recall of id3 is: ', (metrics.recall_score(y_test, y_pred)))
+print('The Precision of id3 is: ', (metrics.precision_score(y_test, y_pred)))
+```
+out:
+```
+The accuracy of id3 is:  0.9285714285714286
+The recall of id3 is:  0.9807692307692307
+The Precision of id3 is:  0.8947368421052632
+```
 
 # Find-S Algorithm
+```
+def train(c,t):
+    for i, val in enumerate(t):
+        if val == 1:
+            specific_hypothesis = c[i].copy()
+            break
+             
+    for i, val in enumerate(c):
+        if t[i] == 1:
+            for x in range(len(specific_hypothesis)):
+                if val[x] != specific_hypothesis[x]:
+                    specific_hypothesis[x] = -1
+                else:
+                    pass
+                 
+    return specific_hypothesis
+ 
+#obtaining the final hypothesis
+print("n The final hypothesis is:",train(X_train, y_train))
+```
+out:
+```
+n The final hypothesis is: [-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]
+```
 
 # Candidate elimination Algorithm
+in:
+```
+from classic_CandidateElimination import Candidate_Elimination
+ce = Candidate_Elimination()
+ce.fit(X_train, y_train)
+
+```
+out:
+```
+Initial Specific Hypothesis :  [0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1]
+Initial General Hypothesis :  [['?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?']]
+Final Specific Hypothesis :  ['?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?']
+Final General Hypothesis :  [['?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?']]
+Final Version Space :  [['?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?']]
+434   440
+1
+```
+
+```
+y_pred=ce.predict(X_test)
+
+```
+### مقادیر accuracy,precision,recall برای الگوریتم candidate elimination
+```
+The accuracy of ce is:  0.46938775510204084
+The recall of ce is:  0.0
+The Precision of ce is:  0.0
+```
 
 
 # Naive Bayes Algorithm
-
-
+```
+nb = GaussianNB()
+nb.fit(X_train, y_train)
+print("Naive Bayes test accuracy: ", nb.score(X_test, y_test))
+```
+### دقت الگوریتم naive bayes
+```
+Naive Bayes test accuracy:  0.9489795918367347
+```
 # K-Means Algorithm
+```
+kmeans = KMeans(n_clusters = 2)
+kmeans.fit(dataset)
+y_kmeans = kmeans.predict(dataset)
+```
