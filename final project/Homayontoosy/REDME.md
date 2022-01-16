@@ -164,7 +164,7 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 <div dir="rtl">
 knn الگوریتم
 </div>
-  
+<br/>  
 <div dir="rtl">  
 الگوریتم K نزدیک ترین همسایه (KNN)  
 </div> 
