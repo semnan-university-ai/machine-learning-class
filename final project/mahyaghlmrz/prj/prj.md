@@ -23,7 +23,6 @@
 
   سایت Kaggle یکی از بهترین سایت ها در زمینه یادگیری ماشین و یادگیری عمیق است. در این سایت دیتاست های زیادی در زمینه های مختلف وجود دارد. همچنین در کنار دیتاست ها کد هایی وجود دارند که منبع بسیار مناسبی برای یادگیری نحوه حل مسائل هستند. 
   در این سایت امکان ایجاد کد هم وجود دارد.
-
 <br/>
   
   ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/1.PNG)
@@ -41,7 +40,6 @@
    دیتاست کوید شامل 23 ستون ویژگی شامل شماره داده # ،age ، Sleep_problems ، Headache ، Diarrhea ، Abdominal_pain ، body_pain ، Body_discoloration ، Cough
       ، Fever ، Ague ، Sore_throat ، Fatigue ، runny_nose ، Chest_pain ، Decreased_appetite ، Vomit ، Nausea، Sneezing ، Shortness_of_breath ، 
    Loss_of_smell ، Loss_of_tasteو urticarial و 487 نمونه می باشد. تمامی نمونه ها مربوط به بیماران مبتلا به کوید می باشد و رویکرد ما برای دسترسی به اطلاعات بیماران سالم این است که نقیض علائم موجود در بیماران به عنوان افراد سالم جامعه باشند.
-
 <br/>
   
   ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/5.PNG)  
@@ -74,7 +72,7 @@
   ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/data.PNG)  
   
 <br/> 
-  # الگوریتم find-s
+  ##الگوریتم find-s
 : 
   <br />
 https://www.kaggle.com/mahyagh/covid-project
