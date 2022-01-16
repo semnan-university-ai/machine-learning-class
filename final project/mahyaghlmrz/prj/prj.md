@@ -74,6 +74,27 @@
   ### الگوریتم find-s
   
 <br/>
+  
+  ### Candidate Elimination algorithm
+  
+<br/>
+  
+  ### Naive Bayes Algorithm
+  
+<br/>
+    
+  ### K-NN
+  
+<br/>
+  
+  ### الگوریتم ID3
+  
+<br/>
+  
+  ### Find 5 worst features
+  
+<br/>
+  
 : 
   <br />
 https://www.kaggle.com/mahyagh/covid-project
