@@ -411,6 +411,7 @@ print("ID3 accuracy:", id3)
 <p align="center">
 <img src="11-2.PNG"/>
 </p>
+
 <h4 align="justify" dir="rtl">7-3 KNN</h4>
 <p align="justify" dir="rtl">
 در این بخش الگوریتم knn را خواهیم داشت که در ابتدا مقدار K را 5 در نظر گرفته ایم به این معنی که تعداد 5 همسایه مورد بررسی قرار گیرد و نیز در ادامه با فراخوانی تابعی با نام  KNeighborsClassifierکه در قسمت ابتدای فایل آن را import  کردیم تعداد همسایه هایی که باید بررسی کند را به آن داده ایم.در ادامه خروجی این بخش و مقدار دقت در داده های تست و train پرینت شده است که در تصویر زیر قابل مشاهده میباشد.
@@ -469,11 +470,11 @@ plt.show()
 ```
 
 <p align="center">
-<img src="13-2.PNG"/>
+<img src="13-2.png"/>
 </p>
 
  
-<h4 align="justify" dir="rtl">7-3 Clustering</h4>
+<h4 align="justify" dir="rtl">7-4 Clustering</h4>
 <p align="justify" dir="rtl">
 در این بخش با استفاده از الگوریتم kmeans اقدام به Clustering کرده ایم این تابع از کتابخانه ی sklearn که در ابتدا import  کرده ایم میباشد و در ادامه با پاس دادن مقدار دیتا در این تابع نتیجه پرینت شده در تصویر زیر قابل مشاهده خواهد بود.
 </p>
