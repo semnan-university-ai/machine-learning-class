@@ -162,9 +162,10 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/10finds.jpg)  
   
 <div dir="rtl">
-
 knn الگوریتم
-
+</div>
+  
+<div dir="rtl">  
 الگوریتم K نزدیک ترین همسایه (KNN)  
 </div> 
 
