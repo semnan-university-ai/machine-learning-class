@@ -72,7 +72,6 @@
   ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/data.PNG)  
   
 <br/> 
-  
   ### الگوریتم find-s
   
 <br/>
