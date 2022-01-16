@@ -139,4 +139,4 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 اجرای الگوریتم های find-s
 <dir/>  
 <br/>
-  
+https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/find-s.ipynb  
