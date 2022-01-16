@@ -162,8 +162,16 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/10finds.jpg)  
   
 <div dir="rtl">
+
 knn الگوریتم
+
+الگوریتم K نزدیک ترین همسایه (KNN)  
 <dir/> 
+
+<div dir="rtl">
+الگوریتم Knn در حقیقت به معنی الگوریتم یافتن نزدیکترین همسایه است. Knn مخفف K nearest neighbor بوده و بیشترین استفاده از این الگوریتم در یادگیری ماشین ( machine learning ) و همچنین داده کاوی می باشد. این الگوریتم یک الگوریتم ناپارامتری بوده که همین امر سبب می شود به نسبت الگوریتم های دیگر سادگی بیشتری داشته و استفاده بیشتری نیز داشته باشد.
+</div>  
+
   
 ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1knn.jpg)
 
