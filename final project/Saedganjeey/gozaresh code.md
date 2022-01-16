@@ -27,6 +27,7 @@ covid = pd.read_excel('covid.xlsx');
 
 covid
 
+
 ![pic1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/finalproject/Saedganjeey/1.png)
 
 <div/>
