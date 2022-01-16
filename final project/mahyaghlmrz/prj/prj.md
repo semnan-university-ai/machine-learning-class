@@ -73,30 +73,90 @@
   
   ### الگوریتم find-s
   
+  در الگوریتم find-s فرض بر این است که همه فضای ویژگی منفی است مگر این که با ورود مثال مثبت این فرضیه تغییر کند. در این روش عملا نمونه های منفی تاثیری در فرضیه نهایی ندارد. در نهایت فرضیه به صورت h=<∅,∅,…,∅>
+  که نشان می دهد هیچ یک از ویژگی های انتخابی مناسب نیست و این الگوریتم برای این داده ها جواب نداده است.من در نهایت به این نتیجه رسیدم که چون داده نرمال شده به عنوان ورودی این الگوریتم در نظر گرفته شده است فرضیه مطلوبی حاصل نشده است. 
+  تابع enumerate یک تابع از پیش‌ساخته شده و موجود در خود برنامه Built-in در پایتون python است. این تابع برای یک لیست، عناصر و اندیس‌های آن را با هم در نظر می‌گیرد.
+  حالت don’t care با -1  نشان داده شده است.
 <br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/9.PNG)   
   
   ### Candidate Elimination algorithm
-  
+    
+  الگوریتم CE با تعیین یک فرضیه اختصاصی و یک فرضیه عمومی ایجاد کرده و با ورود داده با برچسب مثبت و منفی این فرضیه ها را آپدیت می کند در نهایت فرضیه های S و G به سمت یکدیگر همگرا شده و فرضیه های که در این بین باقی می ماند به عنوان پاسخ این الگوریتم در نظر گرفته می شود.
 <br/>
   
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/11.PNG)   
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/10.PNG)   
+<br/>
+  همانطور که می دانیم این الگوریتم برای داده های زیاد پاسخ خوبی ارایه نمی دهد بنابراین در نهایت فرضیه نهایی عمومی به صورت don’t care برای تمام ویژگی ها و فرضیه اختصاصی نسبت به ویژگی های 2، 5 ، 10، 11، 12 و 17 don’t care می باشد.
+<br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/12SG.PNG)
+
+  برای ارزیابی الگوریتم های مبتنی بر نمونه IBL نیاز است تعدادی از داده ها را به عنوان تست در نظر گرفته و بر اساس داده های باقی مانده که به عنوان داده train در نظر گرفته شده classifier خود را train کرده. سپس میزان صحت الگوریتم برای داده تست گزارش می شود.  
+<br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/13splitdata.PNG) 
+  
+<br/>
+  با استفاده ازتابع train_test_split از کتابخانه sklearn.model_selection 30% داده ها به عنوان داده تست و 70% داده ها به عنوان داده train در نظر گرفته شده است.
+
   ### Naive Bayes Algorithm
+
+  الگوریتم Naïve Bayes را از طریق کتابخانه sklearn اجرا کرده پس از fit شدن بر روی داده train و اعمال بر روی داده تست با دستور predict داده تست را طبقه بندی می شود. با استفاده از کتابخانه confusion_matrix TP، TN، FP، FN و classification_report پارامتر هایی مثل صحت، recall، f1-score را نشان می دهد.
+  صحت الگوریتم برابر با 98% می باشد
+<br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/14naivebayes.PNG) 
+  
+<br/>
   
 <br/>
     
   ### K-NN
   
+  الگوریتم knn با در نظر گرفتن k همسایگی نزدیک هر یک از داده ها از طریق محاسبه فاصله آن داده برچسبی را تعیین می کند. صحت این الگوریتم برای k=5 برابر با 98% می باشد.
 <br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/15KNN.PNG) 
+  
+<br/>
+  
+  ### الگوریتم درخت تصمیم
+  
+  الگوریتم درخت تصمیم بر روی دیتا تست صحتی برابر با 99% دارد.
+<br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/16tree.PNG) 
+  
+<br/>
+
+ 
+<br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/plotTree.PNG) 
   
   ### الگوریتم ID3
   
+  در این الگوریتم توابعی برای محاسبه آنتروپی و information gain تعیین شده است. الگوریتم ID3 برای این داده ها مناسب نیست به این دلیل که  انتروپی آن برابر 1 می باشد.
 <br/>
   
-  ### Find 5 worst features
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/17id3.PNG) 
+  
+<br/>
+  با استفاده از یک حلقه for برای دو الگوریتم decision tree و naïve bayes  ویژگی ها حذف و صحت گزارش شده و میزان صحت به دست آمده پس از حذف هر کدام از ویژگی ها با استفاده از تابع sort ترتیب از زیاد به کم ترتیب شده است. بنابراین 5 صحت اول کم اهمیت ویژگی ها را نشان می دهد.
+<br/>
+  
+  ![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/mahyaghlmrz/prj/img/removeFeature.PNG) 
   
 <br/>
   
+<br/>
+  لینک دسترسی به کد های ضمیمه شده به این دیتاست covid:  
+
 : 
   <br />
-https://www.kaggle.com/mahyagh/covid-project
+https://www.kaggle.com/mahyagh/covid-project-mahyagh
 
 </div>
