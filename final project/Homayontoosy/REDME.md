@@ -128,3 +128,10 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 
   
 ![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/7.jpg)    
+  
+<div dir="rtl"> 
+یافتن ویژگی های کم اهمیت 
+</div>
+<br/>
+  
+
