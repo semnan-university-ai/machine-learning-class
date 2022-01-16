@@ -151,4 +151,4 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 knn الگوریتم
 <dir/> 
   
-![]https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1knn.jpg
+![](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/1knn.jpg)
