@@ -119,3 +119,9 @@ Sklearn.preprocessing – این بسته بسیاری از توابع ابزا�
 </div>    
   
 ![normalize](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/5.jpg)  
+  
+<div dir="rtl"> 
+حذف داده های تکراری  
+</div>
+  
+![duplicate](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Homayontoosy/sort/6.jpg)  
