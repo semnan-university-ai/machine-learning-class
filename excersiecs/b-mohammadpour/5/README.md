@@ -8,4 +8,3 @@ machine learning class - 001
 ### Student Info :
 * Full name :Bahare Mohammadpour
 * github id :b-mohammadpour
-* Email :Mohammadpour.b1601@semnan.ac.ir

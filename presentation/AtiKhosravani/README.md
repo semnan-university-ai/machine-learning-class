@@ -8,4 +8,3 @@ machine learning class - 001
 ### Student Info :
 * Full name : Atefeh Khosravani
 * github id : [@AtiKhosravani](https://github.com/AtiKhosravani)
-* Email : A.khosravani94@gmail.com

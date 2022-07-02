@@ -8,4 +8,3 @@ machine learning class - 001
 ### Student Info :
 * Full name : bahar hashemi
 * github id : baharaak
-* Email : bahar.hashemi72@yahoo.com

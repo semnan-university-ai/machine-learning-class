@@ -1,11 +1,13 @@
 # machine-learning-class
+
 machine learning class - 001
 
 ## Information
-* ##### Teacher: Dr. Farzin Yaghmaee - [Contact](mailto:f_yaghmaee@semnan.ac.ir)
-* ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
+
+- ##### Teacher: Dr. Farzin Yaghmaee - [Contact](mailto:f_yaghmaee@semnan.ac.ir)
+- ##### TA : Amir Shokri - [Contact](mailto:amirshokri@semnan.ac.ir)
 
 ### Student Info :
-* Full name : Atefe Mahmoudi
-* github id : atefemahmoudi94
-* Email : [Contact](mailto:atefemahmoudi9430@gmail.com)
+
+- Full name : Atefe Mahmoudi
+- github id : atefemahmoudi94

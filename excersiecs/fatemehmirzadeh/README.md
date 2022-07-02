@@ -8,4 +8,3 @@ machine learning class - 001
 ### Student Info :
 * Full name : -fatemeh mirzadeh
 * github id : -@fatemehmirzadeh
-* Email : -fatemehmirzadeh98@gmail.com

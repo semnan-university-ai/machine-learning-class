@@ -1,5 +1,4 @@
-﻿
-<p align="center" >
+﻿<p align="center" >
 <img src="https://iranmoshavere.com/wp-content/uploads/2020/04/Registration-and-list-of-courses-without-entrance-exam-of-Semnan-University.png" width="300px"/>
 </p>
 <br/>
@@ -8,15 +7,12 @@
 <br/>
 <h3 align="center"> دانشجو : مهدیه یزدی</h3>
 
-
 <br/>
 <h3 align="center">اساتید : جناب آقای دکتریغمایی ، جناب آقای شکری</h3>
 
 <br/>
 <h3 align="center"> درس : یادگیری ماشین</h3>
 <br/>
-<h3 align="center">شماره دانشجویی : 40012920005</h3>
-
 
 <br/>
 <h5 align="center">زمستان 1400</h5>
@@ -26,11 +22,11 @@
 <div align="right" >
 مقدمه
 
-
 ```
 در این پروژه با استفاده از مجموعه داده های علائم بیماران covid که از قبل جمع آوری های آن صورت گرفته بود اقدام به اجرای الگوریتم هایی همچون knn شده است همچنین پاسخ
 این سوالات در سایت kaggle و لینک اعلامی نیز قرار داده شده است
 ```
+
 </div>
 
 در ادامه سوالات پروژه قرار داده شده اند :
@@ -54,10 +50,9 @@
   https://www.kaggle.com/amirshnll/covid-patient-datasets
  
 </div>
-<h1></h1> 
+<h1></h1>
 
 <h3 dir="rtl">1-import</h3>
-
 
 <p align="justify" dir="rtl">
 در ابتدای کار کتابخانه های مورد نیاز در پایتون import  شده اند  که به جهت تجمیع تمامی کتابخانه های به کار رفته در پروژه در این قسمت قرار گرفته اند . 
@@ -94,6 +89,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn import metrics
 ```
+
 <p align="justify" dir="rtl">
 در ادامه به توضیح مختصری از کتابخانه های وارد شده میپردازیم :
 <br/>
@@ -142,6 +138,7 @@ Matplotlib برای گنجاندن نمودارها در اپلیکیشن‌­ه
 data = pd.read_csv('./covid.csv')
 data.info()
 ```
+
 <p align="justify" dir="rtl">
 در کد فوق با کمک کتابخانه pandas و استفاده  از تابع read_csv اقدام به بارگذاری دیتاست مورد نظر شده و در متغیری تحت عنوان  data قرار گرفته است و در خط دوم نیز با کمک تابع info  اطلاعات و جزئیات دیتاست مورد نظر نمایش داده شده است . 
 خروجی کد فوق به شکل زیر خواهد بود :
@@ -163,6 +160,7 @@ data.info()
 ```
 data.head(200)
 ```
+
 <p align="justify" dir="rtl">
 در این دستور با کمک تابع head و قرار دادن عدد 200  ، 200 سطر ابتدایی دیتاست نمایش داده شده است که خروجی آن همچون تصویر زیر خواهد بود : 
 </p>
@@ -179,7 +177,7 @@ data.head(200)
 ```
 data.replace(('yes', 'no'), (1, 0), inplace=True)
 data.replace(('Yes', 'No'), (1, 0), inplace=True)
-  
+
 data.head(50)
 ```
 
@@ -205,6 +203,7 @@ x_data = data.drop(['result','#','age'],axis = 1)
 
 print(x_data)
 ```
+
 <p align="justify" dir="rtl">
 در این بخش با در نظر گرفتن ستون result  که در دیتاست  افزوده شده است ، دیتاست به دو بخش data و result تقسیم شده است.
 همچنیین با کمک تابع reshape(-1,1) تمامی مولفه های موجود در دیتاست دریافت شده و به صورت سطری در کنار هم قرار گرقته اند. در ادامه در متغیری تحت عنوان x_data ستون های اضافی که به عنوان داده چندان به کار نمی آیند حذف شده اند از جمله آنها میتوان به  # اشاره نمود که دارای index تمام سطر هاست و همچنین result  که شامل نتیجه میباشد و همه ی نتایج به صورت yes هستند .نتیجه اجرای کد فوق به صورت زیر خواهد بود .
@@ -240,6 +239,7 @@ sort_data = normalize.apply(lambda x: x.sort_values().values)
 
 print (sort_data)
 ```
+
 <p align="center">
 <img src="6.PNG" alt="image"/>
 </p>
@@ -247,6 +247,7 @@ print (sort_data)
 ```
 sort_data.isnull().sum()
 ```
+
 <p align="justify" dir="rtl">
 در کد فوق نیز جمع داده هایی که دارای مقدار خالی یا همان null هستند در مقابل هر ستون نمایش داده شده که همانطور که در تصویر زیر مشخص است همه ستون ها مقدار 0 دارند.
 </p>
@@ -265,6 +266,7 @@ drop_duplicate = sort_data.drop_duplicates()
 
 print(drop_duplicate)
 ```
+
 <p align="center">
 <img src="7.PNG" alt="image"/>
 </p>
@@ -275,7 +277,7 @@ print(drop_duplicate)
 </p>
 <p align="justify" dir="rtl">
  به جهت یافتن ویژگی کم اهمیت از الگوریتم درخت تصمیم کمک گرفته شده است با فراخوانی تابع این الگوریتم و انجام سایر عملیات ها ، مقدار دقت الگوریتم نمایش داده شده است که خروجی آن به شکل زیر است 
- 
+
 
 ```
 clf=RandomForestClassifier(n_estimators=100)
@@ -291,13 +293,13 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 با توجه به اینکه خروجی تمامی سطر ها yes است دقت الگوریتم درخت تصادفی نیز  مقدار 1 را نمایش خواهد داد
 </p>
 
-
 ```
-for i in x_train : 
+for i in x_train :
   x_train.drop(i, axis=1)
   print("Accuracy", i, ":",metrics.accuracy_score(y_test, y_pred))
   print("========")
 ```
+
 <p align="justify" dir="rtl">
 در برنامه فوق سطر ها تک به تک حذف شده اند و دقت الگوریتم در هر مرحله اندازه گیری شده است و نتیجه همچون تصویر زیر خواهد بود :
 <p align="center">
@@ -306,7 +308,6 @@ for i in x_train :
 <p align="justify" dir="rtl">
 همانطور که در فوق نیز توضیح داده شد به دلیل 1 بودن نتیجه تمام سطر ها ، 5 ویژگی که کمترین میزان اهمیت را دارند قابل تشخیص نمیباشد.
 </p>
-
 
 <p align="justify" dir="rtl">
 در برنامه زیر مقدار مهمترین ویژگی ها نمایش داده شده است که به دلیلی که در فوق به آن اشاره کردیم تمامی ستون هارا نمایش داده است
@@ -318,6 +319,7 @@ rf = RandomForestRegressor(n_estimators=100)
 rf.fit(x_train, y_train)
 rf.feature_importances_
 ```
+
 <p align="center">
 <img src="10.PNG" alt="image"/>
 </p>
@@ -369,6 +371,7 @@ dtree.fit(x_train, y_train.ravel())
 
 print("Decision Tree Algorithm test accuracy: ", dtree.score(x_test, y_test))
 ```
+
 <p align="center">
 <img src="10-2.PNG" alt="image"/>
 </p>
@@ -380,6 +383,7 @@ print("Decision Tree Algorithm test accuracy: ", dtree.score(x_test, y_test))
 ```
 pip install chefboost
 ```
+
 <p align="justify" dir="rtl">
 در قطعه کد زیر پس از import  کتابخانه نصب شده امکان استفاده از آن مهیا شده است .
 در ادامه در یک دیکشنری مقدار algorithm بر روی id3 تنظیم شده است و در انتها نیز در متغیری با نام model با استفاده از کتابخانه chefboost مقدار داده ها ،config که در خط فوق الگوریتم را از نوع id3 تعریف کرد و نام برچسب هدف را به تابع مورد نظر پاس میدهد. خروجی این بخش در تصویرزیر قابل مشاهده میباشد.
@@ -390,7 +394,8 @@ from chefboost import Chefboost as chef
 
 config = {'algorithm': 'ID3'}
 model = chef.fit(data, config = config, target_label = 'result')
-````
+```
+
 <p align="center">
 <img src="11.PNG" alt="image"/>
 </p>
@@ -424,6 +429,7 @@ knn.fit(x_train, y_train.ravel())
 print("When K = {} neighnors , KNN test accuracy: {}".format(K, knn.score(x_test, y_test)))
 print("When K = {} neighnors , KNN train accuracy: {}".format(K, knn.score(x_train, y_train)))
 ```
+
 <p align="center">
 <img src="12.PNG" alt="image"/>
 </p>
@@ -440,9 +446,9 @@ for i,each in enumerate(ran):
     knn.fit(x_train, y_train.ravel())
     test_list.append(knn.score(x_test, y_test))
     train_list.append(knn.score(x_train, y_train))
- ```
- 
- ```
+```
+
+```
 plt.figure(figsize=[15,10])
 plt.plot(ran,test_list,label='Test Score')
 plt.plot(ran,train_list,label = 'Train Score')
@@ -453,7 +459,8 @@ plt.legend()
 print("Best test score is {} and K = {}".format(np.max(test_list), test_list.index(np.max(test_list))+1))
 print("Best train score is {} and K = {}".format(np.max(train_list), train_list.index(np.max(train_list))+1))
 
- ```
+```
+
  <p align="center">
 <img src="13.PNG" alt="image"/>
 </p>
@@ -473,7 +480,6 @@ plt.show()
 <img src="13-2.png" alt="image"/>
 </p>
 
- 
 <h4 align="justify" dir="rtl">7-4 Clustering</h4>
 <p align="justify" dir="rtl">
 در این بخش با استفاده از الگوریتم kmeans اقدام به Clustering کرده ایم این تابع از کتابخانه ی sklearn که در ابتدا import  کرده ایم میباشد و در ادامه با پاس دادن مقدار دیتا در این تابع نتیجه پرینت شده در تصویر زیر قابل مشاهده خواهد بود.
@@ -485,6 +491,7 @@ kmeans.fit(x_train, y_train)
 y_kmeans = kmeans.predict(x_data)
 print(y_kmeans)
 ```
+
 <p align="center">
 <img src="14.PNG" alt="image"/>
 </p>
@@ -505,6 +512,7 @@ print(kmeans.cluster_centers_)
 plt.scatter(kmeans.cluster_centers_[:,  0], kmeans.cluster_centers_[:,  1], s=100)
 print(kmeans.labels_)
 ```
+
 <p align="center">
 <img src="16.PNG" alt="image"/>
 </p>
@@ -519,6 +527,7 @@ nb = GaussianNB()
 nb.fit(x_train, y_train.ravel())
 print("Naive Bayes test accuracy: ", nb.score(x_test, y_test))
 ```
+
 <p align="center">
 <img src="17.PNG" alt="image"/>
 </p>
@@ -531,6 +540,7 @@ print("Naive Bayes test accuracy: ", nb.score(x_test, y_test))
 concepts = x_train.to_numpy()
 print(concepts)
 ```
+
 <p align="center">
 <img src="18.PNG" alt="image"/>
 </p>
@@ -553,9 +563,11 @@ else:
 pass
 return specific_h
 ```
+
 ```
 print(train(concepts, y_train))
 ```
+
 <p align="center">
 <img src="19.PNG" alt="image"/>
 </p>
@@ -571,9 +583,10 @@ print(train(concepts, y_train))
 <p>
 if attribute_value == hypothesis_value:
 
-Do nothing 
+Do nothing
 else:
 replace attribute value with '?' (Basically generalizing it)
+
 </p>
 
 ```
@@ -611,6 +624,7 @@ s_final,g_final = learn(concepts, y_train)
 print("\nFinal Specific_h:", s_final, sep="\n")
 print("Final General_h:", g_final, sep="\n")
 ```
+
 <p align="center">
 <img src="20.PNG" alt="image"/>
 </p>
@@ -632,6 +646,7 @@ Flase_data = pd.DataFrame(data_False, columns=('Sleep_problems', 'Headache', 'Di
 Flase_data.head(50)
 
 ```
+
 <p align="center">
 <img src="22.PNG" alt="image"/>
 </p>
@@ -645,7 +660,6 @@ my = open('new_covid' + '.csv', 'w')
 my.write(data.to_csv())
 my.close()
 ```
-
 
 <p align="justify" dir="rtl">
 در کد فوق  با ایجاد فایلی با نام new_covid.csv مقدار جدید data که به صورت تغییر مقادیر yes به 1 و همچنین تغییر مقادیر no به 0 میباشد را به عنوان دیتا در فایل مربوطه قرار دادیم و در نهایت فایل مربوطه را close کرده ایم خروجی این بخش به شکل زیر است که فایل مربوطه در پنل سمت چپ colab قرار گرفته است : 

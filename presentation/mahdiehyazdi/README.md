@@ -8,4 +8,3 @@ machine learning class - 001
 ### Student Info :
 * Full name : mahdieh yazdi
 * github id : @mahdiehyazdi
-* Email : mahdiehyazdi801@gmail.com
