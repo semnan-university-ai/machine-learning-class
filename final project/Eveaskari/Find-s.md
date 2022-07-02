@@ -1,7 +1,5 @@
 
   ## Havva askari
-  ## St code : 40011920006
-  ## havvaaskari0702@gmail.com
   
   ## Covi-19 Project
   ### Find-s
