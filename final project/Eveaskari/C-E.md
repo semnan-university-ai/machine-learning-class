@@ -1,21 +1,23 @@
+## Havva askari
 
-  ## Havva askari
-  ## St code : 40011920006
-  ## havvaaskari0702@gmail.com
-  
-  ## Covi-19 Project
-  ### Candidat-Elimination
-  
-  #### Hello everyone. I'm going to test one dataset over Candidate Elimination algorithm.Let's see what's going to happen!
-  first of all i'm going to import my dataset from my google drive:
-  ```
-  from google.colab import drive
-  drive.mount ('/content/gdrive')
-  ```
-  ![gdrive](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Eveaskari/1.JPG)
-  
-  Now that we have our drive we can upload our dataset and importing libraries thas we need:
-  ```
+## Covi-19 Project
+
+### Candidat-Elimination
+
+#### Hello everyone. I'm going to test one dataset over Candidate Elimination algorithm.Let's see what's going to happen!
+
+first of all i'm going to import my dataset from my google drive:
+
+```
+from google.colab import drive
+drive.mount ('/content/gdrive')
+```
+
+![gdrive](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Eveaskari/1.JPG)
+
+Now that we have our drive we can upload our dataset and importing libraries thas we need:
+
+```
 import numpy as np
 import pandas as pd
 import json as js
@@ -23,6 +25,7 @@ import json as js
 data = pd.read_json('/content/gdrive/MyDrive/Covid_Project/covid.json')
 data.head()
 ```
+
 I used data.head() to see what my dataset is:
 
 ![2](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Eveaskari/2.JPG)
@@ -37,9 +40,9 @@ data.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 487 entries, 0 to 486
 Data columns (total 23 columns):
- #   Column               Non-Null Count  Dtype 
----  ------               --------------  ----- 
- 0   #                    487 non-null    int64 
+ #   Column               Non-Null Count  Dtype
+---  ------               --------------  -----
+ 0   #                    487 non-null    int64
  1   age                  487 non-null    object
  2   Sleep_problems       487 non-null    object
  3   Headache             487 non-null    object
@@ -65,6 +68,7 @@ Data columns (total 23 columns):
 dtypes: int64(1), object(22)
 memory usage: 87.6+ KB
 ```
+
 Next step is up to you!I didnt want to use age featur and indeces!
 
 ```
@@ -72,6 +76,7 @@ del data["#"]
 del data["age"]
 data.head()
 ```
+
 ![3](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Eveaskari/3.JPG)
 
 Now we change our values to 0,1 to have easy normalization!
@@ -152,39 +157,40 @@ print("my concept is:", cncpt)
 ![f10](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Eveaskari/f10.JPG)
 
 Defining our algorithm:
+
 ```
-def learn(atr, cpt): 
+def learn(atr, cpt):
     specific_h = atrbt[0].copy()
     print("\nInitialization of specific_h and genearal_h")
     print("\nSpecific Boundary: ", specific_h)
     general_h = [["?" for i in range(len(specific_h))] for i in range(len(specific_h))]
-    print("\nGeneric Boundary: ",general_h)  
+    print("\nGeneric Boundary: ",general_h)
 
     for i, h in enumerate(atrbt):
         print("\nInstance", i+1 , "is ", h)
         if cncpt[i] == "yes":
             print("Instance is Positive ")
-            for x in range(len(specific_h)): 
-                if h[x]!= specific_h[x]:                    
-                    specific_h[x] ='?'                     
+            for x in range(len(specific_h)):
+                if h[x]!= specific_h[x]:
+                    specific_h[x] ='?'
                     general_h[x][x] ='?'
-                   
-        if cncpt[i] == "no":            
+
+        if cncpt[i] == "no":
             print("Instance is Negative ")
-            for x in range(len(specific_h)): 
-                if h[x]!= specific_h[x]:                    
-                    general_h[x][x] = specific_h[x]                
-                else:                    
-                    general_h[x][x] = '?'        
-        
-        print("Specific Bundary after ", i+1, "Instance is ", specific_h)         
+            for x in range(len(specific_h)):
+                if h[x]!= specific_h[x]:
+                    general_h[x][x] = specific_h[x]
+                else:
+                    general_h[x][x] = '?'
+
+        print("Specific Bundary after ", i+1, "Instance is ", specific_h)
         print("Generic Boundary after ", i+1, "Instance is ", general_h)
         print("\n")
 
-    idxs = [i for i, val in enumerate(general_h) if val == ['?', '?', '?', '?', '?', '?']]    
-    for i in idxs:   
-        general_h.remove(['?', '?', '?', '?', '?', '?']) 
-    return specific_h, general_h 
+    idxs = [i for i, val in enumerate(general_h) if val == ['?', '?', '?', '?', '?', '?']]
+    for i in idxs:
+        general_h.remove(['?', '?', '?', '?', '?', '?'])
+    return specific_h, general_h
 
 S_final, G_final = learn(atrbt, cncpt)
 
@@ -195,10 +201,10 @@ print("Final General_h: ", G_final, sep="\n")
 ![ce1](https://github.com/semnan-university-ai/machine-learning-class/blob/main/final%20project/Eveaskari/C-E1.JPG)
 
 ```
-Final Specific_h: 
+Final Specific_h:
 ['?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?' '?'
  '?' '?' '?']
-Final General_h: 
+Final General_h:
 [['?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?'],
 ['?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?'],
 ['?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?', '?'],
