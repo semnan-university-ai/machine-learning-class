@@ -34,20 +34,20 @@ machine learning class - 001
 
 ### Title
 
-- [x] find-s
-- [x] candidate-Elimination
-- [x] ID3, Gain ratio
-- [x] Bayesian Learning
-- [x] naive bayse
-- [x] KNN
-- [x] cross validation
-- [x] overfit
-- [ ] text classification
-- [ ] true error & sample error : sample complexity
-- [ ] conjunction of boolean literals
-- [ ] PAC
-- [ ] Agnostic
-- [ ] shattering
-- [ ] VCD
-- [ ] mistake bound
-- [ ] neural network
+- find-s
+- candidate-Elimination
+- ID3, Gain ratio
+- Bayesian Learning
+- naive bayse
+- KNN
+- cross validation
+- overfit
+- text classification
+- true error & sample error : sample complexity
+- conjunction of boolean literals
+- PAC
+- Agnostic
+- shattering
+- VCD
+- mistake bound
+- neural network
